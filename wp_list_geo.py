@@ -11,14 +11,14 @@ import os
 import requests
 import sys
 
-USER_AGENT = "GF&S"
+USER_AGENT = "goodformandspectacle/wp_list_geo"
 BASE_HREF = 'http://wikipedia.org'
 
 
 class WPListGeoData:
   """crawl a Wikipedia list, fetching parsing children for geo data"""
 
-  def __init__(self, debug=False):
+  def __init__(self, debug=False, limit=None):
     lgr = logging.getLogger(USER_AGENT)
     if debug:
       lgr.setLevel(logging.DEBUG)
@@ -31,6 +31,7 @@ class WPListGeoData:
     lgr.addHandler(clog)
     self.log = lgr
     self.data = []
+    self.limit = limit
 
   def fetch(self, url, _file="seed.html"):
     """write HTML to file from URL if not extant"""
@@ -77,10 +78,11 @@ class WPListGeoData:
 
 
 def main(args):
-  lgd = WPListGeoData(args.debug)
+  lgd = WPListGeoData(args.debug, args.limit)
   lgd.fetch(args.seed)
   for ind, elm in enumerate(lgd.select(lgd.parse(), args.CSS)):
-    # if ind >= 3: break
+    if ind >= lgd.limit:
+      break
     lgd.data.append(lgd.hop(ind, elm))
   print json.dumps(lgd.data, indent=2, sort_keys=True)
 
@@ -90,9 +92,10 @@ if __name__ == "__main__":
          'http://en.wikipedia.org/wiki/List_of_museums_in_London',
          "'.wikitable tr th a'")
   argp = argparse.ArgumentParser(epilog=" ".join(epi))
-  argp.add_argument("-debug", action='store_true', default=False, 
-                    help="debug flag")
   argp.add_argument("seed", help="Wikipedia list URL")
   argp.add_argument("CSS", help="CSS selector")
+  argp.add_argument("-debug", action='store_true', default=False, 
+                    help="debug flag")
+  argp.add_argument("--limit", type=int, help="hop limit")
 
   main(argp.parse_args())
