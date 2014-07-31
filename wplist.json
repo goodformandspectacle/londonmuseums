@@ -56,14 +56,14 @@
     "text": "Anaesthesia Heritage Centre"
   }, 
   {
-    "geo": "51.5034; -0.1517", 
+    "geo": "51.5032; -0.151491", 
     "href": "http://wikipedia.org//wiki/Apsley_House", 
     "lat": "51\u00b030\u203212\u2033N", 
     "lon": "0\u00b009\u203206\u2033W", 
     "text": "Apsley House"
   }, 
   {
-    "geo": null, 
+    "geo": "51.556548; -0.108103", 
     "href": "http://wikipedia.org//wiki/Arsenal_Football_Club_Museum", 
     "lat": null, 
     "lon": null, 
@@ -140,7 +140,7 @@
     "text": "Benjamin Franklin House"
   }, 
   {
-    "geo": null, 
+    "geo": "51.5375; -0.1854", 
     "href": "http://wikipedia.org//wiki/Ben_Uri_Gallery,_The_London_Jewish_Museum_of_Art", 
     "lat": null, 
     "lon": null, 
@@ -175,7 +175,7 @@
     "text": "British Library"
   }, 
   {
-    "geo": null, 
+    "geo": "51.519459; -0.126931", 
     "href": "http://wikipedia.org//wiki/British_Museum", 
     "lat": null, 
     "lon": null, 
@@ -336,7 +336,7 @@
     "text": "Clockmakers' Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.4809417; -0.1690306", 
     "href": "http://wikipedia.org//wiki/Couper_Collection", 
     "lat": null, 
     "lon": null, 
@@ -357,14 +357,14 @@
     "text": "Crime Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.3729; 0.0878", 
     "href": "http://wikipedia.org//wiki/Crofton_Roman_Villa", 
     "lat": null, 
     "lon": null, 
     "text": "Crofton Roman Villa"
   }, 
   {
-    "geo": "51.509056; 0.13833", 
+    "geo": "51.509142; 0.138418", 
     "href": "http://wikipedia.org//wiki/Crossness_Pumping_Station", 
     "lat": "51\u00b030\u203232.6\u2033N", 
     "lon": "00\u00b008\u203218\u2033E", 
@@ -413,7 +413,7 @@
     "text": "Dennis Severs' House"
   }, 
   {
-    "geo": null, 
+    "geo": "51.502766; -0.071862", 
     "href": "http://wikipedia.org//wiki/Design_Museum", 
     "lat": null, 
     "lon": null, 
@@ -504,7 +504,7 @@
     "text": "Forty Hall Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.525278; -0.121667", 
     "href": "http://wikipedia.org//wiki/Foundling_Museum", 
     "lat": null, 
     "lon": null, 
@@ -525,7 +525,7 @@
     "text": "Freud Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.470556; -0.216111", 
     "href": "http://wikipedia.org//wiki/Fulham_Palace", 
     "lat": null, 
     "lon": null, 
@@ -553,21 +553,21 @@
     "text": "Garden Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.41239; -0.359428", 
     "href": "http://wikipedia.org//wiki/Garrick%27s_Temple_to_Shakespeare", 
     "lat": null, 
     "lon": null, 
     "text": "Garrick's Temple to Shakespeare"
   }, 
   {
-    "geo": "51.5317389; -0.0762194", 
+    "geo": "51.531742; -0.076630", 
     "href": "http://wikipedia.org//wiki/Geffrye_Museum", 
     "lat": "51\u00b031\u203254.26\u2033N", 
     "lon": "00\u00b004\u203234.39\u2033W", 
     "text": "Geffrye Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "50.39667; -3.51278", 
     "href": "http://wikipedia.org//wiki/Golden_Hind", 
     "lat": null, 
     "lon": null, 
@@ -742,7 +742,7 @@
     "text": "Institute of Archaeology Collections"
   }, 
   {
-    "geo": null, 
+    "geo": "51.506608; -0.13061", 
     "href": "http://wikipedia.org//wiki/Institute_of_Contemporary_Arts", 
     "lat": null, 
     "lon": null, 
@@ -756,7 +756,7 @@
     "text": "Island History Trust"
   }, 
   {
-    "geo": null, 
+    "geo": "51.526486; -0.104553", 
     "href": "http://wikipedia.org//wiki/Islington_Museum", 
     "lat": null, 
     "lon": null, 
@@ -770,7 +770,7 @@
     "text": "Jewel Tower"
   }, 
   {
-    "geo": null, 
+    "geo": "51.58763; -0.220095", 
     "href": "http://wikipedia.org//wiki/Jewish_Military_Museum", 
     "lat": null, 
     "lon": null, 
@@ -805,7 +805,7 @@
     "text": "Kennel Club Art Gallery"
   }, 
   {
-    "geo": "51.50528; -0.18833", 
+    "geo": "51.505278; -0.188333", 
     "href": "http://wikipedia.org//wiki/Kensington_Palace", 
     "lat": "51\u00b030\u203219\u2033N", 
     "lon": "0\u00b011\u203218\u2033W", 
@@ -903,7 +903,7 @@
     "text": "London Motor Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.5309; -0.3545", 
     "href": "http://wikipedia.org//wiki/London_Motorcycle_Museum", 
     "lat": null, 
     "lon": null, 
@@ -1036,7 +1036,7 @@
     "text": "Museum of Richmond"
   }, 
   {
-    "geo": null, 
+    "geo": "51.52195; -0.10257", 
     "href": "http://wikipedia.org//wiki/Museum_of_the_Order_of_St_John", 
     "lat": null, 
     "lon": null, 
@@ -1050,7 +1050,7 @@
     "text": "Musical Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.486111; -0.16", 
     "href": "http://wikipedia.org//wiki/National_Army_Museum", 
     "lat": null, 
     "lon": null, 
@@ -1064,21 +1064,21 @@
     "text": "National Gallery"
   }, 
   {
-    "geo": null, 
+    "geo": "51.481111; -0.005556", 
     "href": "http://wikipedia.org//wiki/National_Maritime_Museum", 
     "lat": null, 
     "lon": null, 
     "text": "National Maritime Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.509369; -0.127733", 
     "href": "http://wikipedia.org//wiki/National_Portrait_Gallery_(London)", 
     "lat": null, 
     "lon": null, 
     "text": "National Portrait Gallery"
   }, 
   {
-    "geo": null, 
+    "geo": "51.495983; -0.176372", 
     "href": "http://wikipedia.org//wiki/Natural_History_Museum,_London", 
     "lat": null, 
     "lon": null, 
@@ -1330,7 +1330,7 @@
     "text": "Royal Military School of Music Museum"
   }, 
   {
-    "geo": "51.4778111; -0.0014750", 
+    "geo": "51.477812417; -0.001475028", 
     "href": "http://wikipedia.org//wiki/Royal_Observatory,_Greenwich", 
     "lat": "51\u00b028\u203240.12\u2033N", 
     "lon": "0\u00b000\u203205.31\u2033W", 
@@ -1358,14 +1358,14 @@
     "text": "St Paul's Cathedral"
   }, 
   {
-    "geo": null, 
+    "geo": "51.4906; -0.1589", 
     "href": "http://wikipedia.org//wiki/Saatchi_Gallery", 
     "lat": null, 
     "lon": null, 
     "text": "Saatchi Gallery"
   }, 
   {
-    "geo": "51.49750; -0.17472", 
+    "geo": "51.4975; -0.174722", 
     "href": "http://wikipedia.org//wiki/Science_Museum_(London)", 
     "lat": "51\u00b029\u203251\u2033N", 
     "lon": "0\u00b010\u203229\u2033W", 
@@ -1400,14 +1400,14 @@
     "text": "Showroom Gallery"
   }, 
   {
-    "geo": "51.5171028; -0.1169139", 
+    "geo": "51.516998; -0.117402", 
     "href": "http://wikipedia.org//wiki/Sir_John_Soane%27s_Museum", 
     "lat": "51\u00b031\u203201.57\u2033N", 
     "lon": "00\u00b007\u203200.89\u2033W", 
     "text": "Sir John Soane's Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.511028; -0.117194", 
     "href": "http://wikipedia.org//wiki/Somerset_House", 
     "lat": null, 
     "lon": null, 
@@ -1477,7 +1477,7 @@
     "text": "Tate Britain"
   }, 
   {
-    "geo": "51.507905; -0.099352", 
+    "geo": "51.507825; -0.098700", 
     "href": "http://wikipedia.org//wiki/Tate_Modern", 
     "lat": "51\u00b030\u203228\u2033N", 
     "lon": "0\u00b005\u203258\u2033W", 
@@ -1547,14 +1547,14 @@
     "text": "Vestry House Museum"
   }, 
   {
-    "geo": "51.496302; -0.172078", 
+    "geo": "51.496667; -0.171944", 
     "href": "http://wikipedia.org//wiki/Victoria_and_Albert_Museum", 
     "lat": "51\u00b029\u203247\u2033N", 
     "lon": "0\u00b010\u203219\u2033W", 
     "text": "Victoria and Albert Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.528889; -0.055", 
     "href": "http://wikipedia.org//wiki/V%26A_Museum_of_Childhood", 
     "lat": null, 
     "lon": null, 
@@ -1582,7 +1582,7 @@
     "text": "Wandsworth Museum"
   }, 
   {
-    "geo": null, 
+    "geo": "51.52582; -0.13385", 
     "href": "http://wikipedia.org//wiki/Wellcome_Collection", 
     "lat": null, 
     "lon": null, 
@@ -1631,7 +1631,7 @@
     "text": "White Lodge Museum and Ballet Resource Centre"
   }, 
   {
-    "geo": null, 
+    "geo": "51.515984; -0.070485", 
     "href": "http://wikipedia.org//wiki/Whitechapel_Gallery", 
     "lat": null, 
     "lon": null, 
@@ -1645,7 +1645,7 @@
     "text": "Whitehall"
   }, 
   {
-    "geo": "51.59125; -0.02035", 
+    "geo": "51.59099; -0.021129", 
     "href": "http://wikipedia.org//wiki/William_Morris_Gallery", 
     "lat": "51\u00b035\u203229\u2033N", 
     "lon": "0\u00b001\u203213\u2033W", 
@@ -1673,7 +1673,7 @@
     "text": "Women's Library"
   }, 
   {
-    "geo": "51.45583; -0.33861", 
+    "geo": "51.45502; -0.34049", 
     "href": "http://wikipedia.org//wiki/World_Rugby_Museum", 
     "lat": "51\u00b027\u203221\u2033N", 
     "lon": "0\u00b020\u203219\u2033W", 

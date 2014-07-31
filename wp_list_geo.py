@@ -66,7 +66,7 @@ class WPListGeoData:
     doc = self.parse(html)
     selectors = {"lat": "#coordinates .latitude",
                  "lon": "#coordinates .longitude",
-                 "geo": "#coordinates .geo"}
+                 "geo": ".geo"}
   
     for key, sel in selectors.iteritems():
       try:
@@ -81,7 +81,7 @@ def main(args):
   lgd = WPListGeoData(args.debug, args.limit)
   lgd.fetch(args.seed)
   for ind, elm in enumerate(lgd.select(lgd.parse(), args.CSS)):
-    if ind >= lgd.limit:
+    if lgd.limit and ind >= lgd.limit:
       break
     lgd.data.append(lgd.hop(ind, elm))
   print json.dumps(lgd.data, indent=2, sort_keys=True)
