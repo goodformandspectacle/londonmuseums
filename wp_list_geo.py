@@ -80,8 +80,16 @@ class WPListGeoData:
         location = get_location(elm)
         if location:
           dat['loc'] = location
+        website = get_website(elm)
+        if website:
+          dat['web'] = website
 
     return dat
+
+def get_website(elm):
+  if 'Website' in elm.text_content():
+    for item in elm.iterlinks():
+      return item[2]
 
 def get_location(elm):
   if ('Address' in elm.text_content() or 'Location' in elm.text_content()):

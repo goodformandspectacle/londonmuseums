@@ -42,6 +42,7 @@
     "loc": "Paddington, London, United Kingdom", 
     "lon": "0\u00b010\u203223\u2033W", 
     "museum": "Alexander Fleming Laboratory Museum", 
+    "web": "http://www.imperial.nhs.uk/stmarys", 
     "wiki": "http://wikipedia.org/wiki/Alexander_Fleming_Laboratory_Museum"
   }, 
   {
@@ -50,6 +51,7 @@
     "loc": "Byward Street, London", 
     "lon": "0\u00b004\u203246\u2033W", 
     "museum": "All Hallows-by-the-Tower Crypt Museum", 
+    "web": "http://www.ahbtt.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/All_Hallows-by-the-Tower"
   }, 
   {
@@ -57,6 +59,7 @@
     "lat": null, 
     "lon": null, 
     "museum": "Anaesthesia Heritage Centre", 
+    "web": "http://www.aagbi.org", 
     "wiki": "http://wikipedia.org/wiki/Anaesthesia_Heritage_Centre"
   }, 
   {
@@ -72,6 +75,7 @@
     "loc": "Holloway, London", 
     "lon": "0\u00b006\u203229\u2033W", 
     "museum": "Arsenal Football Club Museum", 
+    "web": "http://www.arsenal.com/museum", 
     "wiki": "http://wikipedia.org/wiki/Arsenal_Football_Club_Museum"
   }, 
   {
@@ -124,6 +128,7 @@
     "loc": "Barnet, England", 
     "lon": "0\u00b012\u203211\u2033W", 
     "museum": "Barnet Museum", 
+    "web": "http://www.barnetmuseum.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Barnet_Museum"
   }, 
   {
@@ -153,6 +158,7 @@
     "loc": "108a Boundary Road, London, England", 
     "lon": "0\u00b011\u203207\u2033W", 
     "museum": "Ben Uri Gallery, The London Jewish Museum of Art", 
+    "web": "http://www.benuri.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Ben_Uri_Gallery,_The_London_Jewish_Museum_of_Art"
   }, 
   {
@@ -161,6 +167,7 @@
     "loc": "Bromley, London, Greater London, United Kingdom", 
     "lon": "0\u00b001\u203250\u2033W", 
     "museum": "Bethlem Royal Hospital Archives and Museum", 
+    "web": "http://www.slam.nhs.uk", 
     "wiki": "http://wikipedia.org/wiki/Bethlem_Royal_Hospital_Archives_and_Museum"
   }, 
   {
@@ -175,6 +182,7 @@
     "lat": null, 
     "lon": null, 
     "museum": "British Dental Association Museum", 
+    "web": "http://www.bda.org", 
     "wiki": "http://wikipedia.org/wiki/British_Dental_Association_Museum"
   }, 
   {
@@ -183,6 +191,7 @@
     "loc": "96, Euston Road, London, NW1 2DB", 
     "lon": "0\u00b007\u203237\u2033W", 
     "museum": "British Library", 
+    "web": "http://www.bl.uk/", 
     "wiki": "http://wikipedia.org/wiki/British_Library"
   }, 
   {
@@ -191,6 +200,7 @@
     "loc": "Great Russell Street, London, United Kingdom", 
     "lon": "0\u00b007\u203237\u2033W", 
     "museum": "British Museum", 
+    "web": "http://www.britishmuseum.org/", 
     "wiki": "http://wikipedia.org/wiki/British_Museum"
   }, 
   {
@@ -213,6 +223,7 @@
     "loc": "Clerkenwell, London, England", 
     "lon": null, 
     "museum": "British Postal Museum and Archive", 
+    "web": "http://www.postalheritage.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/British_Postal_Museum_and_Archive"
   }, 
   {
@@ -221,6 +232,7 @@
     "loc": "London, United Kingdom", 
     "lon": null, 
     "museum": "British Red Cross Museum and Archives", 
+    "web": "http://www.redcross.org.uk", 
     "wiki": "http://wikipedia.org/wiki/British_Red_Cross#British_Red_Cross_Museum"
   }, 
   {
@@ -236,6 +248,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b007\u203244\u2033W", 
     "museum": "Brunei Gallery", 
+    "web": "http://www.soas.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Brunei_Gallery,_School_of_Oriental_and_African_Studies"
   }, 
   {
@@ -324,6 +337,7 @@
     "loc": "Clive Steps\nKing Charles Street\nLondon SW1A 2AQ\nUnited Kingdom", 
     "lon": "0\u00b007\u203244.5\u2033W", 
     "museum": "Churchill War Rooms", 
+    "web": "http://www.iwm.org.uk/visits/churchill-war-rooms", 
     "wiki": "http://wikipedia.org/wiki/Churchill_War_Rooms"
   }, 
   {
@@ -367,6 +381,7 @@
     "loc": "London, England, UK", 
     "lon": "0\u00b007\u203202\u2033W", 
     "museum": "Courtauld Gallery", 
+    "web": "http://www.courtauld.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Courtauld_Institute_of_Art"
   }, 
   {
@@ -440,6 +455,7 @@
     "loc": "Shad Thames, London, UK", 
     "lon": "0\u00b004\u203219\u2033W", 
     "museum": "Design Museum", 
+    "web": "http://www.designmuseum.org", 
     "wiki": "http://wikipedia.org/wiki/Design_Museum"
   }, 
   {
@@ -463,6 +479,7 @@
     "loc": "Dulwich, London, England", 
     "lon": "0\u00b005\u203211\u2033W", 
     "museum": "Dulwich Picture Gallery", 
+    "web": "http://www.dulwichpicturegallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Dulwich_Picture_Gallery"
   }, 
   {
@@ -494,6 +511,7 @@
     "loc": "Greenwich, London", 
     "lon": "0\u00b00\u203228\u2033W", 
     "museum": "Fan Museum", 
+    "web": "http://www.thefanmuseum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Fan_Museum"
   }, 
   {
@@ -517,6 +535,7 @@
     "loc": "Royal Arsenal, Woolwich, South East London", 
     "lon": "0\u00b04\u203215\u2033E", 
     "museum": "Firepower: The Royal Artillery Museum", 
+    "web": "http://www.firepower.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Firepower:_The_Royal_Artillery_Museum"
   }, 
   {
@@ -525,6 +544,7 @@
     "loc": "London, England", 
     "lon": "0\u00b07\u20323\u2033W", 
     "museum": "Florence Nightingale Museum", 
+    "web": "http://www.florence-nightingale.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Florence_Nightingale_Museum"
   }, 
   {
@@ -540,6 +560,7 @@
     "loc": "40 Brunswick Square\nLondon, England WC1N 1AZ", 
     "lon": "0\u00b007\u203218\u2033W", 
     "museum": "Foundling Museum", 
+    "web": "http://www.foundlingmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Foundling_Museum"
   }, 
   {
@@ -555,6 +576,7 @@
     "loc": "20 Maresfield Gardens, London NW3, England, United Kingdom", 
     "lon": "0\u00b010\u203240\u2033W", 
     "museum": "Freud Museum", 
+    "web": "http://Freud.org.UK/about", 
     "wiki": "http://wikipedia.org/wiki/Freud_Museum"
   }, 
   {
@@ -578,6 +600,7 @@
     "loc": "London, United Kingdom", 
     "lon": "00\u00b008\u203200.88\u2033W", 
     "museum": "Galton Collection", 
+    "web": "http://ucl.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Galton_Collection"
   }, 
   {
@@ -601,6 +624,7 @@
     "loc": "136, Kingsland Road,\nShoreditch, London", 
     "lon": "0\u00b004\u203236\u2033W", 
     "museum": "Geffrye Museum", 
+    "web": "http://www.geffrye-museum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Geffrye_Museum"
   }, 
   {
@@ -616,6 +640,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b008\u203203\u2033W", 
     "museum": "Grant Museum of Zoology and Comparative Anatomy", 
+    "web": "http://www.ucl.ac.uk/museums/zoology", 
     "wiki": "http://wikipedia.org/wiki/Grant_Museum_of_Zoology_and_Comparative_Anatomy"
   }, 
   {
@@ -737,6 +762,7 @@
     "loc": "100 London Road, Forest Hill, London, SE23", 
     "lon": "0\u00b003\u203239\u2033W", 
     "museum": "Horniman Museum", 
+    "web": "http://www.horniman.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Horniman_Museum"
   }, 
   {
@@ -766,6 +792,7 @@
     "loc": "IWM London: Lambeth Road, London\nIWM Duxford: Duxford, Cambridgeshire\nHMS Belfast: The Queen's Walk, London\nChurchill War Rooms: Clive Steps, King Charles Street, London\nIWM North: The Quays, Trafford Wharf Road, Manchester", 
     "lon": null, 
     "museum": "Imperial War Museum London", 
+    "web": "http://www.iwm.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Imperial_War_Museum"
   }, 
   {
@@ -781,6 +808,7 @@
     "loc": "31-34 Gordon Square, London, UK", 
     "lon": "0\u00b07\u203254\u2033W", 
     "museum": "Institute of Archaeology Collections", 
+    "web": "http://www.ucl.ac.uk/archaeology/", 
     "wiki": "http://wikipedia.org/wiki/Institute_of_Archaeology_Collections"
   }, 
   {
@@ -789,6 +817,7 @@
     "loc": "Main (public) entrance on The Mall, London, England is shown above.\nOffices and postal address are situated at 12 Carlton House Terrace.", 
     "lon": "0\u00b007\u203250\u2033W", 
     "museum": "Institute of Contemporary Arts", 
+    "web": "http://www.ica.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Institute_of_Contemporary_Arts"
   }, 
   {
@@ -804,6 +833,7 @@
     "loc": "Finsbury Library, 245 St John Street, London EC1V 4NB, UK", 
     "lon": "0\u00b006\u203216\u2033W", 
     "museum": "Islington Museum", 
+    "web": "http://www.islington.gov.uk/heritage", 
     "wiki": "http://wikipedia.org/wiki/Islington_Museum"
   }, 
   {
@@ -819,6 +849,7 @@
     "loc": "Hendon, Barnet, North London", 
     "lon": "0\u00b013\u203212\u2033W", 
     "museum": "Jewish Military Museum", 
+    "web": "http://www.thejmm.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Jewish_Military_Museum"
   }, 
   {
@@ -827,6 +858,7 @@
     "loc": "129-131 Albert Street, Camden Town, London, NW1 7NB", 
     "lon": "0\u00b008\u203240\u2033W", 
     "museum": "Jewish Museum London", 
+    "web": "http://www.jewishmuseum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/London_Jewish_Museum"
   }, 
   {
@@ -848,6 +880,7 @@
     "lat": null, 
     "lon": null, 
     "museum": "Kennel Club Art Gallery", 
+    "web": "http://www.thekennelclub.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/The_Kennel_Club"
   }, 
   {
@@ -885,6 +918,7 @@
     "loc": "99 Southwark Street, Southwark, London, England", 
     "lon": "0\u00b06\u20325.58\u2033W", 
     "museum": "Kirkaldy Testing Museum", 
+    "web": "http://www.testingmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Kirkaldy_Testing_Museum"
   }, 
   {
@@ -929,6 +963,7 @@
     "loc": "King's Cross, London, England", 
     "lon": "0\u00b007\u203213\u2033W", 
     "museum": "London Canal Museum", 
+    "web": "http://www.canalmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Canal_Museum"
   }, 
   {
@@ -951,6 +986,7 @@
     "loc": "3 Nestle's Avenue,\nHayes UB3 4SB, England", 
     "lon": "0\u00b025\u203215\u2033W", 
     "museum": "London Motor Museum", 
+    "web": "http://www.londonmotormuseum.co.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Motor_Museum"
   }, 
   {
@@ -959,6 +995,7 @@
     "loc": "Greenford, Middlesex (UK)", 
     "lon": "0\u00b021\u203216\u2033W", 
     "museum": "London Motorcycle Museum", 
+    "web": "http://www.london-motorcycle-museum.org", 
     "wiki": "http://wikipedia.org/wiki/London_Motorcycle_Museum"
   }, 
   {
@@ -967,6 +1004,7 @@
     "loc": "Green Dragon Lane, Brentford", 
     "lon": "0\u00b017\u203225\u2033W", 
     "museum": "London Museum of Water & Steam", 
+    "web": "http://www.waterandsteam.org.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Museum_of_Water_%26_Steam"
   }, 
   {
@@ -975,6 +1013,7 @@
     "loc": "Covent Garden, London, England", 
     "lon": "0\u00b007\u203218\u2033W", 
     "museum": "London Transport Museum", 
+    "web": "http://www.ltmuseum.co.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Transport_Museum"
   }, 
   {
@@ -983,6 +1022,7 @@
     "loc": "London, UK", 
     "lon": "0\u00b008\u203208\u2033W", 
     "museum": "Magic Circle Museum", 
+    "web": "http://www.themagiccircle.co.uk", 
     "wiki": "http://wikipedia.org/wiki/The_Magic_Circle"
   }, 
   {
@@ -1041,6 +1081,7 @@
     "loc": "61 Westminster Bridge Road\nLondon\nSE1 7HT\nEngland, United Kingdom", 
     "lon": "0\u00b006\u203237\u2033W", 
     "museum": "Morley Gallery", 
+    "web": "http://www.morleycollege.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Morley_College#Art_Gallery"
   }, 
   {
@@ -1056,6 +1097,7 @@
     "loc": "Croydon, United Kingdom", 
     "lon": "0\u00b005\u203258\u2033W", 
     "museum": "Museum of Croydon", 
+    "web": "http://www.museumofcroydon.com", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Croydon"
   }, 
   {
@@ -1064,6 +1106,7 @@
     "loc": "Hendon, London", 
     "lon": "0\u00b008\u203250\u2033W", 
     "museum": "Museum of Domestic Design and Architecture", 
+    "web": "http://www.moda.mdx.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Domestic_Design_and_Architecture"
   }, 
   {
@@ -1079,6 +1122,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b005\u203248.51\u2033W", 
     "museum": "Museum of London", 
+    "web": "http://www.museumoflondon.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_London"
   }, 
   {
@@ -1087,6 +1131,7 @@
     "loc": "West India Docks, London E14, England, United Kingdom", 
     "lon": "0\u00b01\u203225\u2033W", 
     "museum": "Museum of London Docklands", 
+    "web": "http://www.museumoflondon.org.uk/docklands", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_London_Docklands"
   }, 
   {
@@ -1095,6 +1140,7 @@
     "loc": "Old Town Hall, Whittaker Avenue, Richmond TW9 1TP", 
     "lon": "0\u00b018\u203224\u2033W", 
     "museum": "Museum of Richmond", 
+    "web": "http://www.museumofrichmond.com", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Richmond"
   }, 
   {
@@ -1103,6 +1149,7 @@
     "loc": "St John's Gate, Clerkenwell, London EC1M 4D, England, UK", 
     "lon": "0\u00b006\u203209\u2033W", 
     "museum": "Museum of the Order of St John", 
+    "web": "http://www.museumstjohn.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_the_Order_of_St_John"
   }, 
   {
@@ -1118,6 +1165,7 @@
     "loc": "Royal Hospital Road, London, SW3\u00a04HT", 
     "lon": "0\u00b009\u203236\u2033W", 
     "museum": "National Army Museum", 
+    "web": "http://www.national-army-museum.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Army_Museum"
   }, 
   {
@@ -1126,6 +1174,7 @@
     "loc": "Trafalgar Square, London, United Kingdom", 
     "lon": "0\u00b007\u203242\u2033W", 
     "museum": "National Gallery", 
+    "web": "http://www.nationalgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Gallery"
   }, 
   {
@@ -1134,6 +1183,7 @@
     "loc": "Greenwich, London, United Kingdom", 
     "lon": "0\u00b000\u203220\u2033W", 
     "museum": "National Maritime Museum", 
+    "web": "http://www.nmm.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Maritime_Museum"
   }, 
   {
@@ -1142,6 +1192,7 @@
     "loc": "St. Martin's Place, London, United Kingdom", 
     "lon": "0\u00b007\u203240\u2033W", 
     "museum": "National Portrait Gallery", 
+    "web": "http://www.npg.org.uk", 
     "wiki": "http://wikipedia.org/wiki/National_Portrait_Gallery_(London)"
   }, 
   {
@@ -1150,6 +1201,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b010\u203235\u2033W", 
     "museum": "Natural History Museum", 
+    "web": "http://www.nhm.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Natural_History_Museum,_London"
   }, 
   {
@@ -1179,6 +1231,7 @@
     "loc": "Harrow on the Hill High Street\nLondon Borough of Harrow\nLondon\nHA1 3HP\nUnited Kingdom Coordinates: 51\u00b034\u203223\u2033N 0\u00b020\u203202\u2033W\ufeff / \ufeff51.573103\u00b0N 0.333792\u00b0W\ufeff / 51.573103; -0.333792", 
     "lon": "0\u00b020\u203202\u2033W", 
     "museum": "Old Speech Room Gallery and Museum, Harrow School", 
+    "web": "http://www.harrowschool.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Harrow_School#Old_Speech_Room_Gallery_.26_Museum"
   }, 
   {
@@ -1209,6 +1262,7 @@
     "loc": "16-18 Ramillies Street, London, England", 
     "lon": "0\u00b008\u203220\u2033W", 
     "museum": "Photographers' Gallery", 
+    "web": "http://thephotographersgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Photographers%27_Gallery"
   }, 
   {
@@ -1245,6 +1299,7 @@
     "loc": "5a Bloomsbury Square, London WC1A 2TA, England, United Kingdom", 
     "lon": "0\u00b007\u203223\u2033W", 
     "museum": "Pushkin House", 
+    "web": "http://www.pushkinhouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Russian_Cultural_Centre_(London)"
   }, 
   {
@@ -1253,6 +1308,7 @@
     "loc": "London, England", 
     "lon": "0\u00b017.728\u2032W", 
     "museum": "Queen Charlotte's Cottage", 
+    "web": "http://www.kew.org", 
     "wiki": "http://wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew#Queen_Charlotte.27s_Cottage"
   }, 
   {
@@ -1261,6 +1317,7 @@
     "loc": "Buckingham Palace, London SW1, England, United Kingdom", 
     "lon": "0\u00b08\u203232.67\u2033W", 
     "museum": "Queen's Gallery", 
+    "web": "http://www.royalcollection.org.uk/visit/queensgallerylondon", 
     "wiki": "http://wikipedia.org/wiki/Queen%27s_Gallery"
   }, 
   {
@@ -1326,6 +1383,7 @@
     "loc": "Piccadilly, London, United Kingdom", 
     "lon": "0\u00b008\u203222\u2033W", 
     "museum": "Royal Academy of Arts", 
+    "web": "http://www.royalacademy.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_Academy_of_Arts"
   }, 
   {
@@ -1341,6 +1399,7 @@
     "loc": "Colindale, London, United Kingdom", 
     "lon": "0\u00b014\u203219\u2033W", 
     "museum": "Royal Air Force Museum London", 
+    "web": "http://www.rafmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_Air_Force_Museum_London"
   }, 
   {
@@ -1357,6 +1416,7 @@
     "loc": "London, England", 
     "lon": "0\u00b017.728\u2032W", 
     "museum": "Royal Botanic Gardens, Kew", 
+    "web": "http://www.kew.org", 
     "wiki": "http://wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew"
   }, 
   {
@@ -1365,6 +1425,7 @@
     "loc": "South Kensington, London, United Kingdom\n51\u00b029\u203259\u2033N 0\u00b010\u203237\u2033W\ufeff / \ufeff51.49972\u00b0N 0.17694\u00b0W\ufeff / 51.49972; -0.17694Coordinates: 51\u00b029\u203259\u2033N 0\u00b010\u203237\u2033W\ufeff / \ufeff51.49972\u00b0N 0.17694\u00b0W\ufeff / 51.49972; -0.17694", 
     "lon": "0\u00b010\u203237\u2033W", 
     "museum": "Royal College of Music Archives and Museum of Instruments", 
+    "web": "http://www.RCM.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_College_of_Music"
   }, 
   {
@@ -1373,6 +1434,7 @@
     "loc": "St Andrew's Place, Regent's Park\nLondon, United Kingdom", 
     "lon": "00\u00b008\u203241.89\u2033W", 
     "museum": "Royal College of Physicians Museum", 
+    "web": "http://www.rcplondon.ac.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_College_of_Physicians"
   }, 
   {
@@ -1381,6 +1443,7 @@
     "loc": "London, England, United Kingdom", 
     "lon": "0\u00b09\u203228\u2033W", 
     "museum": "Royal Hospital Chelsea Museum", 
+    "web": "http://www.chelsea-pensioners.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_Hospital_Chelsea"
   }, 
   {
@@ -1389,6 +1452,7 @@
     "loc": "Marylebone, W1B 1AD", 
     "lon": "0\u00b008\u203242\u2033W", 
     "museum": "Royal Institute of British Architects Collections", 
+    "web": "http://www.architecture.com", 
     "wiki": "http://wikipedia.org/wiki/Royal_Institute_of_British_Architects_Collections"
   }, 
   {
@@ -1397,6 +1461,7 @@
     "loc": "Whitechapel, London, England, United Kingdom", 
     "lon": "0\u00b003\u203233\u2033W", 
     "museum": "Royal London Hospital Archives and Museum", 
+    "web": "http://www.bartsandthelondon.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_London_Hospital_Archives_and_Museum"
   }, 
   {
@@ -1433,6 +1498,7 @@
     "loc": "Smithfield, London, United Kingdom", 
     "lon": "0\u00b006\u203200.46\u2033W", 
     "museum": "St Bartholomew's Hospital Museum", 
+    "web": "http://www.bartsandthelondon.org.uk", 
     "wiki": "http://wikipedia.org/wiki/St_Bartholomew%27s_Hospital"
   }, 
   {
@@ -1441,6 +1507,7 @@
     "loc": "City of London", 
     "lon": "0\u00b005\u203253\u2033W", 
     "museum": "St Paul's Cathedral", 
+    "web": "http://www.stpauls.co.uk", 
     "wiki": "http://wikipedia.org/wiki/St_Paul%27s_Cathedral"
   }, 
   {
@@ -1449,6 +1516,7 @@
     "loc": "Duke of York's Headquarters, King's Road, London SW3, England, United Kingdom", 
     "lon": "0\u00b009\u203232\u2033W", 
     "museum": "Saatchi Gallery", 
+    "web": "http://www.saatchi-gallery.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Saatchi_Gallery"
   }, 
   {
@@ -1457,6 +1525,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b010\u203229\u2033W", 
     "museum": "Science Museum", 
+    "web": "http://www.sciencemuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Science_Museum_(London)"
   }, 
   {
@@ -1473,6 +1542,7 @@
     "loc": "221B Baker Street, London NW1, England, United Kingdom", 
     "lon": "0\u00b009\u203231\u2033W", 
     "museum": "Sherlock Holmes Museum", 
+    "web": "http://www.sherlock-holmes.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Sherlock_Holmes_Museum"
   }, 
   {
@@ -1495,6 +1565,7 @@
     "loc": "12-14 Lincoln's Inn Fields, London, United Kingdom", 
     "lon": "0\u00b007\u203203\u2033W", 
     "museum": "Sir John Soane's Museum", 
+    "web": "http://www.soane.org/", 
     "wiki": "http://wikipedia.org/wiki/Sir_John_Soane%27s_Museum"
   }, 
   {
@@ -1568,6 +1639,7 @@
     "loc": "Millbank, London, England", 
     "lon": "0\u00b007\u203238\u2033W", 
     "museum": "Tate Britain", 
+    "web": "http://www.tate.org.uk/britain", 
     "wiki": "http://wikipedia.org/wiki/Tate_Britain"
   }, 
   {
@@ -1576,6 +1648,7 @@
     "loc": "Bankside, London SE1, England, United Kingdom", 
     "lon": "0\u00b005\u203255\u2033W", 
     "museum": "Tate Modern", 
+    "web": "http://www.tate.org.uk/modern", 
     "wiki": "http://wikipedia.org/wiki/Tate_Modern"
   }, 
   {
@@ -1649,6 +1722,7 @@
     "loc": "Cromwell Gardens, South Kensington, London, United Kingdom", 
     "lon": "0\u00b010\u203219\u2033W", 
     "museum": "Victoria and Albert Museum", 
+    "web": "http://www.vam.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Victoria_and_Albert_Museum"
   }, 
   {
@@ -1657,6 +1731,7 @@
     "loc": "Bethnal Green, London", 
     "lon": "0\u00b003\u203218\u2033W", 
     "museum": "V&A Museum of Childhood", 
+    "web": "http://www.museumofchildhood.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/V%26A_Museum_of_Childhood"
   }, 
   {
@@ -1686,6 +1761,7 @@
     "loc": "Euston Road, London NW1", 
     "lon": "0\u00b008\u203202\u2033W", 
     "museum": "Wellcome Collection", 
+    "web": "http://www.wellcomecollection.org", 
     "wiki": "http://wikipedia.org/wiki/Wellcome_Collection"
   }, 
   {
@@ -1700,6 +1776,7 @@
     "lat": "51\u00b031\u203225\u2033N", 
     "lon": "0\u00b05\u203213\u2033W", 
     "museum": "Wesley's Chapel, Museum of Methodism and John Wesley's House", 
+    "web": "http://www.wesleyschapel.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Wesley%27s_Chapel"
   }, 
   {
@@ -1738,6 +1815,7 @@
     "loc": "77-82 Whitechapel High Street, London, UK.", 
     "lon": "0\u00b004\u203214\u2033W", 
     "museum": "Whitechapel Gallery", 
+    "web": "http://www.whitechapelgallery.org/", 
     "wiki": "http://wikipedia.org/wiki/Whitechapel_Gallery"
   }, 
   {
@@ -1753,6 +1831,7 @@
     "loc": "Walthamstow, London E17", 
     "lon": "0\u00b001\u203216\u2033W", 
     "museum": "William Morris Gallery", 
+    "web": "http://www.wmgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/William_Morris_Gallery"
   }, 
   {
@@ -1761,6 +1840,7 @@
     "loc": "AELTCC Wimbledon SW 19", 
     "lon": "0\u00b012\u203248\u2033W", 
     "museum": "Wimbledon Lawn Tennis Museum", 
+    "web": "http://www.wimbledon.com/museum", 
     "wiki": "http://wikipedia.org/wiki/Wimbledon_Lawn_Tennis_Museum"
   }, 
   {
@@ -1776,6 +1856,7 @@
     "loc": "Lionel Robbins Building, The London School of Economics and Political Science, 10 Portugal Street, Westminster, London, WC2A 2HD", 
     "lon": null, 
     "museum": "Women's Library", 
+    "web": "http://www2.lse.ac.uk/library/newsandinformation/womenslibraryatLSE/home.aspx", 
     "wiki": "http://wikipedia.org/wiki/Women%27s_Library"
   }, 
   {
