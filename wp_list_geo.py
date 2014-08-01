@@ -14,7 +14,7 @@ import sys
 USER_AGENT = "goodformandspectacle/wp_list_geo"
 BASE_HREF = 'http://wikipedia.org'
 OSM_BASE = 'http://www.openstreetmap.org'
-OSM_ZOOM = 15
+OSM_ZOOM = 17
 
 class WPListGeoData:
   """crawl a Wikipedia list, fetching parsing children for geo data"""
