@@ -73,17 +73,27 @@ class WPListGeoData:
       if val:
         dat[key] = val[0].text
 
-    infobox = doc.cssselect('.infobox')
-    if infobox:
-      for elm in infobox[0]:
-        location = get_location(elm)
-        if location:
-          dat['loc'] = location
-        website = get_website(elm)
-        if website:
-          dat['web'] = website
+    poke_infobox(doc, dat)
+    walk_links(doc, dat)
 
     return dat
+
+def walk_links(doc, dat):
+  for item in doc.iterlinks():
+    text = item[0].text_content().lower()
+    if 'web' not in dat and 'official website' in text:
+      dat['web'] = item[2]
+
+def poke_infobox(doc, dat):
+  infobox = doc.cssselect('.infobox')
+  if infobox:
+    for elm in infobox[0]:
+      location = get_location(elm)
+      if location:
+        dat['loc'] = location
+      website = get_website(elm)
+      if website:
+        dat['web'] = website
 
 def get_website(elm):
   if 'Website' in elm.text_content():

@@ -9,6 +9,7 @@
   }, 
   {
     "museum": "7 Hammersmith Terrace", 
+    "web": "http://www.emerywalker.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/7_Hammersmith_Terrace"
   }, 
   {
@@ -16,6 +17,7 @@
     "lat": "51\u00b030\u203201.7\u2033N", 
     "lon": "0\u00b011\u203249\u2033W", 
     "museum": "18 Stafford Terrace", 
+    "web": "http://www.rbkc.gov.uk/subsites/museums/18staffordterrace.aspx", 
     "wiki": "http://wikipedia.org/wiki/Linley_Sambourne_House"
   }, 
   {
@@ -85,6 +87,7 @@
     "lat": "51\u00b029\u203244\u2033N", 
     "lon": "0\u00b010\u203246\u2033W", 
     "museum": "Baden-Powell House Exhibition", 
+    "web": "http://www.towntocountry.co.uk/bpHouse/default.asp", 
     "wiki": "http://wikipedia.org/wiki/Baden-Powell_House_Exhibition"
   }, 
   {
@@ -106,6 +109,7 @@
     "lat": "51\u00b030\u203216\u2033N", 
     "lon": "0\u00b007\u203232\u2033W", 
     "museum": "Banqueting House, Whitehall", 
+    "web": "http://www.hrp.org.uk/banquetinghouse/", 
     "wiki": "http://wikipedia.org/wiki/Banqueting_House,_Whitehall"
   }, 
   {
@@ -114,6 +118,7 @@
     "loc": "Silk Street, London EC2Y 8DS", 
     "lon": "0\u00b005\u203242\u2033W", 
     "museum": "Barbican Centre", 
+    "web": "http://www.barbican.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Barbican_Centre"
   }, 
   {
@@ -130,6 +135,7 @@
     "lat": "51\u00b032\u203228.5\u2033N", 
     "lon": "000\u00b027\u203255\u2033W", 
     "museum": "Battle of Britain Bunker", 
+    "web": "http://www.raf.mod.uk/battleofbritainbunker/", 
     "wiki": "http://wikipedia.org/wiki/Battle_of_Britain_Bunker"
   }, 
   {
@@ -144,6 +150,7 @@
     "lat": "51\u00b030\u203227\u2033N", 
     "lon": "0\u00b07\u203230\u2033W", 
     "museum": "Benjamin Franklin House", 
+    "web": "http://www.benjaminfranklinhouse.org/site/sections/default.htm", 
     "wiki": "http://wikipedia.org/wiki/Benjamin_Franklin_House"
   }, 
   {
@@ -169,6 +176,7 @@
     "lat": "51\u00b029\u203231\u2033N", 
     "lon": "0\u00b019\u203206\u2033W", 
     "museum": "Boston Manor House", 
+    "web": "http://www.keepbritaintidy.org/GreenFlag/GreenFlagAwardSites/London/Default.aspx?parkID=519", 
     "wiki": "http://wikipedia.org/wiki/Boston_Manor_House"
   }, 
   {
@@ -199,6 +207,7 @@
     "lat": "51\u00b030\u203214\u2033N", 
     "lon": "0\u00b000\u203210\u2033E", 
     "museum": "British Music Experience", 
+    "web": "http://www.britishmusicexperience.com/", 
     "wiki": "http://wikipedia.org/wiki/British_Music_Experience"
   }, 
   {
@@ -253,6 +262,7 @@
     "loc": "New End Square, Hampstead, London. NW3 1LT", 
     "lon": "0\u00b010\u203230\u2033W", 
     "museum": "Burgh House & Hampstead Museum", 
+    "web": "http://www.burghhouse.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Burgh_House"
   }, 
   {
@@ -290,6 +300,7 @@
     "lat": "51\u00b031\u203226\u2033N", 
     "lon": "0\u00b007\u203201\u2033W", 
     "museum": "Charles Dickens Museum", 
+    "web": "http://www.dickensmuseum.com/", 
     "wiki": "http://wikipedia.org/wiki/Charles_Dickens_Museum"
   }, 
   {
@@ -297,6 +308,7 @@
     "lat": "51\u00b035\u203241\u2033N", 
     "lon": "0\u00b001\u203217\u2033E", 
     "museum": "Chartered Insurance Institute Museum", 
+    "web": "http://www.cii.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Chartered_Insurance_Institute_Museum"
   }, 
   {
@@ -327,6 +339,7 @@
     "lat": "51\u00b029\u203232\u2033N", 
     "lon": "0\u00b006\u203219\u2033W", 
     "museum": "Cinema Museum", 
+    "web": "http://cinemamuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Cinema_Museum_(London)"
   }, 
   {
@@ -394,6 +407,7 @@
     "lat": "51\u00b031\u203257\u2033N", 
     "lon": "0\u00b006\u203226\u2033W", 
     "museum": "Cubitt Gallery", 
+    "web": "http://cubittartists.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Cubitt_Artists"
   }, 
   {
@@ -422,6 +436,7 @@
     "lat": "51\u00b027\u203226\u2033N", 
     "lon": "0\u00b012\u20322\u2033W", 
     "museum": "De Morgan Centre", 
+    "web": "http://www.demorgan.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/De_Morgan_Centre"
   }, 
   {
@@ -429,6 +444,7 @@
     "lat": "51\u00b031\u203215\u2033N", 
     "lon": "0\u00b04\u203236\u2033W", 
     "museum": "Dennis Severs' House", 
+    "web": "http://www.dennissevershouse.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Dennis_Severs%27_House"
   }, 
   {
@@ -445,6 +461,7 @@
     "lat": "51\u00b030\u203254\u2033N", 
     "lon": "0\u00b006\u203229\u2033W", 
     "museum": "Dr Johnson's House", 
+    "web": "http://www.drjohnsonshouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Dr_Johnson%27s_House"
   }, 
   {
@@ -567,6 +584,7 @@
     "loc": "Bishop's Avenue, London, SW6, England, UK", 
     "lon": "0\u00b012\u203258\u2033W", 
     "museum": "Fulham Palace", 
+    "web": "http://www.fulhampalace.org/", 
     "wiki": "http://wikipedia.org/wiki/Fulham_Palace"
   }, 
   {
@@ -638,6 +656,7 @@
   }, 
   {
     "museum": "The Guardian and Observer Archive and Visitor Centre", 
+    "web": "http://www.guardian.co.uk", 
     "wiki": "http://wikipedia.org/wiki/The_Guardian#The_Guardian_News_.26_Media_Archive"
   }, 
   {
@@ -688,6 +707,7 @@
     "lat": "51\u00b030\u203247\u2033N", 
     "lon": "0\u00b008\u203245\u2033W", 
     "museum": "Handel House Museum", 
+    "web": "http://www.handelhouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Handel_House_Museum"
   }, 
   {
@@ -709,6 +729,7 @@
     "lat": "51\u00b030\u203224\u2033N", 
     "lon": "0\u00b004\u203253\u2033W", 
     "museum": "HMS Belfast", 
+    "web": "http://www.iwm.org.uk/visits/hms-belfast/", 
     "wiki": "http://wikipedia.org/wiki/HMS_Belfast_(C35)"
   }, 
   {
@@ -760,6 +781,7 @@
     "lat": "51\u00b030\u203255\u2033N", 
     "lon": "0\u00b06\u203257\u2033W", 
     "museum": "Hunterian Museum at the Royal College of Surgeons", 
+    "web": "http://www.rcseng.ac.uk", 
     "wiki": "http://wikipedia.org/wiki/Hunterian_Museum_at_the_Royal_College_of_Surgeons"
   }, 
   {
@@ -770,6 +792,7 @@
   }, 
   {
     "museum": "Inns of Court & City Yeomanry Museum", 
+    "web": "http://www.army.mod.uk/signals/25849.aspx", 
     "wiki": "http://wikipedia.org/wiki/Inns_of_Court_%26_City_Yeomanry_Museum"
   }, 
   {
@@ -833,6 +856,7 @@
     "lat": "51\u00b033\u203220\u2033N", 
     "lon": "0\u00b010\u203206\u2033W", 
     "museum": "Keats House", 
+    "web": "http://www.cityoflondon.gov.uk/things-to-do/attractions-around-london/keats-house/Pages/default.aspx", 
     "wiki": "http://wikipedia.org/wiki/Keats_House"
   }, 
   {
@@ -853,6 +877,7 @@
     "loc": "in Kensington", 
     "lon": "0\u00b011\u203218\u2033W", 
     "museum": "Kensington Palace", 
+    "web": "http://www.hrp.org.uk/KensingtonPalace/building/origins", 
     "wiki": "http://wikipedia.org/wiki/Kensington_Palace"
   }, 
   {
@@ -897,6 +922,7 @@
     "lat": "51\u00b029\u203244\u2033N", 
     "lon": "0\u00b07\u203211\u2033W", 
     "museum": "Lambeth Palace Library", 
+    "web": "http://www.archbishopofcanterbury.org/pages/about-lambeth-palace.html", 
     "wiki": "http://wikipedia.org/wiki/Lambeth_Library"
   }, 
   {
@@ -935,6 +961,7 @@
     "lat": "51\u00b030\u203210\u2033N", 
     "lon": "0\u00b007\u203209\u2033W", 
     "museum": "London Film Museum", 
+    "web": "http://www.londonfilmmuseum.com", 
     "wiki": "http://wikipedia.org/wiki/London_Film_Museum"
   }, 
   {
@@ -1034,6 +1061,7 @@
     "lat": "51\u00b028\u20324.7\u2033N", 
     "lon": "0\u00b04\u203220.5\u2033W", 
     "museum": "MOCA, London", 
+    "web": "http://www.mocalondon.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/MOCA,_London"
   }, 
   {
@@ -1184,6 +1212,7 @@
     "lat": "51\u00b029\u20321\u2033N", 
     "lon": "0\u00b00\u203221\u2033W", 
     "museum": "Old Royal Naval College", 
+    "web": "http://www.ornc.org", 
     "wiki": "http://wikipedia.org/wiki/Old_Royal_Naval_College"
   }, 
   {
@@ -1215,6 +1244,7 @@
     "lat": "51\u00b031\u203225\u2033N", 
     "lon": "0\u00b07\u203259\u2033W", 
     "museum": "Petrie Museum of Egyptian Archaeology", 
+    "web": "http://na.visitlondon.com/city_guide/detail/284328", 
     "wiki": "http://wikipedia.org/wiki/Petrie_Museum_of_Egyptian_Archaeology"
   }, 
   {
@@ -1238,6 +1268,7 @@
     "lat": "51\u00b030\u20325\u2033N", 
     "lon": "0\u00b010\u203224\u2033W", 
     "museum": "Polish Institute and Sikorski Museum", 
+    "web": "http://pism.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Polish_Institute_and_Sikorski_Museum"
   }, 
   {
@@ -1366,6 +1397,7 @@
     "loc": "of the Tower of London in central London", 
     "lon": "00\u00b004\u203234\u2033W", 
     "museum": "Royal Armouries, Tower of London", 
+    "web": "http://www.hrp.org.uk/TowerOfLondon/", 
     "wiki": "http://wikipedia.org/wiki/Tower_of_London#Royal_Armouries"
   }, 
   {
@@ -1448,6 +1480,7 @@
     "lat": "51\u00b029\u203240\u2033N", 
     "lon": "0\u00b007\u203209\u2033W", 
     "museum": "Royal Pharmaceutical Society Museum", 
+    "web": "http://www.rpharms.com/home/home.asp", 
     "wiki": "http://wikipedia.org/wiki/Royal_Pharmaceutical_Society_Museum"
   }, 
   {
@@ -1508,6 +1541,7 @@
     "lat": "51\u00b022\u203212\u2033N", 
     "lon": "0\u00b003\u203218\u2033W", 
     "museum": "Shirley Windmill", 
+    "web": "http://www.shirleywindmill.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Shirley_Windmill"
   }, 
   {
@@ -1532,6 +1566,7 @@
     "loc": "Strand, City of Westminster, London", 
     "lon": "0\u00b007\u203201.9\u2033W", 
     "museum": "Somerset House", 
+    "web": "http://www.somersethouse.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Somerset_House"
   }, 
   {
@@ -1622,6 +1657,7 @@
     "loc": "of the Tower of London in central London", 
     "lon": "00\u00b004\u203234\u2033W", 
     "museum": "Tower of London", 
+    "web": "http://www.hrp.org.uk/TowerOfLondon/", 
     "wiki": "http://wikipedia.org/wiki/Tower_of_London"
   }, 
   {
@@ -1650,6 +1686,7 @@
     "lat": "51\u00b033\u203229\u2033N", 
     "lon": "0\u00b014\u203242\u2033E", 
     "museum": "Upminster Windmill", 
+    "web": "http://www.upminsterwindmill.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Upminster_Windmill"
   }, 
   {
@@ -1697,6 +1734,7 @@
     "lat": "51\u00b031\u203203\u2033N", 
     "lon": "0\u00b009\u203211\u2033W", 
     "museum": "Wallace Collection", 
+    "web": "http://www.wallacecollection.org/", 
     "wiki": "http://wikipedia.org/wiki/Wallace_Collection"
   }, 
   {
@@ -1751,6 +1789,7 @@
   }, 
   {
     "museum": "Westminster Dragoons Museum", 
+    "web": "http://www.army.mod.uk/armoured/regiments/34088.aspx", 
     "wiki": "http://wikipedia.org/wiki/Westminster_Dragoons#Westminster_Dragoons_Museum"
   }, 
   {
