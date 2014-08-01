@@ -13,7 +13,8 @@ import sys
 
 USER_AGENT = "goodformandspectacle/wp_list_geo"
 BASE_HREF = 'http://wikipedia.org'
-
+OSM_BASE = 'http://www.openstreetmap.org'
+OSM_ZOOM = 15
 
 class WPListGeoData:
   """crawl a Wikipedia list, fetching parsing children for geo data"""
@@ -73,10 +74,16 @@ class WPListGeoData:
       if val:
         dat[key] = val[0].text
 
+    add_osm(dat)
     poke_infobox(doc, dat)
     walk_links(doc, dat)
 
     return dat
+
+def add_osm(dat):
+  if 'geo' in dat:
+    geo = dat['geo'].split('; ')
+    dat['osm'] = "%s/#map=%s/%s/%s" % (OSM_BASE, OSM_ZOOM, geo[0], geo[1])
 
 def walk_links(doc, dat):
   for item in doc.iterlinks():

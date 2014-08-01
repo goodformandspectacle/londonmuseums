@@ -5,6 +5,7 @@
     "loc": "2, Willow Road, Hampstead, London, England NW3", 
     "lon": "0\u00b010\u20329.01\u2033W", 
     "museum": "2 Willow Road", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5572000/-0.1691694", 
     "wiki": "http://wikipedia.org/wiki/2_Willow_Road"
   }, 
   {
@@ -17,6 +18,7 @@
     "lat": "51\u00b030\u203201.7\u2033N", 
     "lon": "0\u00b011\u203249\u2033W", 
     "museum": "18 Stafford Terrace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.500472/-0.19694", 
     "web": "http://www.rbkc.gov.uk/subsites/museums/18staffordterrace.aspx", 
     "wiki": "http://wikipedia.org/wiki/Linley_Sambourne_House"
   }, 
@@ -25,6 +27,7 @@
     "lat": "51\u00b034\u203201\u2033N", 
     "lon": "0\u00b000\u203223\u2033E", 
     "museum": "491 Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5670/0.0063", 
     "wiki": "http://wikipedia.org/wiki/491_Gallery"
   }, 
   {
@@ -33,6 +36,7 @@
     "loc": "575 Wandsworth Road, Clapham, London, England", 
     "lon": "0\u00b008\u203226\u2033W", 
     "museum": "575 Wandsworth Road", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.469671/-0.140646", 
     "wiki": "http://wikipedia.org/wiki/575_Wandsworth_Road"
   }, 
   {
@@ -41,6 +45,7 @@
     "loc": "Paddington, London, United Kingdom", 
     "lon": "0\u00b010\u203223\u2033W", 
     "museum": "Alexander Fleming Laboratory Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51722/-0.17306", 
     "web": "http://www.imperial.nhs.uk/stmarys", 
     "wiki": "http://wikipedia.org/wiki/Alexander_Fleming_Laboratory_Museum"
   }, 
@@ -50,6 +55,7 @@
     "loc": "Byward Street, London", 
     "lon": "0\u00b004\u203246\u2033W", 
     "museum": "All Hallows-by-the-Tower Crypt Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5094/-0.0794", 
     "web": "http://www.ahbtt.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/All_Hallows-by-the-Tower"
   }, 
@@ -63,6 +69,7 @@
     "lat": "51\u00b030\u203212\u2033N", 
     "lon": "0\u00b009\u203205\u2033W", 
     "museum": "Apsley House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5032/-0.151491", 
     "wiki": "http://wikipedia.org/wiki/Apsley_House"
   }, 
   {
@@ -71,6 +78,7 @@
     "loc": "Holloway, London", 
     "lon": "0\u00b006\u203229\u2033W", 
     "museum": "Arsenal Football Club Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.556548/-0.108103", 
     "web": "http://www.arsenal.com/museum", 
     "wiki": "http://wikipedia.org/wiki/Arsenal_Football_Club_Museum"
   }, 
@@ -80,6 +88,7 @@
     "loc": "5 Nether Street, Tally Ho Corner N12 0GA", 
     "lon": "0\u00b010\u203237\u2033W", 
     "museum": "artsdepot", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.61306/-0.17694", 
     "wiki": "http://wikipedia.org/wiki/Artsdepot"
   }, 
   {
@@ -87,6 +96,7 @@
     "lat": "51\u00b029\u203244\u2033N", 
     "lon": "0\u00b010\u203246\u2033W", 
     "museum": "Baden-Powell House Exhibition", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4955/-0.1795", 
     "web": "http://www.towntocountry.co.uk/bpHouse/default.asp", 
     "wiki": "http://wikipedia.org/wiki/Baden-Powell_House_Exhibition"
   }, 
@@ -95,6 +105,7 @@
     "lat": "51\u00b030\u203251\u2033N", 
     "lon": "0\u00b005\u203217\u2033W", 
     "museum": "Bank of England Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.514057/-0.088059", 
     "wiki": "http://wikipedia.org/wiki/Bank_of_England_Museum"
   }, 
   {
@@ -102,6 +113,7 @@
     "lat": "51\u00b030\u203229\u2033N", 
     "lon": "0\u00b06\u20327\u2033W", 
     "museum": "Bankside Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50806/-0.10194", 
     "wiki": "http://wikipedia.org/wiki/Bankside_Gallery"
   }, 
   {
@@ -109,6 +121,7 @@
     "lat": "51\u00b030\u203216\u2033N", 
     "lon": "0\u00b007\u203232\u2033W", 
     "museum": "Banqueting House, Whitehall", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5044/-0.1256", 
     "web": "http://www.hrp.org.uk/banquetinghouse/", 
     "wiki": "http://wikipedia.org/wiki/Banqueting_House,_Whitehall"
   }, 
@@ -118,6 +131,7 @@
     "loc": "Silk Street, London EC2Y 8DS", 
     "lon": "0\u00b005\u203242\u2033W", 
     "museum": "Barbican Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5202/-0.0950", 
     "web": "http://www.barbican.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Barbican_Centre"
   }, 
@@ -127,6 +141,7 @@
     "loc": "Barnet, England", 
     "lon": "0\u00b012\u203211\u2033W", 
     "museum": "Barnet Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.65443/-0.20312", 
     "web": "http://www.barnetmuseum.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Barnet_Museum"
   }, 
@@ -135,6 +150,7 @@
     "lat": "51\u00b032\u203228.5\u2033N", 
     "lon": "000\u00b027\u203255\u2033W", 
     "museum": "Battle of Britain Bunker", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.541250/-0.46528", 
     "web": "http://www.raf.mod.uk/battleofbritainbunker/", 
     "wiki": "http://wikipedia.org/wiki/Battle_of_Britain_Bunker"
   }, 
@@ -143,6 +159,7 @@
     "lat": "51\u00b037\u203235.94\u2033N", 
     "lon": "0\u00b020\u20323.24\u2033W", 
     "museum": "Battle of Britain Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.6266500/-0.3342333", 
     "wiki": "http://wikipedia.org/wiki/Battle_of_Britain_Museum"
   }, 
   {
@@ -150,6 +167,7 @@
     "lat": "51\u00b030\u203227\u2033N", 
     "lon": "0\u00b07\u203230\u2033W", 
     "museum": "Benjamin Franklin House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50750/-0.12500", 
     "web": "http://www.benjaminfranklinhouse.org/site/sections/default.htm", 
     "wiki": "http://wikipedia.org/wiki/Benjamin_Franklin_House"
   }, 
@@ -159,6 +177,7 @@
     "loc": "108a Boundary Road, London, England", 
     "lon": "0\u00b011\u203207\u2033W", 
     "museum": "Ben Uri Gallery, The London Jewish Museum of Art", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5375/-0.1854", 
     "web": "http://www.benuri.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Ben_Uri_Gallery,_The_London_Jewish_Museum_of_Art"
   }, 
@@ -168,6 +187,7 @@
     "loc": "Bromley, London, Greater London, United Kingdom", 
     "lon": "0\u00b001\u203250\u2033W", 
     "museum": "Bethlem Royal Hospital Archives and Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3809/-0.0306", 
     "web": "http://www.slam.nhs.uk", 
     "wiki": "http://wikipedia.org/wiki/Bethlem_Royal_Hospital_Archives_and_Museum"
   }, 
@@ -176,6 +196,7 @@
     "lat": "51\u00b029\u203231\u2033N", 
     "lon": "0\u00b019\u203206\u2033W", 
     "museum": "Boston Manor House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4919/-0.3184", 
     "web": "http://www.keepbritaintidy.org/GreenFlag/GreenFlagAwardSites/London/Default.aspx?parkID=519", 
     "wiki": "http://wikipedia.org/wiki/Boston_Manor_House"
   }, 
@@ -190,6 +211,7 @@
     "loc": "96, Euston Road, London, NW1 2DB", 
     "lon": "0\u00b007\u203237\u2033W", 
     "museum": "British Library", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52944/-0.12694", 
     "web": "http://www.bl.uk/", 
     "wiki": "http://wikipedia.org/wiki/British_Library"
   }, 
@@ -199,6 +221,7 @@
     "loc": "Great Russell Street, London, United Kingdom", 
     "lon": "0\u00b007\u203237\u2033W", 
     "museum": "British Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.519459/-0.126931", 
     "web": "http://www.britishmuseum.org/", 
     "wiki": "http://wikipedia.org/wiki/British_Museum"
   }, 
@@ -207,6 +230,7 @@
     "lat": "51\u00b030\u203214\u2033N", 
     "lon": "0\u00b000\u203210\u2033E", 
     "museum": "British Music Experience", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5038/0.0029", 
     "web": "http://www.britishmusicexperience.com/", 
     "wiki": "http://wikipedia.org/wiki/British_Music_Experience"
   }, 
@@ -215,6 +239,7 @@
     "lat": "51\u00b030\u203228\u2033N", 
     "lon": "0\u00b007\u203231\u2033W", 
     "museum": "British Optical Association Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5078/-0.1254", 
     "wiki": "http://wikipedia.org/wiki/British_Optical_Association_Museum"
   }, 
   {
@@ -234,6 +259,7 @@
     "lat": "51\u00b035\u203256\u2033N", 
     "lon": "0\u00b004\u203231\u2033W", 
     "museum": "Bruce Castle Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.599025/-0.075354", 
     "wiki": "http://wikipedia.org/wiki/Bruce_Castle"
   }, 
   {
@@ -242,6 +268,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b007\u203244\u2033W", 
     "museum": "Brunei Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52205/-0.12900", 
     "web": "http://www.soas.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Brunei_Gallery,_School_of_Oriental_and_African_Studies"
   }, 
@@ -250,6 +277,7 @@
     "lat": "51\u00b030\u203206\u2033N", 
     "lon": "0\u00b003\u203211\u2033W", 
     "museum": "Brunel Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5016/-0.0530", 
     "wiki": "http://wikipedia.org/wiki/Brunel_Museum"
   }, 
   {
@@ -262,6 +290,7 @@
     "loc": "New End Square, Hampstead, London. NW3 1LT", 
     "lon": "0\u00b010\u203230\u2033W", 
     "museum": "Burgh House & Hampstead Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.55806/-0.17500", 
     "web": "http://www.burghhouse.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Burgh_House"
   }, 
@@ -271,6 +300,7 @@
     "loc": "Trafalgar Square, London", 
     "lon": "0\u00b007\u203245\u2033W", 
     "museum": "Canada House Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5077/-0.1291", 
     "wiki": "http://wikipedia.org/wiki/Canada_House_Gallery"
   }, 
   {
@@ -279,6 +309,7 @@
     "loc": "24 Cheyne Row, Chelsea, London, England", 
     "lon": "0\u00b010\u203212\u2033W", 
     "museum": "Carlyle's House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4843000/-0.17000", 
     "wiki": "http://wikipedia.org/wiki/Carlyle%27s_House"
   }, 
   {
@@ -286,6 +317,7 @@
     "lat": "51\u00b031\u20324\u2033N", 
     "lon": "0\u00b07\u203234\u2033W", 
     "museum": "Cartoon Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51778/-0.12611", 
     "wiki": "http://wikipedia.org/wiki/The_Cartoon_Museum"
   }, 
   {
@@ -293,6 +325,7 @@
     "lat": "51\u00b032\u203244.85\u2033N", 
     "lon": "0\u00b006\u203216.12\u2033W", 
     "museum": "Centre for Recent Drawing", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5457917/-0.1044778", 
     "wiki": "http://wikipedia.org/wiki/Centre_for_Recent_Drawing"
   }, 
   {
@@ -300,6 +333,7 @@
     "lat": "51\u00b031\u203226\u2033N", 
     "lon": "0\u00b007\u203201\u2033W", 
     "museum": "Charles Dickens Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.523921/-0.116902", 
     "web": "http://www.dickensmuseum.com/", 
     "wiki": "http://wikipedia.org/wiki/Charles_Dickens_Museum"
   }, 
@@ -308,6 +342,7 @@
     "lat": "51\u00b035\u203241\u2033N", 
     "lon": "0\u00b001\u203217\u2033E", 
     "museum": "Chartered Insurance Institute Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.594761/0.021271", 
     "web": "http://www.cii.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Chartered_Insurance_Institute_Museum"
   }, 
@@ -316,6 +351,7 @@
     "lat": "51\u00b029\u20326\u2033N", 
     "lon": "0\u00b09\u203246\u2033W", 
     "museum": "Chelsea Physic Garden", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48500/-0.16278", 
     "wiki": "http://wikipedia.org/wiki/Chelsea_Physic_Garden"
   }, 
   {
@@ -323,6 +359,7 @@
     "lat": "51\u00b029\u203201\u2033N", 
     "lon": "0\u00b015\u203231\u2033W", 
     "museum": "Chiswick House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48361/-0.25861", 
     "wiki": "http://wikipedia.org/wiki/Chiswick_House"
   }, 
   {
@@ -331,6 +368,7 @@
     "loc": "Clive Steps\nKing Charles Street\nLondon SW1A 2AQ\nUnited Kingdom", 
     "lon": "0\u00b007\u203244.5\u2033W", 
     "museum": "Churchill War Rooms", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.502083/-0.129028", 
     "web": "http://www.iwm.org.uk/visits/churchill-war-rooms", 
     "wiki": "http://wikipedia.org/wiki/Churchill_War_Rooms"
   }, 
@@ -339,6 +377,7 @@
     "lat": "51\u00b029\u203232\u2033N", 
     "lon": "0\u00b006\u203219\u2033W", 
     "museum": "Cinema Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4923/-0.1053", 
     "web": "http://cinemamuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Cinema_Museum_(London)"
   }, 
@@ -347,6 +386,7 @@
     "lat": "51\u00b030\u203214\u2033N", 
     "lon": "0\u00b008\u203219\u2033W", 
     "museum": "Clarence House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5040/-0.1385", 
     "wiki": "http://wikipedia.org/wiki/Clarence_House"
   }, 
   {
@@ -354,6 +394,7 @@
     "lat": "51\u00b030\u203225.48\u2033N", 
     "lon": "0\u00b005\u203230.95\u2033W", 
     "museum": "Clink Prison Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5070778/-0.0919306", 
     "wiki": "http://wikipedia.org/wiki/Clink_Prison_Museum"
   }, 
   {
@@ -361,6 +402,7 @@
     "lat": "51\u00b030\u203259\u2033N", 
     "lon": "0\u00b05\u203235\u2033W", 
     "museum": "Clockmakers' Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51639/-0.09306", 
     "wiki": "http://wikipedia.org/wiki/Clockmakers%27_Museum"
   }, 
   {
@@ -368,6 +410,7 @@
     "lat": "51\u00b028\u203251.39\u2033N", 
     "lon": "0\u00b010\u20328.51\u2033W", 
     "museum": "Couper Collection", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4809417/-0.1690306", 
     "wiki": "http://wikipedia.org/wiki/Couper_Collection"
   }, 
   {
@@ -376,6 +419,7 @@
     "loc": "London, England, UK", 
     "lon": "0\u00b007\u203202\u2033W", 
     "museum": "Courtauld Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51083/-0.11722", 
     "web": "http://www.courtauld.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Courtauld_Institute_of_Art"
   }, 
@@ -384,6 +428,7 @@
     "lat": "51\u00b029\u203255\u2033N", 
     "lon": "0\u00b007\u203259\u2033W", 
     "museum": "Crime Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49861/-0.13306", 
     "wiki": "http://wikipedia.org/wiki/Black_Museum#Crime_Museum"
   }, 
   {
@@ -392,6 +437,7 @@
     "loc": "Orpington\ngrid reference TQ454658", 
     "lon": "0\u00b005\u203216\u2033E", 
     "museum": "Crofton Roman Villa", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3729/0.0878", 
     "wiki": "http://wikipedia.org/wiki/Crofton_Roman_Villa"
   }, 
   {
@@ -400,6 +446,7 @@
     "loc": "of Crossness Pumping Station in Greater London", 
     "lon": "0\u00b008\u203218\u2033E", 
     "museum": "Crossness Pumping Station", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.509142/0.138418", 
     "wiki": "http://wikipedia.org/wiki/Crossness_Pumping_Station"
   }, 
   {
@@ -407,6 +454,7 @@
     "lat": "51\u00b031\u203257\u2033N", 
     "lon": "0\u00b006\u203226\u2033W", 
     "museum": "Cubitt Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.532488/-0.107274", 
     "web": "http://cubittartists.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Cubitt_Artists"
   }, 
@@ -415,6 +463,7 @@
     "lat": "51\u00b029\u203227\u2033N", 
     "lon": "0\u00b005\u203250\u2033W", 
     "museum": "Cuming Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.490804/-0.097162", 
     "wiki": "http://wikipedia.org/wiki/Cuming_Museum"
   }, 
   {
@@ -422,6 +471,7 @@
     "lat": "51\u00b028\u203258\u2033N", 
     "lon": "0\u00b000\u203235\u2033W", 
     "museum": "Cutty Sark Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48278/-0.00972", 
     "wiki": "http://wikipedia.org/wiki/Cutty_Sark_Museum"
   }, 
   {
@@ -429,6 +479,7 @@
     "lat": "51\u00b027\u203223.24\u2033N", 
     "lon": "00\u00b007\u203206.00\u2033E", 
     "museum": "Danson House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4564556/0.1183333", 
     "wiki": "http://wikipedia.org/wiki/Danson_House"
   }, 
   {
@@ -436,6 +487,7 @@
     "lat": "51\u00b027\u203226\u2033N", 
     "lon": "0\u00b012\u20322\u2033W", 
     "museum": "De Morgan Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.45722/-0.20056", 
     "web": "http://www.demorgan.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/De_Morgan_Centre"
   }, 
@@ -444,6 +496,7 @@
     "lat": "51\u00b031\u203215\u2033N", 
     "lon": "0\u00b04\u203236\u2033W", 
     "museum": "Dennis Severs' House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52083/-0.07667", 
     "web": "http://www.dennissevershouse.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Dennis_Severs%27_House"
   }, 
@@ -453,6 +506,7 @@
     "loc": "Shad Thames, London, UK", 
     "lon": "0\u00b004\u203219\u2033W", 
     "museum": "Design Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.502766/-0.071862", 
     "web": "http://www.designmuseum.org", 
     "wiki": "http://wikipedia.org/wiki/Design_Museum"
   }, 
@@ -461,6 +515,7 @@
     "lat": "51\u00b030\u203254\u2033N", 
     "lon": "0\u00b006\u203229\u2033W", 
     "museum": "Dr Johnson's House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51500/-0.10806", 
     "web": "http://www.drjohnsonshouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Dr_Johnson%27s_House"
   }, 
@@ -470,6 +525,7 @@
     "loc": "Luxted Road, Downe, Kent, England", 
     "lon": "0\u00b03\u203212\u2033E", 
     "museum": "Down House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.33139/0.05333", 
     "wiki": "http://wikipedia.org/wiki/Down_House"
   }, 
   {
@@ -478,6 +534,7 @@
     "loc": "Dulwich, London, England", 
     "lon": "0\u00b005\u203211\u2033W", 
     "museum": "Dulwich Picture Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44611/-0.08639", 
     "web": "http://www.dulwichpicturegallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Dulwich_Picture_Gallery"
   }, 
@@ -487,6 +544,7 @@
     "loc": "Eastbury Square, London, England", 
     "lon": "0\u00b05\u203258\u2033E", 
     "museum": "Eastbury Manor House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.534306/0.09944", 
     "wiki": "http://wikipedia.org/wiki/Eastbury_Manor_House"
   }, 
   {
@@ -495,6 +553,7 @@
     "loc": "Eltham, London, England", 
     "lon": "00\u00b002\u203253\u2033E", 
     "museum": "Eltham Palace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44722/0.04806", 
     "wiki": "http://wikipedia.org/wiki/Eltham_Palace"
   }, 
   {
@@ -502,6 +561,7 @@
     "lat": "51\u00b032\u203238\u2033N", 
     "lon": "0\u00b06\u20320\u2033W", 
     "museum": "Estorick Collection of Modern Italian Art", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.54389/-0.10000", 
     "wiki": "http://wikipedia.org/wiki/Estorick_Collection_of_Modern_Italian_Art"
   }, 
   {
@@ -510,6 +570,7 @@
     "loc": "Greenwich, London", 
     "lon": "0\u00b00\u203228\u2033W", 
     "museum": "Fan Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.47861/-0.00778", 
     "web": "http://www.thefanmuseum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Fan_Museum"
   }, 
@@ -518,6 +579,7 @@
     "lat": "51\u00b029\u203255\u2033N", 
     "lon": "0\u00b04\u203252\u2033W", 
     "museum": "Fashion and Textile Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49861/-0.08111", 
     "wiki": "http://wikipedia.org/wiki/Fashion_and_Textile_Museum"
   }, 
   {
@@ -526,6 +588,7 @@
     "loc": "Hampstead Grove, Hampstead, London, England", 
     "lon": "0\u00b010\u203246.85\u2033W", 
     "museum": "Fenton House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5588917/-0.1796806", 
     "wiki": "http://wikipedia.org/wiki/Fenton_House"
   }, 
   {
@@ -534,6 +597,7 @@
     "loc": "Royal Arsenal, Woolwich, South East London", 
     "lon": "0\u00b04\u203215\u2033E", 
     "museum": "Firepower: The Royal Artillery Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49389/0.07083", 
     "web": "http://www.firepower.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Firepower:_The_Royal_Artillery_Museum"
   }, 
@@ -543,6 +607,7 @@
     "loc": "London, England", 
     "lon": "0\u00b07\u20323\u2033W", 
     "museum": "Florence Nightingale Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50028/-0.11750", 
     "web": "http://www.florence-nightingale.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Florence_Nightingale_Museum"
   }, 
@@ -551,6 +616,7 @@
     "lat": "51\u00b040\u203213\u2033N", 
     "lon": "0\u00b004\u203207\u2033W", 
     "museum": "Forty Hall Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.670265/-0.068528", 
     "wiki": "http://wikipedia.org/wiki/Forty_Hall"
   }, 
   {
@@ -559,6 +625,7 @@
     "loc": "40 Brunswick Square\nLondon, England WC1N 1AZ", 
     "lon": "0\u00b007\u203218\u2033W", 
     "museum": "Foundling Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.525278/-0.121667", 
     "web": "http://www.foundlingmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Foundling_Museum"
   }, 
@@ -567,6 +634,7 @@
     "lat": "51\u00b036\u203258\u2033N", 
     "lon": "0\u00b011\u203205\u2033W", 
     "museum": "Francis Skaryna Belarusian Library and Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.6162/-0.1848", 
     "wiki": "http://wikipedia.org/wiki/Francis_Skaryna_Belarusian_Library_and_Museum"
   }, 
   {
@@ -575,6 +643,7 @@
     "loc": "20 Maresfield Gardens, London NW3, England, United Kingdom", 
     "lon": "0\u00b010\u203240\u2033W", 
     "museum": "Freud Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.54833/-0.17778", 
     "web": "http://Freud.org.UK/about", 
     "wiki": "http://wikipedia.org/wiki/Freud_Museum"
   }, 
@@ -584,6 +653,7 @@
     "loc": "Bishop's Avenue, London, SW6, England, UK", 
     "lon": "0\u00b012\u203258\u2033W", 
     "museum": "Fulham Palace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.470556/-0.216111", 
     "web": "http://www.fulhampalace.org/", 
     "wiki": "http://wikipedia.org/wiki/Fulham_Palace"
   }, 
@@ -597,6 +667,7 @@
     "loc": "London, United Kingdom", 
     "lon": "00\u00b008\u203200.88\u2033W", 
     "museum": "Galton Collection", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5247889/-0.1335778", 
     "web": "http://ucl.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Galton_Collection"
   }, 
@@ -605,6 +676,7 @@
     "lat": "51\u00b029\u203242\u2033N", 
     "lon": "0\u00b007\u203213\u2033W", 
     "museum": "Garden Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4950/-0.1202", 
     "wiki": "http://wikipedia.org/wiki/Garden_Museum"
   }, 
   {
@@ -613,6 +685,7 @@
     "loc": "Hampton, London", 
     "lon": "0\u00b021\u203234\u2033W", 
     "museum": "Garrick's Temple to Shakespeare", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.41239/-0.359428", 
     "wiki": "http://wikipedia.org/wiki/Garrick%27s_Temple_to_Shakespeare"
   }, 
   {
@@ -621,6 +694,7 @@
     "loc": "136, Kingsland Road,\nShoreditch, London", 
     "lon": "0\u00b004\u203236\u2033W", 
     "museum": "Geffrye Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.531742/-0.076630", 
     "web": "http://www.geffrye-museum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Geffrye_Museum"
   }, 
@@ -629,6 +703,7 @@
     "lat": "50\u00b023\u203248\u2033N", 
     "lon": "3\u00b030\u203246\u2033W", 
     "museum": "Golden Hind", 
+    "osm": "http://www.openstreetmap.org/#map=15/50.39667/-3.51278", 
     "wiki": "http://wikipedia.org/wiki/Golden_Hind"
   }, 
   {
@@ -637,6 +712,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b008\u203203\u2033W", 
     "museum": "Grant Museum of Zoology and Comparative Anatomy", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5238/-0.1343", 
     "web": "http://www.ucl.ac.uk/museums/zoology", 
     "wiki": "http://wikipedia.org/wiki/Grant_Museum_of_Zoology_and_Comparative_Anatomy"
   }, 
@@ -645,6 +721,7 @@
     "lat": "51\u00b029\u2032N", 
     "lon": "0\u00b000\u2032E", 
     "museum": "Greenwich Heritage Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48/0.00", 
     "wiki": "http://wikipedia.org/wiki/Greenwich_Heritage_Centre"
   }, 
   {
@@ -652,6 +729,7 @@
     "lat": "51\u00b029\u2032N", 
     "lon": "0\u00b000\u2032E", 
     "museum": "Greenwich Visitor Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48/0.00", 
     "wiki": "http://wikipedia.org/wiki/Greenwich_Visitor_Centre"
   }, 
   {
@@ -664,6 +742,7 @@
     "lat": "51\u00b029\u203259\u2033N", 
     "lon": "0\u00b08\u203216\u2033W", 
     "museum": "Guards Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49972/-0.13778", 
     "wiki": "http://wikipedia.org/wiki/The_Guards_Museum"
   }, 
   {
@@ -671,6 +750,7 @@
     "lat": "51\u00b030\u203256\u2033N", 
     "lon": "0\u00b005\u203229\u2033W", 
     "museum": "Guildhall Art Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5155/-0.0914", 
     "wiki": "http://wikipedia.org/wiki/Guildhall_Art_Gallery"
   }, 
   {
@@ -678,6 +758,7 @@
     "lat": "51\u00b029\u203253\u2033N", 
     "lon": "0\u00b017\u203231\u2033W", 
     "museum": "Gunnersbury Park Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.498/-0.292", 
     "wiki": "http://wikipedia.org/wiki/Gunnersbury_Park_Museum"
   }, 
   {
@@ -685,6 +766,7 @@
     "lat": "51\u00b026\u203252.51\u2033N", 
     "lon": "00\u00b009\u203233.53\u2033E", 
     "museum": "Hall Place", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4479194/0.1593139", 
     "wiki": "http://wikipedia.org/wiki/Hall_Place"
   }, 
   {
@@ -692,6 +774,7 @@
     "lat": "51\u00b026\u203237\u2033N", 
     "lon": "0\u00b018\u203259\u2033W", 
     "museum": "Ham House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44361/-0.31639", 
     "wiki": "http://wikipedia.org/wiki/Ham_House"
   }, 
   {
@@ -700,6 +783,7 @@
     "loc": "Richmond upon Thames, Greater London, England", 
     "lon": "0\u00b020\u203215\u2033W", 
     "museum": "Hampton Court Palace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.40333/-0.33750", 
     "wiki": "http://wikipedia.org/wiki/Hampton_Court_Palace"
   }, 
   {
@@ -707,6 +791,7 @@
     "lat": "51\u00b030\u203247\u2033N", 
     "lon": "0\u00b008\u203245\u2033W", 
     "museum": "Handel House Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.513/-0.1459", 
     "web": "http://www.handelhouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Handel_House_Museum"
   }, 
@@ -715,6 +800,7 @@
     "lat": "51\u00b035\u203240\u2033N", 
     "lon": "0\u00b021\u203218\u2033W", 
     "museum": "Harrow Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.59444/-0.35500", 
     "wiki": "http://wikipedia.org/wiki/Harrow_Museum"
   }, 
   {
@@ -722,6 +808,7 @@
     "lat": "51\u00b030\u203222\u2033N", 
     "lon": "0\u00b06\u203256\u2033W", 
     "museum": "Hayward Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50611/-0.11556", 
     "wiki": "http://wikipedia.org/wiki/The_Hayward"
   }, 
   {
@@ -729,6 +816,7 @@
     "lat": "51\u00b030\u203224\u2033N", 
     "lon": "0\u00b004\u203253\u2033W", 
     "museum": "HMS Belfast", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50667/-0.08139", 
     "web": "http://www.iwm.org.uk/visits/hms-belfast/", 
     "wiki": "http://wikipedia.org/wiki/HMS_Belfast_(C35)"
   }, 
@@ -737,6 +825,7 @@
     "lat": "51\u00b029.226\u2032N", 
     "lon": "0\u00b015.5325\u2032W", 
     "museum": "Hogarth's House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.487100/-0.2588750", 
     "wiki": "http://wikipedia.org/wiki/Hogarth%27s_House"
   }, 
   {
@@ -744,6 +833,7 @@
     "lat": "51\u00b021\u203255\u2033N", 
     "lon": "0\u00b010\u203203\u2033W", 
     "museum": "Honeywood Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3652/-0.1676", 
     "wiki": "http://wikipedia.org/wiki/Carshalton"
   }, 
   {
@@ -751,6 +841,7 @@
     "lat": "51\u00b031\u203222\u2033N", 
     "lon": "0\u00b05\u203218\u2033W", 
     "museum": "Honourable Artillery Company Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52278/-0.08833", 
     "wiki": "http://wikipedia.org/wiki/Honourable_Artillery_Company_Museum"
   }, 
   {
@@ -759,6 +850,7 @@
     "loc": "100 London Road, Forest Hill, London, SE23", 
     "lon": "0\u00b003\u203239\u2033W", 
     "museum": "Horniman Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44056/-0.06083", 
     "web": "http://www.horniman.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Horniman_Museum"
   }, 
@@ -767,6 +859,7 @@
     "lat": "51\u00b030\u203217\u2033N", 
     "lon": "0\u00b007\u203238\u2033W", 
     "museum": "Household Cavalry Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50472/-0.12722", 
     "wiki": "http://wikipedia.org/wiki/Household_Cavalry_Museum"
   }, 
   {
@@ -774,6 +867,7 @@
     "lat": "51\u00b031\u203239\u2033N", 
     "lon": "0\u00b000\u203228\u2033W", 
     "museum": "House Mill", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5274/-0.0079", 
     "wiki": "http://wikipedia.org/wiki/House_Mill"
   }, 
   {
@@ -781,6 +875,7 @@
     "lat": "51\u00b030\u203255\u2033N", 
     "lon": "0\u00b06\u203257\u2033W", 
     "museum": "Hunterian Museum at the Royal College of Surgeons", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51528/-0.11583", 
     "web": "http://www.rcseng.ac.uk", 
     "wiki": "http://wikipedia.org/wiki/Hunterian_Museum_at_the_Royal_College_of_Surgeons"
   }, 
@@ -801,6 +896,7 @@
     "loc": "31-34 Gordon Square, London, UK", 
     "lon": "0\u00b07\u203254\u2033W", 
     "museum": "Institute of Archaeology Collections", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52500/-0.13167", 
     "web": "http://www.ucl.ac.uk/archaeology/", 
     "wiki": "http://wikipedia.org/wiki/Institute_of_Archaeology_Collections"
   }, 
@@ -810,6 +906,7 @@
     "loc": "Main (public) entrance on The Mall, London, England is shown above.\nOffices and postal address are situated at 12 Carlton House Terrace.", 
     "lon": "0\u00b007\u203250\u2033W", 
     "museum": "Institute of Contemporary Arts", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.506608/-0.13061", 
     "web": "http://www.ica.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Institute_of_Contemporary_Arts"
   }, 
@@ -818,6 +915,7 @@
     "lat": "51\u00b029\u203221\u2033N", 
     "lon": "0\u00b00\u203249\u2033W", 
     "museum": "Island History Trust", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48917/-0.01361", 
     "wiki": "http://wikipedia.org/wiki/Island_History_Trust"
   }, 
   {
@@ -826,6 +924,7 @@
     "loc": "Finsbury Library, 245 St John Street, London EC1V 4NB, UK", 
     "lon": "0\u00b006\u203216\u2033W", 
     "museum": "Islington Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.526486/-0.104553", 
     "web": "http://www.islington.gov.uk/heritage", 
     "wiki": "http://wikipedia.org/wiki/Islington_Museum"
   }, 
@@ -839,6 +938,7 @@
     "loc": "Hendon, Barnet, North London", 
     "lon": "0\u00b013\u203212\u2033W", 
     "museum": "Jewish Military Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.58763/-0.220095", 
     "web": "http://www.thejmm.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Jewish_Military_Museum"
   }, 
@@ -848,6 +948,7 @@
     "loc": "129-131 Albert Street, Camden Town, London, NW1 7NB", 
     "lon": "0\u00b008\u203240\u2033W", 
     "museum": "Jewish Museum London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.536944/-0.144444", 
     "web": "http://www.jewishmuseum.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/London_Jewish_Museum"
   }, 
@@ -856,6 +957,7 @@
     "lat": "51\u00b033\u203220\u2033N", 
     "lon": "0\u00b010\u203206\u2033W", 
     "museum": "Keats House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5555/-0.1682", 
     "web": "http://www.cityoflondon.gov.uk/things-to-do/attractions-around-london/keats-house/Pages/default.aspx", 
     "wiki": "http://wikipedia.org/wiki/Keats_House"
   }, 
@@ -864,6 +966,7 @@
     "lat": "51\u00b029\u203226\u2033N", 
     "lon": "0\u00b014\u203207\u2033W", 
     "museum": "Kelmscott House Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4905/-0.2354", 
     "wiki": "http://wikipedia.org/wiki/Kelmscott_House"
   }, 
   {
@@ -877,6 +980,7 @@
     "loc": "in Kensington", 
     "lon": "0\u00b011\u203218\u2033W", 
     "museum": "Kensington Palace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.505278/-0.188333", 
     "web": "http://www.hrp.org.uk/KensingtonPalace/building/origins", 
     "wiki": "http://wikipedia.org/wiki/Kensington_Palace"
   }, 
@@ -885,6 +989,7 @@
     "lat": "51\u00b034\u203216.59\u2033N", 
     "lon": "00\u00b010\u20323.38\u2033W", 
     "museum": "Kenwood House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5712750/-0.1676056", 
     "wiki": "http://wikipedia.org/wiki/Kenwood_House"
   }, 
   {
@@ -892,6 +997,7 @@
     "lat": "51\u00b029\u203202\u2033N", 
     "lon": "00\u00b017\u203242\u2033W", 
     "museum": "Kew Palace", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48389/-0.29500", 
     "wiki": "http://wikipedia.org/wiki/Kew_Palace"
   }, 
   {
@@ -899,6 +1005,7 @@
     "lat": "51\u00b024\u203235\u2033N", 
     "lon": "0\u00b018\u203201\u2033W", 
     "museum": "Kingston Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4096/-0.3003", 
     "wiki": "http://wikipedia.org/wiki/Kingston_Museum"
   }, 
   {
@@ -907,6 +1014,7 @@
     "loc": "99 Southwark Street, Southwark, London, England", 
     "lon": "0\u00b06\u20325.58\u2033W", 
     "museum": "Kirkaldy Testing Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5059639/-0.1015500", 
     "web": "http://www.testingmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Kirkaldy_Testing_Museum"
   }, 
@@ -915,6 +1023,7 @@
     "lat": "51\u00b031\u203214\u2033N", 
     "lon": "0\u00b006\u203223\u2033W", 
     "museum": "L-13 Light Industrial Workshop", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5205/-0.1063", 
     "wiki": "http://wikipedia.org/wiki/L-13_Light_Industrial_Workshop"
   }, 
   {
@@ -922,6 +1031,7 @@
     "lat": "51\u00b029\u203244\u2033N", 
     "lon": "0\u00b07\u203211\u2033W", 
     "museum": "Lambeth Palace Library", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49556/-0.11972", 
     "web": "http://www.archbishopofcanterbury.org/pages/about-lambeth-palace.html", 
     "wiki": "http://wikipedia.org/wiki/Lambeth_Library"
   }, 
@@ -931,6 +1041,7 @@
     "loc": "of Leighton House Museum in Greater London", 
     "lon": "0\u00b012\u203211.12\u2033W", 
     "museum": "Leighton House Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4985806/-0.2030889", 
     "wiki": "http://wikipedia.org/wiki/Leighton_House_Museum"
   }, 
   {
@@ -938,6 +1049,7 @@
     "lat": "51\u00b030\u203254\u2033N", 
     "lon": "0\u00b007\u203216\u2033W", 
     "museum": "Library and Museum of Freemasonry", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5151/-0.1210", 
     "wiki": "http://wikipedia.org/wiki/The_Library_and_Museum_of_Freemasonry"
   }, 
   {
@@ -945,6 +1057,7 @@
     "lat": "51\u00b021\u203255\u2033N", 
     "lon": "0\u00b010\u203203\u2033W", 
     "museum": "Little Holland House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3652/-0.1676", 
     "wiki": "http://wikipedia.org/wiki/Little_Holland_House,_Carshalton"
   }, 
   {
@@ -953,6 +1066,7 @@
     "loc": "King's Cross, London, England", 
     "lon": "0\u00b007\u203213\u2033W", 
     "museum": "London Canal Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5339/-0.1204", 
     "web": "http://www.canalmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Canal_Museum"
   }, 
@@ -961,6 +1075,7 @@
     "lat": "51\u00b030\u203210\u2033N", 
     "lon": "0\u00b007\u203209\u2033W", 
     "museum": "London Film Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5028/-0.1193", 
     "web": "http://www.londonfilmmuseum.com", 
     "wiki": "http://wikipedia.org/wiki/London_Film_Museum"
   }, 
@@ -969,6 +1084,7 @@
     "lat": "51\u00b030\u20327\u2033N", 
     "lon": "0\u00b05\u203253\u2033W", 
     "museum": "London Fire Brigade Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50194/-0.09806", 
     "wiki": "http://wikipedia.org/wiki/London_Fire_Brigade_Museum"
   }, 
   {
@@ -977,6 +1093,7 @@
     "loc": "3 Nestle's Avenue,\nHayes UB3 4SB, England", 
     "lon": "0\u00b025\u203215\u2033W", 
     "museum": "London Motor Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.501972/-0.42072", 
     "web": "http://www.londonmotormuseum.co.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Motor_Museum"
   }, 
@@ -986,6 +1103,7 @@
     "loc": "Greenford, Middlesex (UK)", 
     "lon": "0\u00b021\u203216\u2033W", 
     "museum": "London Motorcycle Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5309/-0.3545", 
     "web": "http://www.london-motorcycle-museum.org", 
     "wiki": "http://wikipedia.org/wiki/London_Motorcycle_Museum"
   }, 
@@ -995,6 +1113,7 @@
     "loc": "Green Dragon Lane, Brentford", 
     "lon": "0\u00b017\u203225\u2033W", 
     "museum": "London Museum of Water & Steam", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4890/-0.2904", 
     "web": "http://www.waterandsteam.org.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Museum_of_Water_%26_Steam"
   }, 
@@ -1004,6 +1123,7 @@
     "loc": "Covent Garden, London, England", 
     "lon": "0\u00b007\u203218\u2033W", 
     "museum": "London Transport Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51194/-0.12167", 
     "web": "http://www.ltmuseum.co.uk", 
     "wiki": "http://wikipedia.org/wiki/London_Transport_Museum"
   }, 
@@ -1013,6 +1133,7 @@
     "loc": "London, UK", 
     "lon": "0\u00b008\u203208\u2033W", 
     "museum": "Magic Circle Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52639/-0.13556", 
     "web": "http://www.themagiccircle.co.uk", 
     "wiki": "http://wikipedia.org/wiki/The_Magic_Circle"
   }, 
@@ -1021,6 +1142,7 @@
     "lat": "51\u00b030\u203247.7\u2033N", 
     "lon": "0\u00b05\u203221.7\u2033W", 
     "museum": "Mansion House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.513250/-0.089361", 
     "wiki": "http://wikipedia.org/wiki/Mansion_House,_London"
   }, 
   {
@@ -1028,6 +1150,7 @@
     "lat": "51\u00b026\u203258\u2033N", 
     "lon": "0\u00b018\u203248\u2033W", 
     "museum": "Marble Hill House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44944/-0.31333", 
     "wiki": "http://wikipedia.org/wiki/Marble_Hill_House"
   }, 
   {
@@ -1035,6 +1158,7 @@
     "lat": "51\u00b034\u203255\u2033N", 
     "lon": "0\u00b03\u203242\u2033W", 
     "museum": "Markfield Beam Engine and Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.58194/-0.06167", 
     "wiki": "http://wikipedia.org/wiki/Markfield_Beam_Engine"
   }, 
   {
@@ -1043,6 +1167,7 @@
     "loc": "St John's Wood, London", 
     "lon": "0\u00b010\u203222\u2033W", 
     "museum": "MCC Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5294/-0.1727", 
     "wiki": "http://wikipedia.org/wiki/MCC_Museum"
   }, 
   {
@@ -1054,6 +1179,7 @@
     "lat": "51\u00b030\u203235\u2033N", 
     "lon": "0\u00b008\u203233\u2033W", 
     "museum": "Michael Faraday Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5098/-0.1425", 
     "wiki": "http://wikipedia.org/wiki/Michael_Faraday_Museum"
   }, 
   {
@@ -1061,6 +1187,7 @@
     "lat": "51\u00b028\u20324.7\u2033N", 
     "lon": "0\u00b04\u203220.5\u2033W", 
     "museum": "MOCA, London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.467972/-0.072361", 
     "web": "http://www.mocalondon.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/MOCA,_London"
   }, 
@@ -1070,6 +1197,7 @@
     "loc": "61 Westminster Bridge Road\nLondon\nSE1 7HT\nEngland, United Kingdom", 
     "lon": "0\u00b006\u203237\u2033W", 
     "museum": "Morley Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49795/-0.11019", 
     "web": "http://www.morleycollege.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Morley_College#Art_Gallery"
   }, 
@@ -1078,6 +1206,7 @@
     "lat": "51\u00b030\u203255\u2033N", 
     "lon": "0\u00b012\u203205\u2033W", 
     "museum": "Museum of Brands, Packaging and Advertising", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.515208/-0.201481", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Brands,_Packaging_and_Advertising"
   }, 
   {
@@ -1086,6 +1215,7 @@
     "loc": "Croydon, United Kingdom", 
     "lon": "0\u00b005\u203258\u2033W", 
     "museum": "Museum of Croydon", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3722/-0.0994", 
     "web": "http://www.museumofcroydon.com", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Croydon"
   }, 
@@ -1095,6 +1225,7 @@
     "loc": "Hendon, London", 
     "lon": "0\u00b008\u203250\u2033W", 
     "museum": "Museum of Domestic Design and Architecture", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.64444/-0.14722", 
     "web": "http://www.moda.mdx.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Domestic_Design_and_Architecture"
   }, 
@@ -1103,6 +1234,7 @@
     "lat": "51\u00b031\u203211\u2033N", 
     "lon": "0\u00b004\u203222\u2033W", 
     "museum": "Museum of Immigration and Diversity", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5197/-0.0727", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Immigration_and_Diversity"
   }, 
   {
@@ -1111,6 +1243,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b005\u203248.51\u2033W", 
     "museum": "Museum of London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5177056/-0.0968083", 
     "web": "http://www.museumoflondon.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_London"
   }, 
@@ -1120,6 +1253,7 @@
     "loc": "West India Docks, London E14, England, United Kingdom", 
     "lon": "0\u00b01\u203225\u2033W", 
     "museum": "Museum of London Docklands", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50750/-0.02361", 
     "web": "http://www.museumoflondon.org.uk/docklands", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_London_Docklands"
   }, 
@@ -1129,6 +1263,7 @@
     "loc": "Old Town Hall, Whittaker Avenue, Richmond TW9 1TP", 
     "lon": "0\u00b018\u203224\u2033W", 
     "museum": "Museum of Richmond", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.45884/-0.30653", 
     "web": "http://www.museumofrichmond.com", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_Richmond"
   }, 
@@ -1138,6 +1273,7 @@
     "loc": "St John's Gate, Clerkenwell, London EC1M 4D, England, UK", 
     "lon": "0\u00b006\u203209\u2033W", 
     "museum": "Museum of the Order of St John", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52195/-0.10257", 
     "web": "http://www.museumstjohn.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Museum_of_the_Order_of_St_John"
   }, 
@@ -1146,6 +1282,7 @@
     "lat": "51\u00b029\u203216\u2033N", 
     "lon": "0\u00b017\u203235\u2033W", 
     "museum": "Musical Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4879/-0.2931", 
     "wiki": "http://wikipedia.org/wiki/Musical_Museum,_Brentford"
   }, 
   {
@@ -1154,6 +1291,7 @@
     "loc": "Royal Hospital Road, London, SW3\u00a04HT", 
     "lon": "0\u00b009\u203236\u2033W", 
     "museum": "National Army Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.486111/-0.16", 
     "web": "http://www.national-army-museum.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Army_Museum"
   }, 
@@ -1163,6 +1301,7 @@
     "loc": "Trafalgar Square, London, United Kingdom", 
     "lon": "0\u00b007\u203242\u2033W", 
     "museum": "National Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5086/-0.1283", 
     "web": "http://www.nationalgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Gallery"
   }, 
@@ -1172,6 +1311,7 @@
     "loc": "Greenwich, London, United Kingdom", 
     "lon": "0\u00b000\u203220\u2033W", 
     "museum": "National Maritime Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.481111/-0.005556", 
     "web": "http://www.nmm.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/National_Maritime_Museum"
   }, 
@@ -1181,6 +1321,7 @@
     "loc": "St. Martin's Place, London, United Kingdom", 
     "lon": "0\u00b007\u203240\u2033W", 
     "museum": "National Portrait Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.509369/-0.127733", 
     "web": "http://www.npg.org.uk", 
     "wiki": "http://wikipedia.org/wiki/National_Portrait_Gallery_(London)"
   }, 
@@ -1190,6 +1331,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b010\u203235\u2033W", 
     "museum": "Natural History Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.495983/-0.176372", 
     "web": "http://www.nhm.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Natural_History_Museum,_London"
   }, 
@@ -1198,6 +1340,7 @@
     "lat": "51\u00b021\u203229\u2033N", 
     "lon": "0\u00b013\u203243\u2033W", 
     "museum": "Nonsuch Mansion", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.358171/-0.228714", 
     "wiki": "http://wikipedia.org/wiki/Nonsuch_Mansion"
   }, 
   {
@@ -1205,6 +1348,7 @@
     "lat": "51\u00b030\u203218\u2033N", 
     "lon": "0\u00b005\u203218\u2033W", 
     "museum": "Old Operating Theatre Museum and Herb Garret", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5050/-0.0883", 
     "wiki": "http://wikipedia.org/wiki/Old_Operating_Theatre"
   }, 
   {
@@ -1212,6 +1356,7 @@
     "lat": "51\u00b029\u20321\u2033N", 
     "lon": "0\u00b00\u203221\u2033W", 
     "museum": "Old Royal Naval College", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48361/-0.00583", 
     "web": "http://www.ornc.org", 
     "wiki": "http://wikipedia.org/wiki/Old_Royal_Naval_College"
   }, 
@@ -1221,6 +1366,7 @@
     "loc": "Harrow on the Hill High Street\nLondon Borough of Harrow\nLondon\nHA1 3HP\nUnited Kingdom Coordinates: 51\u00b034\u203223\u2033N 0\u00b020\u203202\u2033W\ufeff / \ufeff51.573103\u00b0N 0.333792\u00b0W\ufeff / 51.573103; -0.333792", 
     "lon": "0\u00b020\u203202\u2033W", 
     "museum": "Old Speech Room Gallery and Museum, Harrow School", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.573103/-0.333792", 
     "web": "http://www.harrowschool.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Harrow_School#Old_Speech_Room_Gallery_.26_Museum"
   }, 
@@ -1229,6 +1375,7 @@
     "lat": "51\u00b026\u203250\u2033N", 
     "lon": "0\u00b019\u203208\u2033W", 
     "museum": "Orleans House Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.44731/-0.319022", 
     "wiki": "http://wikipedia.org/wiki/Orleans_House_Gallery"
   }, 
   {
@@ -1237,6 +1384,7 @@
     "loc": "Jersey Road, Isleworth, Hounslow, London, England", 
     "lon": "00\u00b021\u203207.14\u2033W", 
     "museum": "Osterley Park and House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4893750/-0.3519833", 
     "wiki": "http://wikipedia.org/wiki/Osterley_Park"
   }, 
   {
@@ -1244,6 +1392,7 @@
     "lat": "51\u00b031\u203225\u2033N", 
     "lon": "0\u00b07\u203259\u2033W", 
     "museum": "Petrie Museum of Egyptian Archaeology", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52361/-0.13306", 
     "web": "http://na.visitlondon.com/city_guide/detail/284328", 
     "wiki": "http://wikipedia.org/wiki/Petrie_Museum_of_Egyptian_Archaeology"
   }, 
@@ -1253,6 +1402,7 @@
     "loc": "16-18 Ramillies Street, London, England", 
     "lon": "0\u00b008\u203220\u2033W", 
     "museum": "Photographers' Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5148/-0.1389", 
     "web": "http://thephotographersgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Photographers%27_Gallery"
   }, 
@@ -1261,6 +1411,7 @@
     "lat": "51\u00b030\u203239.95\u2033N", 
     "lon": "00\u00b018\u203226.02\u2033W", 
     "museum": "Pitzhanger Manor", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5110972/-0.3072278", 
     "wiki": "http://wikipedia.org/wiki/Pitzhanger_Manor"
   }, 
   {
@@ -1268,6 +1419,7 @@
     "lat": "51\u00b030\u20325\u2033N", 
     "lon": "0\u00b010\u203224\u2033W", 
     "museum": "Polish Institute and Sikorski Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50139/-0.17333", 
     "web": "http://pism.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Polish_Institute_and_Sikorski_Museum"
   }, 
@@ -1276,6 +1428,7 @@
     "lat": "51\u00b031\u203213\u2033N", 
     "lon": "0\u00b08\u20327\u2033W", 
     "museum": "Pollock's Toy Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52028/-0.13528", 
     "wiki": "http://wikipedia.org/wiki/Pollock%27s_Toy_Museum"
   }, 
   {
@@ -1283,6 +1436,7 @@
     "lat": "51\u00b030\u203221\u2033N", 
     "lon": "0\u00b002\u203216\u2033W", 
     "museum": "Pumphouse Educational Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5058/-0.03779", 
     "wiki": "http://wikipedia.org/wiki/Pumphouse_Educational_Museum"
   }, 
   {
@@ -1291,6 +1445,7 @@
     "loc": "5a Bloomsbury Square, London WC1A 2TA, England, United Kingdom", 
     "lon": "0\u00b007\u203223\u2033W", 
     "museum": "Pushkin House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5182/-0.1231", 
     "web": "http://www.pushkinhouse.org/", 
     "wiki": "http://wikipedia.org/wiki/Russian_Cultural_Centre_(London)"
   }, 
@@ -1300,6 +1455,7 @@
     "loc": "London, England", 
     "lon": "0\u00b017.728\u2032W", 
     "museum": "Queen Charlotte's Cottage", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.474667/-0.295467", 
     "web": "http://www.kew.org", 
     "wiki": "http://wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew#Queen_Charlotte.27s_Cottage"
   }, 
@@ -1309,6 +1465,7 @@
     "loc": "Buckingham Palace, London SW1, England, United Kingdom", 
     "lon": "0\u00b08\u203232.67\u2033W", 
     "museum": "Queen's Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49980194/-0.1424083", 
     "web": "http://www.royalcollection.org.uk/visit/queensgallerylondon", 
     "wiki": "http://wikipedia.org/wiki/Queen%27s_Gallery"
   }, 
@@ -1317,6 +1474,7 @@
     "lat": "51\u00b028\u203252\u2033N", 
     "lon": "0\u00b000\u203214\u2033W", 
     "museum": "Queen's House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48111/-0.00389", 
     "wiki": "http://wikipedia.org/wiki/Queen%27s_House"
   }, 
   {
@@ -1324,6 +1482,7 @@
     "lat": "51\u00b031\u203208\u2033N", 
     "lon": "0\u00b002\u203209\u2033W", 
     "museum": "Ragged School Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5188/-0.0357", 
     "wiki": "http://wikipedia.org/wiki/Ragged_School_Museum"
   }, 
   {
@@ -1331,6 +1490,7 @@
     "lat": "51\u00b028\u203224.4\u2033N", 
     "lon": "00\u00b000\u20325.8\u2033W", 
     "museum": "Ranger's House (Wernher Collection)", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.473444/-0.001611", 
     "wiki": "http://wikipedia.org/wiki/Ranger%27s_House"
   }, 
   {
@@ -1339,6 +1499,7 @@
     "loc": "Red House Lane, Bexleyheath, London, England", 
     "lon": "0\u00b07\u203249\u2033E", 
     "museum": "Red House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.45556/0.13028", 
     "wiki": "http://wikipedia.org/wiki/Red_House_(London)"
   }, 
   {
@@ -1350,6 +1511,7 @@
     "lat": "51\u00b022\u203220\u2033N", 
     "lon": "0\u00b05\u203259\u2033W", 
     "museum": "Riesco Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.37222/-0.09972", 
     "wiki": "http://wikipedia.org/wiki/Riesco_Gallery"
   }, 
   {
@@ -1357,6 +1519,7 @@
     "lat": "51\u00b027\u203222\u2033N", 
     "lon": "0\u00b018\u203204\u2033W", 
     "museum": "Riverside Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.456/-0.301", 
     "wiki": "http://wikipedia.org/wiki/Riverside_Gallery"
   }, 
   {
@@ -1364,6 +1527,7 @@
     "lat": "51\u00b030\u203226\u2033N", 
     "lon": "0\u00b005\u203244\u2033W", 
     "museum": "Rose Theatre Exhibition", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5072/-0.09547", 
     "wiki": "http://wikipedia.org/wiki/Rose_Theatre_Exhibition"
   }, 
   {
@@ -1372,6 +1536,7 @@
     "loc": "Piccadilly, London, United Kingdom", 
     "lon": "0\u00b008\u203222\u2033W", 
     "museum": "Royal Academy of Arts", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50917/-0.13944", 
     "web": "http://www.royalacademy.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_Academy_of_Arts"
   }, 
@@ -1380,6 +1545,7 @@
     "lat": "51\u00b031\u203224\u2033N", 
     "lon": "0\u00b009\u203208\u2033W", 
     "museum": "Royal Academy of Music Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5233/-0.1521", 
     "wiki": "http://wikipedia.org/wiki/Royal_Academy_of_Music_Museum"
   }, 
   {
@@ -1388,6 +1554,7 @@
     "loc": "Colindale, London, United Kingdom", 
     "lon": "0\u00b014\u203219\u2033W", 
     "museum": "Royal Air Force Museum London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.59889/-0.23861", 
     "web": "http://www.rafmuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_Air_Force_Museum_London"
   }, 
@@ -1397,6 +1564,7 @@
     "loc": "of the Tower of London in central London", 
     "lon": "00\u00b004\u203234\u2033W", 
     "museum": "Royal Armouries, Tower of London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50806/-0.07611", 
     "web": "http://www.hrp.org.uk/TowerOfLondon/", 
     "wiki": "http://wikipedia.org/wiki/Tower_of_London#Royal_Armouries"
   }, 
@@ -1406,6 +1574,7 @@
     "loc": "London, England", 
     "lon": "0\u00b017.728\u2032W", 
     "museum": "Royal Botanic Gardens, Kew", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.474667/-0.295467", 
     "web": "http://www.kew.org", 
     "wiki": "http://wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew"
   }, 
@@ -1415,6 +1584,7 @@
     "loc": "South Kensington, London, United Kingdom\n51\u00b029\u203259\u2033N 0\u00b010\u203237\u2033W\ufeff / \ufeff51.49972\u00b0N 0.17694\u00b0W\ufeff / 51.49972; -0.17694Coordinates: 51\u00b029\u203259\u2033N 0\u00b010\u203237\u2033W\ufeff / \ufeff51.49972\u00b0N 0.17694\u00b0W\ufeff / 51.49972; -0.17694", 
     "lon": "0\u00b010\u203237\u2033W", 
     "museum": "Royal College of Music Archives and Museum of Instruments", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49972/-0.17694", 
     "web": "http://www.RCM.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_College_of_Music"
   }, 
@@ -1424,6 +1594,7 @@
     "loc": "St Andrew's Place, Regent's Park\nLondon, United Kingdom", 
     "lon": "00\u00b008\u203241.89\u2033W", 
     "museum": "Royal College of Physicians Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5257861/-0.1449694", 
     "web": "http://www.rcplondon.ac.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_College_of_Physicians"
   }, 
@@ -1433,6 +1604,7 @@
     "loc": "London, England, United Kingdom", 
     "lon": "0\u00b09\u203228\u2033W", 
     "museum": "Royal Hospital Chelsea Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.48639/-0.15778", 
     "web": "http://www.chelsea-pensioners.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Royal_Hospital_Chelsea"
   }, 
@@ -1442,6 +1614,7 @@
     "loc": "Marylebone, W1B 1AD", 
     "lon": "0\u00b008\u203242\u2033W", 
     "museum": "Royal Institute of British Architects Collections", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.521283/-0.14508", 
     "web": "http://www.architecture.com", 
     "wiki": "http://wikipedia.org/wiki/Royal_Institute_of_British_Architects_Collections"
   }, 
@@ -1451,6 +1624,7 @@
     "loc": "Whitechapel, London, England, United Kingdom", 
     "lon": "0\u00b003\u203233\u2033W", 
     "museum": "Royal London Hospital Archives and Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51812/-0.05929", 
     "web": "http://www.bartsandthelondon.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Royal_London_Hospital_Archives_and_Museum"
   }, 
@@ -1459,6 +1633,7 @@
     "lat": "51\u00b029\u203255\u2033N", 
     "lon": "0\u00b08\u203240\u2033W", 
     "museum": "Royal Mews", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49861/-0.14444", 
     "wiki": "http://wikipedia.org/wiki/Royal_Mews"
   }, 
   {
@@ -1466,6 +1641,7 @@
     "lat": "51\u00b027\u203218\u2033N", 
     "lon": "0\u00b021\u203203\u2033W", 
     "museum": "Royal Military School of Music Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4551/-0.3507", 
     "wiki": "http://wikipedia.org/wiki/Royal_Military_School_of_Music"
   }, 
   {
@@ -1473,6 +1649,7 @@
     "lat": "51\u00b028\u203240.1247\u2033N", 
     "lon": "0\u00b00\u20325.3101\u2033W", 
     "museum": "Royal Observatory, Greenwich", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.477812417/-0.001475028", 
     "wiki": "http://wikipedia.org/wiki/Royal_Observatory,_Greenwich"
   }, 
   {
@@ -1480,6 +1657,7 @@
     "lat": "51\u00b029\u203240\u2033N", 
     "lon": "0\u00b007\u203209\u2033W", 
     "museum": "Royal Pharmaceutical Society Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4945/-0.1192", 
     "web": "http://www.rpharms.com/home/home.asp", 
     "wiki": "http://wikipedia.org/wiki/Royal_Pharmaceutical_Society_Museum"
   }, 
@@ -1489,6 +1667,7 @@
     "loc": "Smithfield, London, United Kingdom", 
     "lon": "0\u00b006\u203200.46\u2033W", 
     "museum": "St Bartholomew's Hospital Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5174611/-0.1001278", 
     "web": "http://www.bartsandthelondon.org.uk", 
     "wiki": "http://wikipedia.org/wiki/St_Bartholomew%27s_Hospital"
   }, 
@@ -1498,6 +1677,7 @@
     "loc": "City of London", 
     "lon": "0\u00b005\u203253\u2033W", 
     "museum": "St Paul's Cathedral", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.513611/-0.098056", 
     "web": "http://www.stpauls.co.uk", 
     "wiki": "http://wikipedia.org/wiki/St_Paul%27s_Cathedral"
   }, 
@@ -1507,6 +1687,7 @@
     "loc": "Duke of York's Headquarters, King's Road, London SW3, England, United Kingdom", 
     "lon": "0\u00b009\u203232\u2033W", 
     "museum": "Saatchi Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4906/-0.1589", 
     "web": "http://www.saatchi-gallery.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Saatchi_Gallery"
   }, 
@@ -1516,6 +1697,7 @@
     "loc": "London, United Kingdom", 
     "lon": "0\u00b010\u203229\u2033W", 
     "museum": "Science Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4975/-0.174722", 
     "web": "http://www.sciencemuseum.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Science_Museum_(London)"
   }, 
@@ -1525,6 +1707,7 @@
     "loc": "21 New Globe Walk", 
     "lon": "0\u00b05\u203250\u2033W", 
     "museum": "Shakespeare\u2019s Globe Exhibition", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50806/-0.09722", 
     "wiki": "http://wikipedia.org/wiki/Shakespeare%E2%80%99s_Globe_Exhibition"
   }, 
   {
@@ -1533,6 +1716,7 @@
     "loc": "221B Baker Street, London NW1, England, United Kingdom", 
     "lon": "0\u00b009\u203231\u2033W", 
     "museum": "Sherlock Holmes Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5237/-0.1585", 
     "web": "http://www.sherlock-holmes.co.uk", 
     "wiki": "http://wikipedia.org/wiki/Sherlock_Holmes_Museum"
   }, 
@@ -1541,6 +1725,7 @@
     "lat": "51\u00b022\u203212\u2033N", 
     "lon": "0\u00b003\u203218\u2033W", 
     "museum": "Shirley Windmill", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.370/-0.055", 
     "web": "http://www.shirleywindmill.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Shirley_Windmill"
   }, 
@@ -1549,6 +1734,7 @@
     "lat": "51\u00b031\u203224.3\u2033N", 
     "lon": "0\u00b010\u203222\u2033W", 
     "museum": "Showroom Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.523417/-0.17278", 
     "wiki": "http://wikipedia.org/wiki/Showroom_Gallery"
   }, 
   {
@@ -1557,6 +1743,7 @@
     "loc": "12-14 Lincoln's Inn Fields, London, United Kingdom", 
     "lon": "0\u00b007\u203203\u2033W", 
     "museum": "Sir John Soane's Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.516998/-0.117402", 
     "web": "http://www.soane.org/", 
     "wiki": "http://wikipedia.org/wiki/Sir_John_Soane%27s_Museum"
   }, 
@@ -1566,6 +1753,7 @@
     "loc": "Strand, City of Westminster, London", 
     "lon": "0\u00b007\u203201.9\u2033W", 
     "museum": "Somerset House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.511028/-0.117194", 
     "web": "http://www.somersethouse.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/Somerset_House"
   }, 
@@ -1574,6 +1762,7 @@
     "lat": "51\u00b028\u203227\u2033N", 
     "lon": "0\u00b04\u203247\u2033W", 
     "museum": "South London Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.47417/-0.07972", 
     "wiki": "http://wikipedia.org/wiki/South_London_Gallery"
   }, 
   {
@@ -1581,6 +1770,7 @@
     "lat": "51\u00b030\u203224\u2033N", 
     "lon": "0\u00b022\u203213\u2033W", 
     "museum": "Southall Railway Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50667/-0.37028", 
     "wiki": "http://wikipedia.org/wiki/Southall_Railway_Centre"
   }, 
   {
@@ -1588,6 +1778,7 @@
     "lat": "51\u00b024\u203256\u2033N", 
     "lon": "0\u00b013\u203257\u2033W", 
     "museum": "Southside House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.41568/-0.23263", 
     "wiki": "http://wikipedia.org/wiki/Southside_House"
   }, 
   {
@@ -1595,6 +1786,7 @@
     "lat": "51\u00b030\u203219\u2033N", 
     "lon": "0\u00b08\u203224\u2033W", 
     "museum": "Spencer House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50528/-0.14000", 
     "wiki": "http://wikipedia.org/wiki/Spencer_House,_London"
   }, 
   {
@@ -1602,6 +1794,7 @@
     "lat": "51\u00b035\u203248\u2033N", 
     "lon": "0\u00b011\u203242\u2033W", 
     "museum": "Stephens Collection", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5968/-0.1951", 
     "wiki": "http://wikipedia.org/wiki/Avenue_House"
   }, 
   {
@@ -1609,6 +1802,7 @@
     "lat": "51\u00b026\u203218\u2033N", 
     "lon": "0\u00b020\u203205\u2033W", 
     "museum": "Strawberry Hill", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4382/-0.3348", 
     "wiki": "http://wikipedia.org/wiki/Strawberry_Hill_House"
   }, 
   {
@@ -1617,6 +1811,7 @@
     "loc": "Homerton High Street, Hackney, London, England", 
     "lon": "0\u00b03\u20321\u2033W", 
     "museum": "Sutton House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.54833/-0.05028", 
     "wiki": "http://wikipedia.org/wiki/Sutton_House,_London"
   }, 
   {
@@ -1624,6 +1819,7 @@
     "lat": "51\u00b028\u203236\u2033N", 
     "lon": "0\u00b018\u203245\u2033W", 
     "museum": "Syon House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.47667/-0.31250", 
     "wiki": "http://wikipedia.org/wiki/Syon_House"
   }, 
   {
@@ -1632,6 +1828,7 @@
     "loc": "Millbank, London, England", 
     "lon": "0\u00b007\u203238\u2033W", 
     "museum": "Tate Britain", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.490833/-0.127222", 
     "web": "http://www.tate.org.uk/britain", 
     "wiki": "http://wikipedia.org/wiki/Tate_Britain"
   }, 
@@ -1641,6 +1838,7 @@
     "loc": "Bankside, London SE1, England, United Kingdom", 
     "lon": "0\u00b005\u203255\u2033W", 
     "museum": "Tate Modern", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.507825/-0.098700", 
     "web": "http://www.tate.org.uk/modern", 
     "wiki": "http://wikipedia.org/wiki/Tate_Modern"
   }, 
@@ -1649,6 +1847,7 @@
     "lat": "51\u00b030\u203220\u2033N", 
     "lon": "0\u00b004\u203232\u2033W", 
     "museum": "Tower Bridge", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50556/-0.07556", 
     "wiki": "http://wikipedia.org/wiki/Tower_Bridge"
   }, 
   {
@@ -1657,6 +1856,7 @@
     "loc": "of the Tower of London in central London", 
     "lon": "00\u00b004\u203234\u2033W", 
     "museum": "Tower of London", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50806/-0.07611", 
     "web": "http://www.hrp.org.uk/TowerOfLondon/", 
     "wiki": "http://wikipedia.org/wiki/Tower_of_London"
   }, 
@@ -1665,6 +1865,7 @@
     "lat": "51\u00b030\u203248\u2033N", 
     "lon": "0\u00b006\u203246\u2033W", 
     "museum": "Twinings Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5133/-0.1129", 
     "wiki": "http://wikipedia.org/wiki/Twinings_Museum"
   }, 
   {
@@ -1672,6 +1873,7 @@
     "lat": "51\u00b030\u203242\u2033N", 
     "lon": "0\u00b006\u203245\u2033W", 
     "museum": "Two Temple Place", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5116/-0.1124", 
     "wiki": "http://wikipedia.org/wiki/Two_Temple_Place"
   }, 
   {
@@ -1679,6 +1881,7 @@
     "lat": "51\u00b028\u203227\u2033N", 
     "lon": "0\u00b06\u203256\u2033W", 
     "museum": "Type Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.47417/-0.11556", 
     "wiki": "http://wikipedia.org/wiki/Type_Museum"
   }, 
   {
@@ -1686,6 +1889,7 @@
     "lat": "51\u00b033\u203229\u2033N", 
     "lon": "0\u00b014\u203242\u2033E", 
     "museum": "Upminster Windmill", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.558/0.2451", 
     "web": "http://www.upminsterwindmill.co.uk/", 
     "wiki": "http://wikipedia.org/wiki/Upminster_Windmill"
   }, 
@@ -1695,6 +1899,7 @@
     "loc": "within the Borough of Barking and Dagenham", 
     "lon": "0\u00b008\u203203\u2033E", 
     "museum": "Valence House Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5583/0.1342", 
     "wiki": "http://wikipedia.org/wiki/Valence_House_Museum"
   }, 
   {
@@ -1702,6 +1907,7 @@
     "lat": "51\u00b034\u203219.40\u2033N", 
     "lon": "0\u00b03\u203258.80\u2033E", 
     "museum": "Valentines Mansion", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.5720556/0.0663333", 
     "wiki": "http://wikipedia.org/wiki/Valentines_Mansion"
   }, 
   {
@@ -1709,6 +1915,7 @@
     "lat": "51\u00b035\u20320\u2033N", 
     "lon": "0\u00b00\u203245\u2033W", 
     "museum": "Vestry House Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.58333/-0.01250", 
     "wiki": "http://wikipedia.org/wiki/Vestry_House_Museum"
   }, 
   {
@@ -1717,6 +1924,7 @@
     "loc": "Cromwell Gardens, South Kensington, London, United Kingdom", 
     "lon": "0\u00b010\u203219\u2033W", 
     "museum": "Victoria and Albert Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.496667/-0.171944", 
     "web": "http://www.vam.ac.uk/", 
     "wiki": "http://wikipedia.org/wiki/Victoria_and_Albert_Museum"
   }, 
@@ -1726,6 +1934,7 @@
     "loc": "Bethnal Green, London", 
     "lon": "0\u00b003\u203218\u2033W", 
     "museum": "V&A Museum of Childhood", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.528889/-0.055", 
     "web": "http://www.museumofchildhood.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/V%26A_Museum_of_Childhood"
   }, 
@@ -1734,6 +1943,7 @@
     "lat": "51\u00b031\u203203\u2033N", 
     "lon": "0\u00b009\u203211\u2033W", 
     "museum": "Wallace Collection", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.51750/-0.15306", 
     "web": "http://www.wallacecollection.org/", 
     "wiki": "http://wikipedia.org/wiki/Wallace_Collection"
   }, 
@@ -1746,6 +1956,7 @@
     "lat": "51\u00b027\u203226\u2033N", 
     "lon": "0\u00b012\u203202\u2033W", 
     "museum": "Wandsworth Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4571/-0.2005", 
     "wiki": "http://wikipedia.org/wiki/Wandsworth_Museum"
   }, 
   {
@@ -1754,6 +1965,7 @@
     "loc": "Euston Road, London NW1", 
     "lon": "0\u00b008\u203202\u2033W", 
     "museum": "Wellcome Collection", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52582/-0.13385", 
     "web": "http://www.wellcomecollection.org", 
     "wiki": "http://wikipedia.org/wiki/Wellcome_Collection"
   }, 
@@ -1762,6 +1974,7 @@
     "lat": "51\u00b030\u20329\u2033N", 
     "lon": "0\u00b09\u20323\u2033W", 
     "museum": "Wellington Arch", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.50250/-0.15083", 
     "wiki": "http://wikipedia.org/wiki/Wellington_Arch"
   }, 
   {
@@ -1769,6 +1982,7 @@
     "lat": "51\u00b031\u203225\u2033N", 
     "lon": "0\u00b05\u203213\u2033W", 
     "museum": "Wesley's Chapel, Museum of Methodism and John Wesley's House", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.52361/-0.08694", 
     "web": "http://www.wesleyschapel.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Wesley%27s_Chapel"
   }, 
@@ -1778,6 +1992,7 @@
     "loc": "Green Street, Upton Park, London E13 9AZ", 
     "lon": "0\u00b02\u203222\u2033E", 
     "museum": "West Ham United Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.53194/0.03944", 
     "wiki": "http://wikipedia.org/wiki/West_Ham_United_Museum"
   }, 
   {
@@ -1785,6 +2000,7 @@
     "lat": "51\u00b029\u203256\u2033N", 
     "lon": "0\u00b007\u203239\u2033W", 
     "museum": "Westminster Abbey Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.49876/-0.12753", 
     "wiki": "http://wikipedia.org/wiki/Westminster_Abbey_Museum"
   }, 
   {
@@ -1798,6 +2014,7 @@
     "loc": "Richmond Park, London, England", 
     "lon": "0\u00b015\u203253\u2033W", 
     "museum": "White Lodge Museum and Ballet Resource Centre", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.4452/-0.2648", 
     "wiki": "http://wikipedia.org/wiki/White_Lodge,_Richmond_Park"
   }, 
   {
@@ -1806,6 +2023,7 @@
     "loc": "77-82 Whitechapel High Street, London, UK.", 
     "lon": "0\u00b004\u203214\u2033W", 
     "museum": "Whitechapel Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.515984/-0.070485", 
     "web": "http://www.whitechapelgallery.org/", 
     "wiki": "http://wikipedia.org/wiki/Whitechapel_Gallery"
   }, 
@@ -1814,6 +2032,7 @@
     "lat": "51\u00b021\u203236\u2033N", 
     "lon": "0\u00b013\u203204\u2033W", 
     "museum": "Whitehall", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.3600/-0.2178", 
     "wiki": "http://wikipedia.org/wiki/Whitehall_(Sutton)"
   }, 
   {
@@ -1822,6 +2041,7 @@
     "loc": "Walthamstow, London E17", 
     "lon": "0\u00b001\u203216\u2033W", 
     "museum": "William Morris Gallery", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.59099/-0.021129", 
     "web": "http://www.wmgallery.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/William_Morris_Gallery"
   }, 
@@ -1831,6 +2051,7 @@
     "loc": "AELTCC Wimbledon SW 19", 
     "lon": "0\u00b012\u203248\u2033W", 
     "museum": "Wimbledon Lawn Tennis Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.43472/-0.21333", 
     "web": "http://www.wimbledon.com/museum", 
     "wiki": "http://wikipedia.org/wiki/Wimbledon_Lawn_Tennis_Museum"
   }, 
@@ -1839,6 +2060,7 @@
     "lat": "51\u00b026\u203217\u2033N", 
     "lon": "0\u00b013\u203255\u2033W", 
     "museum": "Wimbledon Windmill Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.438/-0.232", 
     "wiki": "http://wikipedia.org/wiki/Wimbledon_Windmill"
   }, 
   {
@@ -1853,6 +2075,7 @@
     "loc": "Twickenham Stadium", 
     "lon": "0\u00b020\u203226\u2033W", 
     "museum": "World Rugby Museum", 
+    "osm": "http://www.openstreetmap.org/#map=15/51.45502/-0.34049", 
     "wiki": "http://wikipedia.org/wiki/World_Rugby_Museum"
   }
 ]
