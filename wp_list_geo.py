@@ -52,28 +52,28 @@ class WPListGeoData:
     """CSS select elements from documnet"""
     self.log.info("selecting %s" % selector)
     return doc.cssselect(selector)
-  
+
   def hop(self, ind, elm):
     """fetch and parse one hop away"""
     dat = {}
-    dat["text"] = elm.text
+    dat["museum"] = elm.text
   
-    href = "%s/%s" % (BASE_HREF, elm.attrib['href'])
-    dat["href"] = href
+    href = BASE_HREF + elm.attrib['href']
+    dat["wiki"] = href
   
     html = "{0:03d}.html".format(ind)
     self.fetch(href, html)
     doc = self.parse(html)
-    selectors = {"lat": "#coordinates .latitude",
-                 "lon": "#coordinates .longitude",
+
+    selectors = {"lat": ".latitude",
+                 "lon": ".longitude",
                  "geo": ".geo"}
-  
     for key, sel in selectors.iteritems():
       try:
         dat[key] = self.select(doc, sel)[0].text
       except:
         dat[key] = None
-  
+
     return dat
 
 
