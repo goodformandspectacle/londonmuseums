@@ -8,9 +8,6 @@
     "wiki": "http://wikipedia.org/wiki/2_Willow_Road"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "7 Hammersmith Terrace", 
     "wiki": "http://wikipedia.org/wiki/7_Hammersmith_Terrace"
   }, 
@@ -55,9 +52,6 @@
     "wiki": "http://wikipedia.org/wiki/All_Hallows-by-the-Tower"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Anaesthesia Heritage Centre", 
     "web": "http://www.aagbi.org", 
     "wiki": "http://wikipedia.org/wiki/Anaesthesia_Heritage_Centre"
@@ -178,9 +172,6 @@
     "wiki": "http://wikipedia.org/wiki/Boston_Manor_House"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "British Dental Association Museum", 
     "web": "http://www.bda.org", 
     "wiki": "http://wikipedia.org/wiki/British_Dental_Association_Museum"
@@ -218,19 +209,13 @@
     "wiki": "http://wikipedia.org/wiki/British_Optical_Association_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
     "loc": "Clerkenwell, London, England", 
-    "lon": null, 
     "museum": "British Postal Museum and Archive", 
     "web": "http://www.postalheritage.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/British_Postal_Museum_and_Archive"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
     "loc": "London, United Kingdom", 
-    "lon": null, 
     "museum": "British Red Cross Museum and Archives", 
     "web": "http://www.redcross.org.uk", 
     "wiki": "http://wikipedia.org/wiki/British_Red_Cross#British_Red_Cross_Museum"
@@ -259,9 +244,6 @@
     "wiki": "http://wikipedia.org/wiki/Brunel_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Buckingham Palace", 
     "wiki": "http://wikipedia.org/wiki/Buckingham_Palace"
   }, 
@@ -588,9 +570,6 @@
     "wiki": "http://wikipedia.org/wiki/Fulham_Palace"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Fusiliers Museum", 
     "wiki": "http://wikipedia.org/wiki/Fusiliers_Museum_(London)"
   }, 
@@ -658,9 +637,6 @@
     "wiki": "http://wikipedia.org/wiki/Greenwich_Visitor_Centre"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "The Guardian and Observer Archive and Visitor Centre", 
     "wiki": "http://wikipedia.org/wiki/The_Guardian#The_Guardian_News_.26_Media_Archive"
   }, 
@@ -787,18 +763,12 @@
     "wiki": "http://wikipedia.org/wiki/Hunterian_Museum_at_the_Royal_College_of_Surgeons"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
     "loc": "IWM London: Lambeth Road, London\nIWM Duxford: Duxford, Cambridgeshire\nHMS Belfast: The Queen's Walk, London\nChurchill War Rooms: Clive Steps, King Charles Street, London\nIWM North: The Quays, Trafford Wharf Road, Manchester", 
-    "lon": null, 
     "museum": "Imperial War Museum London", 
     "web": "http://www.iwm.org.uk", 
     "wiki": "http://wikipedia.org/wiki/Imperial_War_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Inns of Court & City Yeomanry Museum", 
     "wiki": "http://wikipedia.org/wiki/Inns_of_Court_%26_City_Yeomanry_Museum"
   }, 
@@ -837,9 +807,6 @@
     "wiki": "http://wikipedia.org/wiki/Islington_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Jewel Tower", 
     "wiki": "http://wikipedia.org/wiki/Jewel_Tower"
   }, 
@@ -876,9 +843,6 @@
     "wiki": "http://wikipedia.org/wiki/Kelmscott_House"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Kennel Club Art Gallery", 
     "web": "http://www.thekennelclub.org.uk/", 
     "wiki": "http://wikipedia.org/wiki/The_Kennel_Club"
@@ -1055,9 +1019,6 @@
     "wiki": "http://wikipedia.org/wiki/MCC_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Mall Galleries", 
     "wiki": "http://wikipedia.org/wiki/Mall_Galleries"
   }, 
@@ -1350,9 +1311,6 @@
     "wiki": "http://wikipedia.org/wiki/Red_House_(London)"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Red Mansion Foundation", 
     "wiki": "http://wikipedia.org/wiki/Red_Mansion_Foundation"
   }, 
@@ -1742,9 +1700,6 @@
     "wiki": "http://wikipedia.org/wiki/Wallace_Collection"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Walthamstow Pump House Museum", 
     "wiki": "http://wikipedia.org/wiki/Walthamstow_Pump_House_Museum"
   }, 
@@ -1795,9 +1750,6 @@
     "wiki": "http://wikipedia.org/wiki/Westminster_Abbey_Museum"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
-    "lon": null, 
     "museum": "Westminster Dragoons Museum", 
     "wiki": "http://wikipedia.org/wiki/Westminster_Dragoons#Westminster_Dragoons_Museum"
   }, 
@@ -1851,10 +1803,7 @@
     "wiki": "http://wikipedia.org/wiki/Wimbledon_Windmill"
   }, 
   {
-    "geo": null, 
-    "lat": null, 
     "loc": "Lionel Robbins Building, The London School of Economics and Political Science, 10 Portugal Street, Westminster, London, WC2A 2HD", 
-    "lon": null, 
     "museum": "Women's Library", 
     "web": "http://www2.lse.ac.uk/library/newsandinformation/womenslibraryatLSE/home.aspx", 
     "wiki": "http://wikipedia.org/wiki/Women%27s_Library"

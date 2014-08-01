@@ -69,10 +69,9 @@ class WPListGeoData:
                  "lon": ".longitude",
                  "geo": ".geo"}
     for key, sel in selectors.iteritems():
-      try:
-        dat[key] = self.select(doc, sel)[0].text
-      except:
-        dat[key] = None
+      val = self.select(doc, sel)
+      if val:
+        dat[key] = val[0].text
 
     infobox = doc.cssselect('.infobox')
     if infobox:
