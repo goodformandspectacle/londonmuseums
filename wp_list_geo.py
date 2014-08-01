@@ -74,7 +74,21 @@ class WPListGeoData:
       except:
         dat[key] = None
 
+    infobox = doc.cssselect('.infobox')
+    if infobox:
+      for elm in infobox[0]:
+        location = get_location(elm)
+        if location:
+          dat['loc'] = location
+
     return dat
+
+def get_location(elm):
+  if ('Address' in elm.text_content() or 'Location' in elm.text_content()):
+    loc = elm.text_content()
+    loc = loc.replace("Address", '')
+    loc = loc.replace("Location", '')
+    return loc.strip()
 
 
 def main(args):
