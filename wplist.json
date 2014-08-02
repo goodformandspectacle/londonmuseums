@@ -734,7 +734,7 @@
   }, 
   {
     "museum": "The Guardian and Observer Archive and Visitor Centre", 
-    "web": "http://www.guardian.co.uk", 
+    "web": "http://theguardian.com", 
     "wiki": "http://wikipedia.org/wiki/The_Guardian#The_Guardian_News_.26_Media_Archive"
   }, 
   {
@@ -1723,6 +1723,7 @@
   {
     "geo": "51.370; -0.055", 
     "lat": "51\u00b022\u203212\u2033N", 
+    "loc": "Mill location\nShirley, Croydon", 
     "lon": "0\u00b003\u203218\u2033W", 
     "museum": "Shirley Windmill", 
     "osm": "http://www.openstreetmap.org/#map=17/51.370/-0.055", 

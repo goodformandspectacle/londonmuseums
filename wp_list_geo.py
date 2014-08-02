@@ -49,8 +49,17 @@ class WPListGeoData:
     with open(_file, 'r') as fp:
       return lxml.html.fromstring(fp.read())
   
+  def get_geo(self, doc, dat):
+    selectors = {"lat": ".latitude",
+                 "lon": ".longitude",
+                 "geo": ".geo"}
+    for key, sel in selectors.iteritems():
+      val = self.select(doc, sel)
+      if val:
+        dat[key] = val[0].text
+
   def select(self, doc, selector):
-    """CSS select elements from documnet"""
+    """CSS select elements from document"""
     self.log.info("selecting %s" % selector)
     return doc.cssselect(selector)
 
@@ -65,14 +74,7 @@ class WPListGeoData:
     html = "{0:03d}.html".format(ind)
     self.fetch(href, html)
     doc = self.parse(html)
-
-    selectors = {"lat": ".latitude",
-                 "lon": ".longitude",
-                 "geo": ".geo"}
-    for key, sel in selectors.iteritems():
-      val = self.select(doc, sel)
-      if val:
-        dat[key] = val[0].text
+    self.get_geo(doc, dat)
 
     add_osm(dat)
     poke_infobox(doc, dat)
@@ -103,12 +105,13 @@ def poke_infobox(doc, dat):
         dat['web'] = website
 
 def get_website(elm):
-  if 'Website' in elm.text_content():
+  if 'website' in elm.text_content().lower():
     for item in elm.iterlinks():
       return item[2]
 
 def get_location(elm):
-  if ('Address' in elm.text_content() or 'Location' in elm.text_content()):
+  text = elm.text_content().lower()
+  if 'address' in text or 'location' in text:
     loc = elm.text_content()
     loc = loc.replace("Address", '')
     loc = loc.replace("Location", '')
