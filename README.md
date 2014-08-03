@@ -1,7 +1,8 @@
 londonmuseums
 =============
 
-I've been tending and altering the list of museums which Wikipedia knows about. Just casually over the last few months.
+I've been tending and altering the list of museums which Wikipedia knows about. Just casually over the last few months. Here's the spreadsheet (which is set to 'Anyone with the link can edit'):
+https://docs.google.com/spreadsheet/ccc?key=0Amodx1bSXsMTdFdFUE5VdVF0QnBiZkVIOERlaFVVNnc&usp=sharing
 
 Main data I've added is about when the museum was founded or opened. I've also gathered accurate addresses where I can find them, but I'm still working down the list.
 
