@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 
 __author__ = "@siznax"
-__version__ = "31 Jul 2014"
+__version__ = "Jul 2014"
 
 import argparse
 import json
@@ -11,7 +11,7 @@ import os
 import requests
 import sys
 
-USER_AGENT = "goodformandspectacle/wp_list_geo"
+USER_AGENT = "goodformandspectacle/londonmuseums/wplist"
 BASE_HREF = 'http://wikipedia.org'
 OSM_BASE = 'http://www.openstreetmap.org'
 OSM_ZOOM = 17
