@@ -11,10 +11,13 @@ import os
 import requests
 import sys
 
+from collections import defaultdict
+
 USER_AGENT = "goodformandspectacle/londonmuseums/wplist"
 BASE_HREF = 'http://wikipedia.org'
 OSM_BASE = 'http://www.openstreetmap.org'
 OSM_ZOOM = 17
+
 
 class WPListGeoData:
   """crawl a Wikipedia list, fetching parsing children for geo data"""
@@ -42,13 +45,13 @@ class WPListGeoData:
       with open(_file, 'w') as fp:
         fp.write(r.text.encode('utf-8'))
         self.log.info("wrote %d bytes to %s" % (fp.tell(), _file))
-  
+
   def parse(self, _file="seed.html"):
     """parse lxml document from file"""
     self.log.info("parsing %s" % _file)
     with open(_file, 'r') as fp:
       return lxml.html.fromstring(fp.read())
-  
+
   def get_geo(self, doc, dat):
     selectors = {"lat": ".latitude",
                  "lon": ".longitude",
@@ -67,10 +70,10 @@ class WPListGeoData:
     """fetch and parse one hop away"""
     dat = {}
     dat["museum"] = elm.text
-  
+
     href = BASE_HREF + elm.attrib['href']
     dat["wiki"] = href
-  
+
     html = "{0:03d}.html".format(ind)
     self.fetch(href, html)
     doc = self.parse(html)
@@ -82,16 +85,26 @@ class WPListGeoData:
 
     return dat
 
+  def count(self):
+    ctr = defaultdict(int)
+    for item in self.data:
+      for key in item:
+        ctr[key] += 1
+    return ctr
+
+
 def add_osm(dat):
   if 'geo' in dat:
     geo = dat['geo'].split('; ')
     dat['osm'] = "%s/#map=%s/%s/%s" % (OSM_BASE, OSM_ZOOM, geo[0], geo[1])
+
 
 def walk_links(doc, dat):
   for item in doc.iterlinks():
     text = item[0].text_content().lower()
     if 'web' not in dat and 'official website' in text:
       dat['web'] = item[2]
+
 
 def poke_infobox(doc, dat):
   infobox = doc.cssselect('.infobox')
@@ -104,10 +117,12 @@ def poke_infobox(doc, dat):
       if website:
         dat['web'] = website
 
+
 def get_website(elm):
   if 'website' in elm.text_content().lower():
     for item in elm.iterlinks():
       return item[2]
+
 
 def get_location(elm):
   text = elm.text_content().lower()
@@ -125,18 +140,18 @@ def main(args):
     if lgd.limit and ind >= lgd.limit:
       break
     lgd.data.append(lgd.hop(ind, elm))
-  print json.dumps(lgd.data, indent=2, sort_keys=True)
+  print json.dumps({'count': lgd.count(), 'data': lgd.data},
+                   indent=2, sort_keys=True)
 
 
 if __name__ == "__main__":
-  epi = ("e.g.", 
+  epi = ("e.g.",
          'http://en.wikipedia.org/wiki/List_of_museums_in_London',
          "'.wikitable tr th a'")
   argp = argparse.ArgumentParser(epilog=" ".join(epi))
   argp.add_argument("seed", help="Wikipedia list URL")
   argp.add_argument("CSS", help="CSS selector")
-  argp.add_argument("-debug", action='store_true', default=False, 
-                    help="debug flag")
+  argp.add_argument("-debug", action='store_true', help="debug flag")
   argp.add_argument("--limit", type=int, help="hop limit")
 
   main(argp.parse_args())
