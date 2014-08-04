@@ -1,0 +1,19 @@
+<union>
+    <query type="node">
+		<has-kv k="tourism" v="museum"/>
+  		<bbox-query s="51.22924786327828" w="-0.613861083984375" n="51.705757442694036" e="0.416107177734375"/>
+    </query>
+    <query type="way">
+  		<has-kv k="tourism" v="museum"/>
+  		<bbox-query s="51.22924786327828" w="-0.613861083984375" n="51.705757442694036" e="0.416107177734375"/>
+    </query>
+    <query type="relation">
+  		<has-kv k="tourism" v="museum"/>
+  		<bbox-query s="51.22924786327828" w="-0.613861083984375" n="51.705757442694036" e="0.416107177734375"/>
+    </query>
+  </union>
+<union>
+  <item/>
+  <recurse type="down"/>
+</union>
+<print/>
