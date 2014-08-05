@@ -114,6 +114,7 @@ class OverPassData:
         datum["way"] = item.getparent().get("id")
         ref = self.way_node_ref(item.getparent())
         node = self.nodes[ref]
+        datum["geo"] = "%s; %s" % (node["lat"], node["lon"])
         datum["osm"] = "%s/way/%s" % (OSM_BASE, datum["way"])
         datum["museum"] = self.way_name(item.getparent())
         self.data.append(datum)
