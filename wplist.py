@@ -53,9 +53,7 @@ class WPListGeoData:
       return lxml.html.fromstring(fp.read())
 
   def get_geo(self, doc, dat):
-    selectors = {"lat": ".latitude",
-                 "lon": ".longitude",
-                 "geo": ".geo"}
+    selectors = {"geo": ".geo"}
     for key, sel in selectors.iteritems():
       val = self.select(doc, sel)
       if val:
