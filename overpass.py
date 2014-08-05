@@ -88,7 +88,8 @@ class OverPassData:
         datum = defaultdict(str)
         lat = item.getparent().get('lat')
         lon = item.getparent().get('lon')
-        datum["osm"] = "%s/#map=17/%s/%s" % (OSM_BASE, lat, lon)
+        datum["geo"] = "%s; %s" % (lat, lon)
+        datum["osm"] = "%s/node/%s" % (OSM_BASE, item.getparent().get("id"))
         for sib in item.getparent().iterchildren():
           key = sib.get("k")
           val = sib.get("v")
@@ -113,9 +114,7 @@ class OverPassData:
         datum["way"] = item.getparent().get("id")
         ref = self.way_node_ref(item.getparent())
         node = self.nodes[ref]
-        datum["osm"] = "%s/#map=17/%s/%s" % (OSM_BASE,
-                                             node["lat"],
-                                             node["lon"])
+        datum["osm"] = "%s/way/%s" % (OSM_BASE, datum["way"])
         datum["museum"] = self.way_name(item.getparent())
         self.data.append(datum)
 

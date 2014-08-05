@@ -22,6 +22,7 @@
     "way": 98
   }, 
   "count": {
+    "geo": 85, 
     "loc": 7, 
     "museum": 175, 
     "osm": 180, 
@@ -31,856 +32,941 @@
   }, 
   "data": [
     {
+      "geo": "51.6696524; -0.0682804", 
       "museum": "Forty Hall Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6696524/-0.0682804"
+      "osm": "http://www.openstreetmap.org/node/19085022"
     }, 
     {
+      "geo": "51.2316622; -0.3336104", 
       "museum": "Dorking Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2316622/-0.3336104"
+      "osm": "http://www.openstreetmap.org/node/20629016"
     }, 
     {
+      "geo": "51.5108945; -0.3070721", 
       "museum": "Pitshanger Manor", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5108945/-0.3070721"
+      "osm": "http://www.openstreetmap.org/node/27408513"
     }, 
     {
+      "geo": "51.5228596; -0.1551546", 
       "loc": " London 8-10 Marylebone Road FSA Food Hygiene Ratings Database", 
       "museum": "Madame Tussauds", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5228596/-0.1551546", 
+      "osm": "http://www.openstreetmap.org/node/29269886", 
       "wiki": "en:Madame Tussauds London"
     }, 
     {
+      "geo": "51.3651100; -0.1668055", 
       "museum": "Carshalton Water Tower", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3651100/-0.1668055", 
+      "osm": "http://www.openstreetmap.org/node/37124475", 
       "web": "http://www.carshaltonwatertower.co.uk"
     }, 
     {
+      "geo": "51.5943327; -0.3548284", 
       "museum": "Headstone Manor", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5943327/-0.3548284"
+      "osm": "http://www.openstreetmap.org/node/213627484"
     }, 
     {
+      "geo": "51.4744324; -0.2925382", 
       "museum": "Mariane North Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4744324/-0.2925382"
+      "osm": "http://www.openstreetmap.org/node/249513555"
     }, 
     {
+      "geo": "51.6341830; -0.5432219", 
       "museum": "Chiltern Open Air Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6341830/-0.5432219"
+      "osm": "http://www.openstreetmap.org/node/255960549"
     }, 
     {
+      "geo": "51.4736073; -0.1155806", 
       "museum": "The Type Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4736073/-0.1155806", 
+      "osm": "http://www.openstreetmap.org/node/261700004", 
       "wiki": "en:Type Museum"
     }, 
     {
+      "geo": "51.5968430; -0.1951207", 
       "museum": "Stephens Collection", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5968430/-0.1951207"
+      "osm": "http://www.openstreetmap.org/node/268039103"
     }, 
     {
+      "geo": "51.5062310; -0.0372858", 
       "museum": "Pumphouse Educational Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5062310/-0.0372858"
+      "osm": "http://www.openstreetmap.org/node/270420473"
     }, 
     {
+      "geo": "51.5003049; -0.1382270", 
       "museum": "The Guards Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5003049/-0.1382270", 
+      "osm": "http://www.openstreetmap.org/node/292170428", 
       "wiki": "en:The Guards Museum"
     }, 
     {
+      "geo": "51.2506591; -0.5082307", 
       "museum": "The Queen's Royal Surrey Regiment Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2506591/-0.5082307"
+      "osm": "http://www.openstreetmap.org/node/330895515"
     }, 
     {
+      "geo": "51.5233722; -0.1162091", 
       "loc": " 48 Doughty Street", 
       "museum": "Dickens Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5233722/-0.1162091"
+      "osm": "http://www.openstreetmap.org/node/334631276"
     }, 
     {
+      "geo": "51.5566742; -0.1081434", 
       "museum": "Arsenal Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5566742/-0.1081434", 
+      "osm": "http://www.openstreetmap.org/node/336347265", 
       "wiki": "en:Arsenal Football Club Museum"
     }, 
     {
+      "geo": "51.5786747; -0.4272326", 
       "museum": "Manor Farm Complex", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5786747/-0.4272326"
+      "osm": "http://www.openstreetmap.org/node/336351665"
     }, 
     {
+      "geo": "51.2338190; -0.5735364", 
       "museum": "Guildford Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2338190/-0.5735364"
+      "osm": "http://www.openstreetmap.org/node/343038479"
     }, 
     {
+      "geo": "51.3787091; 0.1047038", 
       "museum": "Bromley Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3787091/0.1047038", 
+      "osm": "http://www.openstreetmap.org/node/368293880", 
       "web": "http://www.bromley.gov.uk/info/200070/museums_and_galleries/357/bromley_museum"
     }, 
     {
+      "geo": "51.6455641; -0.3651725", 
       "museum": "Bushey Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6455641/-0.3651725"
+      "osm": "http://www.openstreetmap.org/node/386230289"
     }, 
     {
+      "geo": "51.6392236; -0.4684163", 
       "museum": "The Three Rivers Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6392236/-0.4684163"
+      "osm": "http://www.openstreetmap.org/node/411844875"
     }, 
     {
+      "geo": "51.3594247; -0.2171365", 
       "museum": "Whitehall", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3594247/-0.2171365", 
+      "osm": "http://www.openstreetmap.org/node/425669383", 
       "web": "http://www.friendsofwhitehallcheam.co.uk", 
       "wiki": "en:Whitehall (Sutton)"
     }, 
     {
+      "geo": "51.6926080; -0.0104403", 
       "museum": "Royal Gunpowder Mills", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6926080/-0.0104403"
+      "osm": "http://www.openstreetmap.org/node/435508639"
     }, 
     {
+      "geo": "51.4863215; 0.0959941", 
       "museum": "Borough Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4863215/0.0959941"
+      "osm": "http://www.openstreetmap.org/node/441294238"
     }, 
     {
+      "geo": "51.5048027; -0.1156513", 
       "museum": "Topolski Century", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5048027/-0.1156513", 
+      "osm": "http://www.openstreetmap.org/node/472152158", 
       "web": "http://www.topolskicentury.org.uk/", 
       "wiki": "https://en.wikipedia.org/wiki/Topolski_Century"
     }, 
     {
+      "geo": "51.5118519; -0.1214497", 
       "loc": " Covent Garden Piazza", 
       "museum": "London Transport Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5118519/-0.1214497", 
+      "osm": "http://www.openstreetmap.org/node/497126400", 
       "web": "http://www.ltmuseum.co.uk", 
       "wiki": "en:London Transport Museum"
     }, 
     {
+      "geo": "51.5235257; -0.1329563", 
       "museum": "Petrie Museum of Egyptian Archeology", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5235257/-0.1329563", 
+      "osm": "http://www.openstreetmap.org/node/510786764", 
       "web": "http://www.ucl.ac.uk/museums/petrie"
     }, 
     {
+      "geo": "51.5150821; -0.2014122", 
       "museum": "Museum of Brands", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5150821/-0.2014122"
+      "osm": "http://www.openstreetmap.org/node/510906287"
     }, 
     {
+      "geo": "51.7038257; -0.6131616", 
       "museum": "Chesham Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.7038257/-0.6131616"
+      "osm": "http://www.openstreetmap.org/node/539236862"
     }, 
     {
+      "geo": "51.5410940; -0.1564531", 
       "museum": "The Museum of Everything", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5410940/-0.1564531", 
+      "osm": "http://www.openstreetmap.org/node/569700971", 
       "web": "http://www.musevery.co.uk/"
     }, 
     {
+      "geo": "51.5344736; 0.0993936", 
       "museum": "Eastbury Manor House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5344736/0.0993936", 
+      "osm": "http://www.openstreetmap.org/node/596592105", 
       "wiki": "en:Eastbury Manor House"
     }, 
     {
+      "geo": "51.5582684; 0.1342108", 
       "museum": "Valence House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5582684/0.1342108", 
+      "osm": "http://www.openstreetmap.org/node/596781260", 
       "wiki": "en:Valence House Museum"
     }, 
     {
+      "geo": "51.5019265; -0.1188907", 
       "museum": "Movieum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5019265/-0.1188907"
+      "osm": "http://www.openstreetmap.org/node/626141406"
     }, 
     {
+      "geo": "51.4095825; -0.3003100", 
       "museum": "Kingston Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4095825/-0.3003100"
+      "osm": "http://www.openstreetmap.org/node/632558518"
     }, 
     {
+      "geo": "51.4901511; -0.1293639", 
       "museum": "Chelsea Space", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4901511/-0.1293639"
+      "osm": "http://www.openstreetmap.org/node/672741997"
     }, 
     {
+      "geo": "51.5058171; -0.0752060", 
       "museum": "Tower Bridge Exhibition", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5058171/-0.0752060", 
+      "osm": "http://www.openstreetmap.org/node/674667332", 
       "web": "http://www.towerbridge.org.uk"
     }, 
     {
+      "geo": "51.4655591; -0.1023901", 
       "museum": "Redgate Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4655591/-0.1023901"
+      "osm": "http://www.openstreetmap.org/node/677605909"
     }, 
     {
+      "geo": "51.4837475; -0.2585917", 
       "museum": "Chiswick House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4837475/-0.2585917"
+      "osm": "http://www.openstreetmap.org/node/679119297"
     }, 
     {
+      "geo": "51.5228673; -0.1328214", 
       "museum": "Grant Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5228673/-0.1328214"
+      "osm": "http://www.openstreetmap.org/node/696751534"
     }, 
     {
+      "geo": "51.5580880; 0.0753810", 
       "museum": "Redbridge Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5580880/0.0753810"
+      "osm": "http://www.openstreetmap.org/node/724398596"
     }, 
     {
+      "geo": "51.5238169; -0.0865519", 
       "museum": "Museum of Methodism", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5238169/-0.0865519"
+      "osm": "http://www.openstreetmap.org/node/734057156"
     }, 
     {
+      "geo": "51.5913616; -0.2282466", 
       "museum": "Church Farm Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5913616/-0.2282466"
+      "osm": "http://www.openstreetmap.org/node/765799156"
     }, 
     {
+      "geo": "51.2941041; -0.3288361", 
       "loc": " Hampton Cottage 64 KT22 8DP", 
       "museum": "Leatherhead Museum of Local History", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2941041/-0.3288361"
+      "osm": "http://www.openstreetmap.org/node/766851055"
     }, 
     {
+      "geo": "51.6816740; -0.0949764", 
       "museum": "Whitewebs Museum of Transport", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6816740/-0.0949764", 
+      "osm": "http://www.openstreetmap.org/node/872531905", 
       "web": "http://www.whitewebbsmuseum.co.uk/"
     }, 
     {
+      "geo": "51.6520779; -0.3910254", 
       "museum": "Watford Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6520779/-0.3910254"
+      "osm": "http://www.openstreetmap.org/node/883455438"
     }, 
     {
+      "geo": "51.4790917; -0.0079655", 
       "loc": " London GB 12 SE10 8ER Crooms Hill", 
       "museum": "The Fan Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4790917/-0.0079655", 
+      "osm": "http://www.openstreetmap.org/node/910356813", 
       "wiki": "en:Fan Museum"
     }, 
     {
+      "geo": "51.5454636; -0.2331443", 
       "museum": "Artisan", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5454636/-0.2331443", 
+      "osm": "http://www.openstreetmap.org/node/977510244", 
       "web": "http://www.artisan80.com"
     }, 
     {
+      "geo": "51.4843905; 0.2292580", 
       "museum": "Purfleet Heritage Centre", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4843905/0.2292580"
+      "osm": "http://www.openstreetmap.org/node/1038444727"
     }, 
     {
-      "osm": "http://www.openstreetmap.org/#map=17/51.4433745/0.3696959"
+      "geo": "51.4433745; 0.3696959", 
+      "osm": "http://www.openstreetmap.org/node/1110807820"
     }, 
     {
-      "osm": "http://www.openstreetmap.org/#map=17/51.4438598/0.3765862"
+      "geo": "51.4438598; 0.3765862", 
+      "osm": "http://www.openstreetmap.org/node/1110807822"
     }, 
     {
+      "geo": "51.5237470; -0.1342703", 
       "museum": "Grant Museum of Zoology", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5237470/-0.1342703", 
+      "osm": "http://www.openstreetmap.org/node/1216160782", 
       "web": "http://www.ucl.ac.uk/museums/zoology"
     }, 
     {
+      "geo": "51.5141796; -0.0876434", 
       "museum": "Bank of England Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5141796/-0.0876434", 
+      "osm": "http://www.openstreetmap.org/node/1217560536", 
       "wiki": "en:Bank of England Museum"
     }, 
     {
+      "geo": "51.5021025; -0.0980994", 
       "museum": "London Fire Brigade Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5021025/-0.0980994"
+      "osm": "http://www.openstreetmap.org/node/1288877546"
     }, 
     {
+      "geo": "51.4997933; -0.1425109", 
       "museum": "Queen's Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4997933/-0.1425109", 
+      "osm": "http://www.openstreetmap.org/node/1289223308", 
       "wiki": "en:Queen\\'s Gallery"
     }, 
     {
+      "geo": "51.5571854; -0.1692015", 
       "museum": "2 Willow Road", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5571854/-0.1692015"
+      "osm": "http://www.openstreetmap.org/node/1311716969"
     }, 
     {
+      "geo": "51.5772860; -0.0954777", 
       "museum": "Site of Harringay Stadium", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5772860/-0.0954777"
+      "osm": "http://www.openstreetmap.org/node/1426893650"
     }, 
     {
-      "osm": "http://www.openstreetmap.org/#map=17/51.5413491/-0.4648122"
+      "geo": "51.5413491; -0.4648122", 
+      "osm": "http://www.openstreetmap.org/node/1454184968"
     }, 
     {
+      "geo": "51.5128194; -0.1459298", 
       "museum": "Handel House Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5128194/-0.1459298"
+      "osm": "http://www.openstreetmap.org/node/1493424622"
     }, 
     {
+      "geo": "51.5445834; -0.0560328", 
       "museum": "Hackney Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5445834/-0.0560328", 
+      "osm": "http://www.openstreetmap.org/node/1558137005", 
       "web": "http://www.hackney.gov.uk/cm-museum.htm"
     }, 
     {
+      "geo": "51.5264897; -0.1045003", 
       "museum": "Islington Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5264897/-0.1045003", 
+      "osm": "http://www.openstreetmap.org/node/1588957563", 
       "web": "http://www.islington.gov.uk/islington/history-heritage/heritage_museum/Pages/default.aspx", 
       "wiki": "en:Islington Museum"
     }, 
     {
-      "osm": "http://www.openstreetmap.org/#map=17/51.4570819/-0.2004952"
+      "geo": "51.4570819; -0.2004952", 
+      "osm": "http://www.openstreetmap.org/node/1596143542"
     }, 
     {
+      "geo": "51.5220846; -0.1025872", 
       "museum": "Museum of the Order of Saint John", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5220846/-0.1025872", 
+      "osm": "http://www.openstreetmap.org/node/1686474834", 
       "wiki": "en:Museum of the Order of St John"
     }, 
     {
+      "geo": "51.6090470; 0.2973171", 
       "museum": "Brentwood Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6090470/0.2973171"
+      "osm": "http://www.openstreetmap.org/node/1693796694"
     }, 
     {
+      "geo": "51.3559829; -0.4640926", 
       "museum": "London Bus Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3559829/-0.4640926"
+      "osm": "http://www.openstreetmap.org/node/1727518936"
     }, 
     {
+      "geo": "51.5217693; -0.1286816", 
       "museum": "Brunei Gallery, SOAS", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5217693/-0.1286816"
+      "osm": "http://www.openstreetmap.org/node/1731830617"
     }, 
     {
+      "geo": "51.4311371; 0.3642715", 
       "museum": "Cold War Bunker", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4311371/0.3642715", 
+      "osm": "http://www.openstreetmap.org/node/1832087538", 
       "web": "http://www.gravesham.gov.uk/index.jsp?articleid=2807"
     }, 
     {
+      "geo": "51.5179214; 0.1907566", 
       "museum": "Rainham Hall", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5179214/0.1907566"
+      "osm": "http://www.openstreetmap.org/node/1926714581"
     }, 
     {
+      "geo": "51.4891508; -0.0137933", 
       "museum": "Island History Trust", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4891508/-0.0137933", 
+      "osm": "http://www.openstreetmap.org/node/2028840405", 
       "web": "www.islandhistory.org.uk/"
     }, 
     {
+      "geo": "51.3720528; -0.0992517", 
       "museum": "Museum of Croydon", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3720528/-0.0992517", 
+      "osm": "http://www.openstreetmap.org/node/2043098448", 
       "web": "www.museumofcroydon.com"
     }, 
     {
+      "geo": "51.3303839; -0.4217248", 
       "museum": "Painshill Park", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3303839/-0.4217248"
+      "osm": "http://www.openstreetmap.org/node/2098135424"
     }, 
     {
+      "geo": "51.5197930; -0.0724844", 
       "museum": "The Museum of Immigration and Diversity at 19 Princelet Street", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5197930/-0.0724844"
+      "osm": "http://www.openstreetmap.org/node/2102604123"
     }, 
     {
+      "geo": "51.4452144; -0.2648907", 
       "museum": "White Lodge Museum and Ballet Resource Centre", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4452144/-0.2648907"
+      "osm": "http://www.openstreetmap.org/node/2116007084"
     }, 
     {
+      "geo": "51.5191957; -0.0356914", 
       "museum": "Matt's Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5191957/-0.0356914"
+      "osm": "http://www.openstreetmap.org/node/2144865297"
     }, 
     {
+      "geo": "51.4058908; -0.4093107", 
       "museum": "Sunbury Millennium Embroidery Centre and Caf\u00e9", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4058908/-0.4093107"
+      "osm": "http://www.openstreetmap.org/node/2187487732"
     }, 
     {
+      "geo": "51.5208921; -0.0778038", 
       "museum": "Dennis Severs' House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5208921/-0.0778038"
+      "osm": "http://www.openstreetmap.org/node/2244751330"
     }, 
     {
+      "geo": "51.5307327; -0.3543322", 
       "museum": "London Motorcycle Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5307327/-0.3543322"
+      "osm": "http://www.openstreetmap.org/node/2299893779"
     }, 
     {
+      "geo": "51.3339301; 0.1773581", 
       "museum": "Shoreham Aircraft Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3339301/0.1773581", 
+      "osm": "http://www.openstreetmap.org/node/2336628703", 
       "web": "http://www.shoreham-aircraft-museum.co.uk/"
     }, 
     {
+      "geo": "51.6505298; -0.0803385", 
       "museum": "Dugdale Centre Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6505298/-0.0803385"
+      "osm": "http://www.openstreetmap.org/node/2416635163"
     }, 
     {
+      "geo": "51.6264811; -0.3333653", 
       "museum": "Bentley Priory", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6264811/-0.3333653", 
+      "osm": "http://www.openstreetmap.org/node/2455741108", 
       "web": "http://www.bentleypriory.org/"
     }, 
     {
+      "geo": "51.5043092; -0.0761761", 
       "museum": "Tower Bridge engine room", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5043092/-0.0761761"
+      "osm": "http://www.openstreetmap.org/node/2606221073"
     }, 
     {
+      "geo": "51.5295982; -0.1281295", 
       "loc": " 96 Euston Road", 
       "museum": "British Library Exhibition Space", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5295982/-0.1281295"
+      "osm": "http://www.openstreetmap.org/node/2617232245"
     }, 
     {
+      "geo": "51.5259739; -0.1340195", 
       "loc": " 183 Euston Road", 
       "museum": "The Wellcome Collection", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5259739/-0.1340195", 
+      "osm": "http://www.openstreetmap.org/node/2617821322", 
       "web": "http://www.wellcomecollection.org", 
       "wiki": "en:Wellcome_Collection"
     }, 
     {
-      "osm": "http://www.openstreetmap.org/#map=17/51.2358357/-0.5573909"
+      "geo": "51.2358357; -0.5573909", 
+      "osm": "http://www.openstreetmap.org/node/2627582034"
     }, 
     {
+      "geo": "51.5160327; -0.0927897", 
       "museum": "The Clockmakers' Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5160327/-0.0927897", 
+      "osm": "http://www.openstreetmap.org/node/2672118125", 
       "web": "http://www.clockmakers.org/museum-and-library/", 
       "wiki": "en:Clockmakers' Museum"
     }, 
     {
+      "geo": "51.2356496; -0.5674814", 
       "museum": "Harvey Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2356496/-0.5674814"
+      "osm": "http://www.openstreetmap.org/node/2672753868"
     }, 
     {
+      "geo": "51.5176080; -0.1260840", 
       "museum": "The Cartoon Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5176080/-0.1260840"
+      "osm": "http://www.openstreetmap.org/node/2904519919"
     }, 
     {
       "museum": "Battle of Britain Hall", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5975511/-0.2409296", 
+      "osm": "http://www.openstreetmap.org/way/4417253", 
       "way": "4417253"
     }, 
     {
       "museum": "Victoria and Albert Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4958753/-0.1734528", 
+      "osm": "http://www.openstreetmap.org/way/4960173", 
       "way": "4960173"
     }, 
     {
       "museum": "Crystal Palace Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4198245/-0.0766850", 
+      "osm": "http://www.openstreetmap.org/way/4960905", 
       "way": "4960905"
     }, 
     {
       "museum": null, 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6696763/-0.0680952", 
+      "osm": "http://www.openstreetmap.org/way/4993790", 
       "way": "4993790"
     }, 
     {
       "museum": "Horniman Museum and Gardens", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4414800/-0.0604999", 
+      "osm": "http://www.openstreetmap.org/way/5095245", 
       "way": "5095245"
     }, 
     {
       "museum": "Imperial War Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4953430/-0.1090109", 
+      "osm": "http://www.openstreetmap.org/way/8614496", 
       "way": "8614496"
     }, 
     {
       "museum": "Imperial War Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4953430/-0.1090109", 
+      "osm": "http://www.openstreetmap.org/way/8614496", 
       "way": "8614496"
     }, 
     {
       "museum": "V&A Museum of Childhood", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5292160/-0.0553080", 
+      "osm": "http://www.openstreetmap.org/way/10790633", 
       "way": "10790633"
     }, 
     {
       "museum": "National Army Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4858974/-0.1601601", 
+      "osm": "http://www.openstreetmap.org/way/10807015", 
       "way": "10807015"
     }, 
     {
       "museum": "Boston Manor", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4921292/-0.3188940", 
+      "osm": "http://www.openstreetmap.org/way/23458099", 
       "way": "23458099"
     }, 
     {
       "museum": "London Museum of Water and Steam", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4892187/-0.2906915", 
+      "osm": "http://www.openstreetmap.org/way/23699363", 
       "way": "23699363"
     }, 
     {
       "museum": "Vestry House Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5839886/-0.0126071", 
+      "osm": "http://www.openstreetmap.org/way/23941901", 
       "way": "23941901"
     }, 
     {
       "museum": "Natural History Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4971705/-0.1740861", 
+      "osm": "http://www.openstreetmap.org/way/24436446", 
       "way": "24436446"
     }, 
     {
       "museum": "Design Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5029313/-0.0719380", 
+      "osm": "http://www.openstreetmap.org/way/24541159", 
       "way": "24541159"
     }, 
     {
       "museum": "Tate Britain", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4909661/-0.1289126", 
+      "osm": "http://www.openstreetmap.org/way/24553580", 
       "way": "24553580"
     }, 
     {
       "museum": "Tate Modern", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5075594/-0.1005582", 
+      "osm": "http://www.openstreetmap.org/way/24642569", 
       "way": "24642569"
     }, 
     {
       "museum": "Gunnersbury Park Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4993277/-0.2866866", 
+      "osm": "http://www.openstreetmap.org/way/25911545", 
       "way": "25911545"
     }, 
     {
       "museum": "Science Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4968853/-0.1782258", 
+      "osm": "http://www.openstreetmap.org/way/27765411", 
       "way": "27765411"
     }, 
     {
       "museum": "Foundling Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5251689/-0.1215197", 
+      "osm": "http://www.openstreetmap.org/way/28269975", 
       "way": "28269975"
     }, 
     {
       "museum": "Foundling Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5251689/-0.1215197", 
+      "osm": "http://www.openstreetmap.org/way/28269975", 
       "way": "28269975"
     }, 
     {
       "museum": "Wandsworth Museum and De Morgan Centre", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4569423/-0.2006496", 
+      "osm": "http://www.openstreetmap.org/way/30839266", 
       "way": "30839266"
     }, 
     {
       "museum": "Grahame White Aircraft Factory", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5961200/-0.2375460", 
+      "osm": "http://www.openstreetmap.org/way/39590918", 
       "way": "39590918"
     }, 
     {
       "museum": "British Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5201997/-0.1274098", 
+      "osm": "http://www.openstreetmap.org/way/40405915", 
       "way": "40405915"
     }, 
     {
       "museum": "British Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5201997/-0.1274098", 
+      "osm": "http://www.openstreetmap.org/way/40405915", 
       "way": "40405915"
     }, 
     {
       "museum": "Bruce Castle Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5991905/-0.0755451", 
+      "osm": "http://www.openstreetmap.org/way/42003475", 
       "way": "42003475"
     }, 
     {
       "museum": "Transport Museum Depot", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5051818/-0.2815464", 
+      "osm": "http://www.openstreetmap.org/way/43634102", 
       "way": "43634102"
     }, 
     {
       "museum": "Dr. Johnson's House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5148751/-0.1081980", 
+      "osm": "http://www.openstreetmap.org/way/43706245", 
       "way": "43706245"
     }, 
     {
       "museum": "Dartford Borough Museum and Library", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4430477/0.2187167", 
+      "osm": "http://www.openstreetmap.org/way/43917586", 
       "way": "43917586"
     }, 
     {
       "museum": "Museum No. 1", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4794885/-0.2900468", 
+      "osm": "http://www.openstreetmap.org/way/55458978", 
       "way": "55458978"
     }, 
     {
       "museum": "Sir John Soane's Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5170792/-0.1173375", 
+      "osm": "http://www.openstreetmap.org/way/61453261", 
       "way": "61453261"
     }, 
     {
       "museum": "Keats House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5555714/-0.1678141", 
+      "osm": "http://www.openstreetmap.org/way/65272940", 
       "way": "65272940"
     }, 
     {
       "museum": "Burgh House and Hampstead Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5582066/-0.1752318", 
+      "osm": "http://www.openstreetmap.org/way/77250946", 
       "way": "77250946"
     }, 
     {
       "museum": "The Cuming Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4911977/-0.0965424", 
+      "osm": "http://www.openstreetmap.org/way/80278329", 
       "way": "80278329"
     }, 
     {
       "museum": "Kirkaldy Testing Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5060396/-0.1016886", 
+      "osm": "http://www.openstreetmap.org/way/82459230", 
       "way": "82459230"
     }, 
     {
       "museum": "The Clink", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5070476/-0.0920988", 
+      "osm": "http://www.openstreetmap.org/way/82770797", 
       "way": "82770797"
     }, 
     {
       "museum": "Pump House Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5766527/-0.0353722", 
+      "osm": "http://www.openstreetmap.org/way/82785023", 
       "way": "82785023"
     }, 
     {
       "museum": "Old Operating Theatre Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5049506/-0.0884166", 
+      "osm": "http://www.openstreetmap.org/way/90404358", 
       "way": "90404358"
     }, 
     {
       "museum": "Chiltern Open Air Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.6338717/-0.5434853", 
+      "osm": "http://www.openstreetmap.org/way/95809105", 
       "way": "95809105"
     }, 
     {
       "museum": "Fashion and Textile Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5012536/-0.0819403", 
+      "osm": "http://www.openstreetmap.org/way/101154182", 
       "way": "101154182"
     }, 
     {
       "museum": null, 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5483970/-0.1772441", 
+      "osm": "http://www.openstreetmap.org/way/103107384", 
       "way": "103107384"
     }, 
     {
       "museum": "Firepower Artillery Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4937305/0.0700914", 
+      "osm": "http://www.openstreetmap.org/way/103143319", 
       "way": "103143319"
     }, 
     {
       "museum": "Benjamin Franklin House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5075613/-0.1250086", 
+      "osm": "http://www.openstreetmap.org/way/104081033", 
       "way": "104081033"
     }, 
     {
       "museum": "Geffrye Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5316690/-0.0761629", 
+      "osm": "http://www.openstreetmap.org/way/107807460", 
       "way": "107807460"
     }, 
     {
       "museum": "Fenton House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5589593/-0.1797867", 
+      "osm": "http://www.openstreetmap.org/way/110388485", 
       "way": "110388485"
     }, 
     {
       "museum": "Markfield Beam Engine & Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5818394/-0.0617759", 
+      "osm": "http://www.openstreetmap.org/way/115554282", 
       "way": "115554282"
     }, 
     {
       "museum": "Leighton House Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4985304/-0.2031271", 
+      "osm": "http://www.openstreetmap.org/way/115594423", 
       "way": "115594423"
     }, 
     {
       "museum": "Garden Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4951132/-0.1203539", 
+      "osm": "http://www.openstreetmap.org/way/117047225", 
       "way": "117047225"
     }, 
     {
       "museum": "Milestones of Flight", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5980086/-0.2378743", 
+      "osm": "http://www.openstreetmap.org/way/118906066", 
       "way": "118906066"
     }, 
     {
       "museum": "RAF Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5972968/-0.2414897", 
+      "osm": "http://www.openstreetmap.org/way/118906069", 
       "way": "118906069"
     }, 
     {
       "museum": "Bomber Command Hall", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5982530/-0.2380282", 
+      "osm": "http://www.openstreetmap.org/way/118906073", 
       "way": "118906073"
     }, 
     {
       "museum": "Historic Hangars", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5982555/-0.2380319", 
+      "osm": "http://www.openstreetmap.org/way/118906074", 
       "way": "118906074"
     }, 
     {
       "museum": "Grahame White Watch Office", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5964829/-0.2386462", 
+      "osm": "http://www.openstreetmap.org/way/118906077", 
       "way": "118906077"
     }, 
     {
       "museum": "Apsley House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5033494/-0.1519206", 
+      "osm": "http://www.openstreetmap.org/way/120316250", 
       "way": "120316250"
     }, 
     {
       "museum": "Wimbledon Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4350304/-0.2135198", 
+      "osm": "http://www.openstreetmap.org/way/121750021", 
       "way": "121750021"
     }, 
     {
       "museum": "Royal Institution and Faraday Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5099107/-0.1426862", 
+      "osm": "http://www.openstreetmap.org/way/128812567", 
       "way": "128812567"
     }, 
     {
       "museum": "The Musical Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4878391/-0.2933637", 
+      "osm": "http://www.openstreetmap.org/way/129870347", 
       "way": "129870347"
     }, 
     {
       "museum": "Battle of Britain Bunker - RAF Uxbridge", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5413057/-0.4642757", 
+      "osm": "http://www.openstreetmap.org/way/132133793", 
       "way": "132133793"
     }, 
     {
       "museum": "Museum of London Docklands", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5077513/-0.0236734", 
+      "osm": "http://www.openstreetmap.org/way/140144139", 
       "way": "140144139"
     }, 
     {
       "museum": "Egham Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4318570/-0.5478010", 
+      "osm": "http://www.openstreetmap.org/way/140327400", 
       "way": "140327400"
     }, 
     {
       "museum": "Brunel Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5016132/-0.0528570", 
+      "osm": "http://www.openstreetmap.org/way/146412246", 
       "way": "146412246"
     }, 
     {
       "museum": "Honeywood House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3652665/-0.1652656", 
+      "osm": "http://www.openstreetmap.org/way/148707730", 
       "way": "148707730"
     }, 
     {
       "museum": "Otford Heritage Centre", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3128075/0.1878010", 
+      "osm": "http://www.openstreetmap.org/way/149913507", 
       "way": "149913507"
     }, 
     {
       "museum": "Metropolitan Police Heritage Centre and Gift Shop", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4864972/-0.1984460", 
+      "osm": "http://www.openstreetmap.org/way/151996457", 
       "way": "151996457"
     }, 
     {
       "museum": "Guildhall Art Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5156311/-0.0911259", 
+      "osm": "http://www.openstreetmap.org/way/156172966", 
       "way": "156172966"
     }, 
     {
       "museum": "Blewcoat School", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4984115/-0.1361236", 
+      "osm": "http://www.openstreetmap.org/way/165847989", 
       "way": "165847989"
     }, 
     {
       "museum": "Battle of Britain Bunker", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5404713/-0.4645814", 
+      "osm": "http://www.openstreetmap.org/way/165902158", 
       "way": "165902158"
     }, 
     {
       "museum": "Dairy Wing", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5721958/0.0659824", 
+      "osm": "http://www.openstreetmap.org/way/174651219", 
       "way": "174651219"
     }, 
     {
       "museum": "The Sherlock Holmes Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5237937/-0.1584639", 
+      "osm": "http://www.openstreetmap.org/way/176312585", 
       "way": "176312585"
     }, 
     {
       "museum": "William Morris Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5912158/-0.0201117", 
+      "osm": "http://www.openstreetmap.org/way/181770911", 
       "way": "181770911"
     }, 
     {
       "museum": "Ragged School Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5188907/-0.0358491", 
+      "osm": "http://www.openstreetmap.org/way/182395637", 
       "way": "182395637"
     }, 
     {
       "museum": "National Maritime Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4806316/-0.0055385", 
+      "osm": "http://www.openstreetmap.org/way/183090506", 
       "way": "183090506"
     }, 
     {
       "museum": "Royal Museums Greenwich", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4811348/-0.0080089", 
+      "osm": "http://www.openstreetmap.org/way/183090507", 
       "way": "183090507"
     }, 
     {
       "museum": "Museum of Harrow Life", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5738109/-0.3353951", 
+      "osm": "http://www.openstreetmap.org/way/185076070", 
       "way": "185076070"
     }, 
     {
       "museum": null, 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4328322/-0.5144571", 
+      "osm": "http://www.openstreetmap.org/way/187420538", 
       "way": "187420538"
     }, 
     {
       "museum": "London Canal Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5342323/-0.1203950", 
+      "osm": "http://www.openstreetmap.org/way/190831613", 
       "way": "190831613"
     }, 
     {
       "museum": "Eton Natural History Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4909234/-0.6112771", 
+      "osm": "http://www.openstreetmap.org/way/194923622", 
       "way": "194923622"
     }, 
     {
       "museum": "Churchill Museum and Cabinet War Rooms", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5022235/-0.1293126", 
+      "osm": "http://www.openstreetmap.org/way/197206542", 
       "way": "197206542"
     }, 
     {
       "museum": "HMS Belfast", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5060977/-0.0814750", 
+      "osm": "http://www.openstreetmap.org/way/203708843", 
       "way": "203708843"
     }, 
     {
       "museum": "Upminster Tithe Barn", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5668038/0.2566516", 
+      "osm": "http://www.openstreetmap.org/way/206348902", 
       "way": "206348902"
     }, 
     {
       "museum": "Weybridge Library and Elmbridge Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3719009/-0.4602940", 
+      "osm": "http://www.openstreetmap.org/way/208429132", 
       "way": "208429132"
     }, 
     {
       "museum": "Red House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4555482/0.1302691", 
+      "osm": "http://www.openstreetmap.org/way/209281563", 
       "way": "209281563"
     }, 
     {
       "museum": "Horniman Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4407754/-0.0614117", 
+      "osm": "http://www.openstreetmap.org/way/210442848", 
       "way": "210442848"
     }, 
     {
       "museum": "The Jewish Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.5373144/-0.1445970", 
+      "osm": "http://www.openstreetmap.org/way/232592410", 
       "way": "232592410"
     }, 
     {
       "museum": "Queen's House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4812659/-0.0035401", 
+      "osm": "http://www.openstreetmap.org/way/238208209", 
       "way": "238208209"
     }, 
     {
       "museum": "Brooklands Museum", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.3534688/-0.4654657", 
+      "osm": "http://www.openstreetmap.org/way/246300057", 
       "way": "246300057"
     }, 
     {
       "museum": "Quebec House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.2672566/0.0758256", 
+      "osm": "http://www.openstreetmap.org/way/255871351", 
       "way": "255871351"
     }, 
     {
       "museum": "Altazimuth Pavilion", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4773694/-0.0008533", 
+      "osm": "http://www.openstreetmap.org/way/268533441", 
       "way": "268533441"
     }, 
     {
       "museum": "Astronomy Centre", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4768709/-0.0006027", 
+      "osm": "http://www.openstreetmap.org/way/268533442", 
       "way": "268533442"
     }, 
     {
       "museum": "Flamsteed House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4779992/-0.0018718", 
+      "osm": "http://www.openstreetmap.org/way/268533444", 
       "way": "268533444"
     }, 
     {
       "museum": "Meridian Building", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4778457/-0.0014468", 
+      "osm": "http://www.openstreetmap.org/way/268533446", 
       "way": "268533446"
     }, 
     {
       "museum": "Telescope Gallery", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4778723/-0.0016065", 
+      "osm": "http://www.openstreetmap.org/way/268533454", 
       "way": "268533454"
     }, 
     {
       "museum": "28 Inch Telescope Dome", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4777643/-0.0011027", 
+      "osm": "http://www.openstreetmap.org/way/268533517", 
       "way": "268533517"
     }, 
     {
       "museum": "Diesel House", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4887091/-0.2899686", 
+      "osm": "http://www.openstreetmap.org/way/286412821", 
       "way": "286412821"
     }, 
     {
       "museum": "Workshop", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4886810/-0.2899383", 
+      "osm": "http://www.openstreetmap.org/way/286412824", 
       "way": "286412824"
     }, 
     {
       "museum": "Museum Garden", 
-      "osm": "http://www.openstreetmap.org/#map=17/51.4893918/-0.2902660", 
+      "osm": "http://www.openstreetmap.org/way/286412825", 
       "way": "286412825"
     }
   ], 
