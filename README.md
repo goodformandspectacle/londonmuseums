@@ -7,8 +7,8 @@ Main data I've added is about when the museum was founded or opened. I've also g
 
 I'd like to try to make a couple of things with this.
 
-1) A poster of the building outlines from OSM, perhaps ordered by age of institution, or some other interesting facet.
-2) A navigable map/website which I can populate with more data as I, and hopefully other people, visit the museums in London. Opening hours, admission fees, keywords, gfs:visit=*, photo URLs, object counts, etc etc 
+* A poster of the building outlines from OSM, perhaps ordered by age of institution, or some other interesting facet.
+* A navigable map/website which I can populate with more data as I, and hopefully other people, visit the museums in London. Opening hours, admission fees, keywords, gfs:visit=*, photo URLs, object counts, etc etc 
 
 I published a basic cartoDB visualization on November 8, 2014 and blogged about it here:
 http://goodformandspectacle.wordpress.com/2014/11/08/london-museum-map/
