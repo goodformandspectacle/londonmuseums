@@ -1,7 +1,8 @@
 #!/usr/bin/env python2.7
+"""Just trying to understand overpass.xml, see overpass.json"""
 
 __author__ = "@siznax"
-__version__ = "Aug 2014"
+__date__ = "Aug 2014"
 
 import argparse
 import json
