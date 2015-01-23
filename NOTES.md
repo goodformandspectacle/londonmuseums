@@ -1,11 +1,16 @@
 Way (footprint) Shapes
 ======================
 
-Here's a complex example. There are only three of these (relations),
-the rest are "simple" ways or closed polygons (I believe). 
+* Expanded ways with <tt>expand_osm_ways.py</tt>
+* Fully expanded ways: <tt>ways-full.txt</tt>
+* Compact ways: <tt>ways-compact.txt</tt>
 
-    Museum of London
-    Relation: [2711501](http://www.openstreetmap.org/relation/2711501)
+Here's a complex example. There are only three of these (relations),
+the rest are "simple" ways or closed polygons. 
+
+Relation: [2711501](http://www.openstreetmap.org/relation/2711501)
+
+    Name: Museum of London
     Members:
         Way 201846173 as inner
         Way 156190525 as outer
@@ -38,20 +43,26 @@ This could be a starting point to draw an SVG image.
 
 Some interesting shapes:
 
-http://www.openstreetmap.org/relation/2711501 Museum of London   
-http://www.openstreetmap.org/way/115594423 Leighton House Museum    
-http://www.openstreetmap.org/way/146412246 Brunel Museum    
-http://www.openstreetmap.org/way/148707730 Honeywood House    
-http://www.openstreetmap.org/way/182395637 Ragged School Museum    
-http://www.openstreetmap.org/way/183090506 National Maritime Museum    
-http://www.openstreetmap.org/way/246300057 Brooklands Museum    
-http://www.openstreetmap.org/way/268533442 Astronomy Centre    
-http://www.openstreetmap.org/way/40405915 British Museum    
-http://www.openstreetmap.org/way/95809105 Chiltern Open Air Museum    
+* http://www.openstreetmap.org/relation/2711501 Museum of London
+* http://www.openstreetmap.org/way/115594423 Leighton House Museum
+* http://www.openstreetmap.org/way/146412246 Brunel Museum
+* http://www.openstreetmap.org/way/148707730 Honeywood House
+* http://www.openstreetmap.org/way/182395637 Ragged School Museum
+* http://www.openstreetmap.org/way/183090506 National Maritime Museum
+* http://www.openstreetmap.org/way/246300057 Brooklands Museum
+* http://www.openstreetmap.org/way/268533442 Astronomy Centre   
+* http://www.openstreetmap.org/way/40405915 British Museum 
+* http://www.openstreetmap.org/way/95809105 Chiltern Open Air Museum
+
 
 
 OSM Overpass Query
 ================================================================
+
+* Overpass query: <tt>overpass_query.xml</tt>
+* Query output: <tt>overpass.xml</tt>
+* Parsed with: <tt>overpass.py</tt>
+* Collected output: <tt>overpass.json</tt>
 
 Overpass query for relations, ways, and nodes found:
 
@@ -61,14 +72,14 @@ Overpass query for relations, ways, and nodes found:
 
 Collected counts similar to parsing Wikipedia article (below):
 
-  "count": {
-    "geo": 180, 
-    "loc": 7, 
-    "museum": 175, 
-    "osm": 180, 
-    "way": 95, 
-    "web": 20, 
-    "wiki": 16 }
+    "count": {
+      "geo": 180, 
+      "loc": 7, 
+      "museum": 175, 
+      "osm": 180, 
+      "way": 95, 
+      "web": 20, 
+      "wiki": 16 }
 
 Relations:
 
@@ -94,7 +105,9 @@ Found (87) different tag keys:
 Parse List of Museums in London, Wikipedia
 ========================================================
 
-Parsed <http://en.wikipedia.org/wiki/List_of_museums_in_London>
+* Source: <http://en.wikipedia.org/wiki/List_of_museums_in_London>
+* Parsed with <tt>parse_wp_list.py</tt>
+* Output: <tt>wp-list.json</tt>
 
 Found (223) entries (as of 4 Aug 2014) with:
 
