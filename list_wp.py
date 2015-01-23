@@ -1,7 +1,8 @@
 #!/usr/bin/env python2.7
+"""parse 'List of museums in London' wikipedia article."""
 
 __author__ = "@siznax"
-__version__ = "Jul 2014"
+__date__ = "Jul 2014"
 
 import argparse
 import json
