@@ -38,16 +38,16 @@ This could be a starting point to draw an SVG image.
 
 Some interesting shapes:
 
-<http://www.openstreetmap.org/relation/2711501> Museum of London   
-<http://www.openstreetmap.org/way/115594423> Leighton House Museum    
-<http://www.openstreetmap.org/way/146412246> Brunel Museum    
-<http://www.openstreetmap.org/way/148707730> Honeywood House    
-<http://www.openstreetmap.org/way/182395637> Ragged School Museum    
-<http://www.openstreetmap.org/way/183090506> National Maritime Museum    
-<http://www.openstreetmap.org/way/246300057> Brooklands Museum    
-<http://www.openstreetmap.org/way/268533442> Astronomy Centre    
-<http://www.openstreetmap.org/way/40405915 British Museum    
-<http://www.openstreetmap.org/way/95809105 Chiltern Open Air Museum    
+http://www.openstreetmap.org/relation/2711501 Museum of London   
+http://www.openstreetmap.org/way/115594423 Leighton House Museum    
+http://www.openstreetmap.org/way/146412246 Brunel Museum    
+http://www.openstreetmap.org/way/148707730 Honeywood House    
+http://www.openstreetmap.org/way/182395637 Ragged School Museum    
+http://www.openstreetmap.org/way/183090506 National Maritime Museum    
+http://www.openstreetmap.org/way/246300057 Brooklands Museum    
+http://www.openstreetmap.org/way/268533442 Astronomy Centre    
+http://www.openstreetmap.org/way/40405915 British Museum    
+http://www.openstreetmap.org/way/95809105 Chiltern Open Air Museum    
 
 
 OSM Overpass Query
@@ -55,9 +55,9 @@ OSM Overpass Query
 
 Overpass query for relations, ways, and nodes found:
 
-       3 relation  (comp
-      98 way
-    1381 node
+       3 relation (have ways as members)
+      98 way      (polygons)
+    1381 node     (points in lat, lon)
 
 Collected counts similar to parsing Wikipedia article (below):
 
