@@ -9,7 +9,8 @@ distortion.
 * Output to: <tt>ways-geo.json</tt>
 * Altered D3 Vector Tiles example: <tt>d3vectiles.html</tt>
 * Example GeoJSON: <tt>d3vectiles.js</tt>, <tt>d3vectiles.css</tt>
-* SVG capture from example: <tt>d3vectiles.png</tt>
+* SVG capture from example: <tt>d3vectiles.png</tt> looks like
+  [relation 2711501](http://www.openstreetmap.org/relation/2711501)
 
 If we can query OSM for the "center" coordinate of each shape, I think
 we can produce similar SVGs in a Node.js script.
