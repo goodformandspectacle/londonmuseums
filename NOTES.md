@@ -1,3 +1,20 @@
+D3 Vector Tiles
+===============
+
+If we express our way coordinates in GeoJSON format, we can use use D3
+map projection tiles to draw the shape as an SVG path without
+distortion. 
+
+* Added "--geojson" arg to <tt>expand_osm_ways.py</tt>
+* Output to: <tt>ways-geo.json</tt>
+* Altered D3 Vector Tiles example: <tt>d3vectiles.html</tt>
+* Example GeoJSON: <tt>d3vectiles.js</tt>, <tt>d3vectiles.css</tt>
+* SVG capture from example: <tt>d3vectiles.png</tt>
+
+If we can query OSM for the "center" coordinate of each shape, I think
+we can produce similar SVGs in a Node.js script.
+
+
 Way (footprint) Shapes
 ======================
 
