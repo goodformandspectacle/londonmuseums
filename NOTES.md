@@ -13,7 +13,10 @@ distortion.
   [relation 2711501](http://www.openstreetmap.org/relation/2711501)
 
 If we can query OSM for the "center" coordinate of each shape, I think
-we can produce similar SVGs in a Node.js script.
+we can produce similar SVGs in a Node.js script...
+
+* Example node script: <tt>d3node.js</tt>
+* Output: <tt>d3node.svg</tt>
 
 
 Way (footprint) Shapes
