@@ -10,7 +10,6 @@ import csv
 from lxml import etree
 
 OUTPUT = {}
-CSVFILENAME = 'ways.csv'
 OSM = 'http://www.openstreetmap.org'
 FIELDNAMES = ['size', 'label', 'relation', 'way', ]
 
@@ -79,12 +78,12 @@ def walk_way_items(root, way_id):
                     'rlink': get_link('relation', rel_id)}
 
 
-def write_csv(output):
+def write_csv(filename, output):
     fieldnames = ['size', 'way', 'label']
-    with open(CSVFILENAME, 'w') as csvfile:
+    with open(filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for item in sorted(output):
+        for item in reversed(sorted(output)):
             _size = output[item]['size'].split('_')[0]
             writer.writerow({'size': _size,
                              'way': output[item]['wlink'],
@@ -100,10 +99,10 @@ def walk_ways(root):
 def main(_file, args):
     tree = etree.parse(_file)
     walk_ways(tree.getroot())
-    if args.writecsv:
-        nbytes = write_csv(OUTPUT)
-        print "wrote %s bytes to %s" % (nbytes, CSVFILENAME)
-    for sizekey in sorted(OUTPUT):
+    if args.csvfile:
+        nbytes = write_csv(args.csvfile, OUTPUT)
+        print "wrote %s bytes to %s" % (nbytes, args.csvfile)
+    for sizekey in reversed(sorted(OUTPUT)):
         if args.format == "list":
             print "%s %s %s" % (OUTPUT[sizekey]['size'].split('_')[0],
                                 OUTPUT[sizekey]['wlink'],
@@ -118,7 +117,7 @@ if __name__ == "__main__":
     argp = argparse.ArgumentParser(
         description="Expand OSM ways and emit by size.")
     argp.add_argument("format", choices=['list', 'dump', 'geojson'])
-    argp.add_argument('-c', '--writecsv', action="store_true",
-                      help="write CSV to %s" % CSVFILENAME)
+    argp.add_argument('-csv', '--csvfile',
+                      help="write CSV list to specified file.")
     args = argp.parse_args()
     main("overpass.xml", args)
