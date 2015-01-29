@@ -50,7 +50,7 @@ def path_height(path):
 def get_link(typ, val):
     """returns link to way or relation"""
     if val:
-        return '<a href="%s/%s/%s">%s</a>' % (OSM, typ, val, val)
+        return "%s/%s/%s" % (OSM, typ, val)
 
 
 def walk_way_items(root, way_id):
