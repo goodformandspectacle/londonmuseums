@@ -6,6 +6,8 @@ __date__ = "Jan 2015"
 
 import argparse
 import csv
+import json
+import os
 
 from lxml import etree
 
@@ -91,6 +93,18 @@ def write_csv(filename, output):
         return csvfile.tell()
 
 
+def write_geojson(dest, output):
+    if os.path.exists(dest):
+        raise StandardError("destination file exists: %s" % dest)
+    os.mkdir(dest)
+    for szkey in output:
+        name = output[szkey]['way'] + '.json'
+        fname = os.path.join(os.getcwd(), dest, name)
+        with open(fname, 'w') as jsfile:
+            jsfile.write(json.dumps(output[szkey]['geo']))
+            print "wrote %s bytes to %s" % (jsfile.tell(), fname)
+
+
 def walk_ways(root):
     for way in root.xpath("//way"):
         walk_way_items(root, way.get("id"))
@@ -102,6 +116,10 @@ def main(_file, args):
     if args.csvfile:
         nbytes = write_csv(args.csvfile, OUTPUT)
         print "wrote %s bytes to %s" % (nbytes, args.csvfile)
+        return
+    if args.json_dest:
+        write_geojson(args.json_dest, OUTPUT)
+        return
     for sizekey in reversed(sorted(OUTPUT)):
         if args.format == "list":
             print "%s %s %s" % (OUTPUT[sizekey]['size'].split('_')[0],
@@ -119,5 +137,7 @@ if __name__ == "__main__":
     argp.add_argument("format", choices=['list', 'dump', 'geojson'])
     argp.add_argument('-csv', '--csvfile',
                       help="write CSV list to specified file.")
+    argp.add_argument('-json', '--json-dest',
+                      help="write GeoJSON files to specified directory.")
     args = argp.parse_args()
     main("overpass.xml", args)
