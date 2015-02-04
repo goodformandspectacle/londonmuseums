@@ -82,8 +82,8 @@ OSM Overpass Query
 
 * Overpass query: <tt>overpass_query.xml</tt>
 * Query output: <tt>overpass.xml</tt>
-* Parsed with: <tt>overpass.py</tt>
-* Collected output: <tt>overpass.json</tt>
+* Parsed with: <tt>parse_overpass_xml.py</tt>
+* Collected output: <tt>parse_overpass_xml.json</tt>
 
 Overpass query for relations, ways, and nodes found:
 
@@ -128,7 +128,7 @@ Parse List of Museums in London, Wikipedia
 
 * Source: <http://en.wikipedia.org/wiki/List_of_museums_in_London>
 * Parsed with <tt>parse_wp_list.py</tt>
-* Output: <tt>wp-list.json</tt>
+* Output: <tt>parse_wp_list.json</tt>
 
 Found (223) entries (as of 4 Aug 2014) with:
 
