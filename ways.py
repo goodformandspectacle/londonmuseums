@@ -135,10 +135,12 @@ def main(_file, args):
 if __name__ == "__main__":
     argp = argparse.ArgumentParser(
         description="Expand OSM ways and emit by size.")
-    argp.add_argument("format", choices=['list', 'dump', 'geojson'])
+    argp.add_argument("overpass_xml", help="Overpass API XML output")
+    argp.add_argument("format", choices=['list', 'dump', 'geojson'],
+                      help="output format")
     argp.add_argument('-csv', '--csvfile',
                       help="write CSV list to specified file.")
     argp.add_argument('-json', '--json-dest',
                       help="write GeoJSON files to specified directory.")
     args = argp.parse_args()
-    main("overpass.xml", args)
+    main(args.overpass_xml, args)
