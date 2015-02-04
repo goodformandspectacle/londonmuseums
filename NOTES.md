@@ -24,8 +24,8 @@ A size was computed for each _way_ by adding together the maximum
 difference in lat and lon for each point in the path. It seems like
 a reasonable sort.
 
-* Added size computation to: <tt>ways.py</tt>
-* Sorted by size into: <tt>ways.csv</tt>
+* Added size computation to: <tt>extract_ways.py</tt>
+* Sorted by size into: <tt>overpass_example_ways.csv</tt>
 
 The largest 25 ways were plotted on D3 vector tiles and they're
 tiny. It doesn't make sense to try to scale them as lat/lon ways, so
@@ -40,8 +40,7 @@ If we express our way coordinates in GeoJSON format, we can use use D3
 map projection tiles to draw the shape as an SVG path without
 distortion. 
 
-* Added "--geojson" arg to <tt>ways.py</tt>
-* Output to: <tt>ways-geo.json</tt>
+* Added "--geojson" arg to <tt>extract_ways.py</tt>
 * Altered D3 Vector Tiles example: <tt>d3vectiles.html</tt>
 * Example GeoJSON: <tt>d3vectiles.js</tt>, <tt>d3vectiles.css</tt>
 * SVG capture from example: <tt>d3vectiles.png</tt> looks like
@@ -57,8 +56,8 @@ we can produce similar SVGs in a Node.js script...
 Generated Way Vector Shapes
 ===========================
 
-* Expanded ways with <tt>ways.py</tt>
-* Compact list: <tt>ways-list.txt</tt>
+* Extracted ways with <tt>extract_ways.py</tt>
+* Compact list: <tt>overpass_example_ways.txt</tt>
 
 Here's a complex example. There are only three of these (relations),
 the rest are "simple" ways or closed polygons. 
