@@ -62,6 +62,7 @@ def walk_way_items(root, way_id):
     coords = []
     nodes = []
     path = []
+    scale = 1.0001
     for item in way:
         if item.tag == 'nd':
             nd_ref = item.get("ref")
@@ -70,7 +71,7 @@ def walk_way_items(root, way_id):
             lon = float(node.get("lon"))
             nodes.append(nd_ref)
             coords.append([lat, lon])
-            path.append([lon, lat])
+            path.append([scale*lon, scale*lat])
     size = "%f_%s" % ((path_width(path) + path_height(path)),
                       way_id)  # avoid collisions
     OUTPUT[size] = {'size': size, 'way': way_id, 'label': label,
