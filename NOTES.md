@@ -11,9 +11,10 @@ then modified it to print centerpoints (see
 out center;
 ```
 
-The output (<tt>out:xml</tt>) and exported the "raw data" to process
-in the same way as the <tt>overpass_example.xml</tt>. The raw XML was
-not checked in to avoid bloating this repo any further. 
+The output format was changed to XML (<tt>out:xml</tt>) and the "raw
+data" was exported to process in the same way as the
+<tt>overpass_example.xml</tt>. The raw XML was not checked in to avoid
+bloating this repo any further. 
 
 
 Computed "size" of Ways
