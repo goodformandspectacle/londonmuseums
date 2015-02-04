@@ -80,8 +80,8 @@ Some interesting shapes:
 OSM Overpass Query
 ================================================================
 
-* Overpass query: <tt>overpass_query.xml</tt>
-* Query output: <tt>overpass.xml</tt>
+* Overpass query: <tt>overpass_example_query.txt</tt>
+* Query output: <tt>overpass_example.xml</tt>
 * Parsed with: <tt>parse_overpass_xml.py</tt>
 * Collected output: <tt>parse_overpass_xml.json</tt>
 
