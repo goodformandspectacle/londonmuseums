@@ -5,7 +5,7 @@ If we express our way coordinates in GeoJSON format, we can use use D3
 map projection tiles to draw the shape as an SVG path without
 distortion. 
 
-* Added "--geojson" arg to <tt>expand_osm_ways.py</tt>
+* Added "--geojson" arg to <tt>ways.py</tt>
 * Output to: <tt>ways-geo.json</tt>
 * Altered D3 Vector Tiles example: <tt>d3vectiles.html</tt>
 * Example GeoJSON: <tt>d3vectiles.js</tt>, <tt>d3vectiles.css</tt>
@@ -22,7 +22,7 @@ we can produce similar SVGs in a Node.js script...
 Way (footprint) Shapes
 ======================
 
-* Expanded ways with <tt>expand_osm_ways.py</tt>
+* Expanded ways with <tt>ways.py</tt>
 * Fully expanded ways: <tt>ways-full.txt</tt>
 * Compact ways: <tt>ways-compact.txt</tt>
 
