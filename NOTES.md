@@ -1,3 +1,37 @@
+Got Ways Centerpoints
+=====================
+
+The [Overpass turbo](http://overpass-turbo.eu/) Wizard was used to
+generate a query for <tt>“tourism=museum in "Greater London"”</tt>,
+then modified it to print centerpoints (see 
+<tt>overpass_center_query.txt</tt>): 
+
+```
+// print results
+out center;
+```
+
+The output (<tt>out:xml</tt>) and exported the "raw data" to process
+in the same way as the <tt>overpass_example.xml</tt>. The raw XML was
+not checked in to avoid bloating this repo any further. 
+
+
+Computed "size" of Ways
+=======================
+
+A size was computed for each _way_ by adding together the maximum
+difference in lat and lon for each point in the path. It seems like
+a reasonable sort.
+
+* Added size computation to: <tt>ways.py</tt>
+* Sorted by size into: <tt>ways.csv</tt>
+
+The largest 25 ways were plotted on D3 vector tiles and they're
+tiny. It doesn't make sense to try to scale them as lat/lon ways, so
+we'll need to generate SVGs for each path from their respective
+centerpoints. 
+
+
 D3 Vector Tiles
 ===============
 
@@ -19,12 +53,11 @@ we can produce similar SVGs in a Node.js script...
 * Output: <tt>d3node.svg</tt>
 
 
-Way (footprint) Shapes
-======================
+Generated Way Vector Shapes
+===========================
 
 * Expanded ways with <tt>ways.py</tt>
-* Fully expanded ways: <tt>ways-full.txt</tt>
-* Compact ways: <tt>ways-compact.txt</tt>
+* Compact list: <tt>ways-list.txt</tt>
 
 Here's a complex example. There are only three of these (relations),
 the rest are "simple" ways or closed polygons. 
