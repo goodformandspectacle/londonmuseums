@@ -42,7 +42,7 @@ $ while read line;
 ```
 
 Got Ways Centerpoints
-=====================
+---------------------
 
 The [Overpass turbo](http://overpass-turbo.eu/) Wizard was used to
 generate a query for <tt>“tourism=museum in "Greater London"”</tt>,
@@ -96,7 +96,7 @@ difference in lat and lon for each point in the path. It seems like
 a reasonable sort.
 
 * Added size computation to: <tt>extract_ways.py</tt>
-* Sorted by size into: <tt>overpass_example_ways.csv</tt>
+* Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_center_ways.csv)
 
 The largest 25 ways were plotted on D3 vector tiles and they're
 tiny. It doesn't make sense to try to scale them as lat/lon ways, so
