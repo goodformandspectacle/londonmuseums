@@ -3,7 +3,6 @@ NOTES
 
 Most recent progress up top!  :grin:
 
-
 Example vs. Center Overpass Output
 ----------------------------------
 
@@ -71,15 +70,15 @@ $ ./extract_ways.py overpass_center.xml list -csv overpass_center_ways.csv
 ```
 
 
-Plotted Largest (25) Ways on Big Tile
--------------------------------------
+Plotted Largest (25) Ways
+-------------------------
 
 GeoJSON for each way can be extracted directly from an Overpass XML
 result using <tt>extract_ways.py list --json dest</tt>. You can also
 just adjust the query to export GeoJSON directly. The biggest 25
 ways were plotted on a large D3 tile, just to get oriented, using
-<tt>d3_tile_ways.js</tt>, see
-[d3_tile_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_tile_ways.svg). 
+<tt>d3_plot_ways.js</tt>, see
+[d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg). 
 
 This produces an interesting image with very small footprints, but it
 shows that we can accurately place undistorted footprints on a flat
