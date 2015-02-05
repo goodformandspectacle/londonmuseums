@@ -96,7 +96,7 @@ difference in lat and lon for each point in the path. It seems like
 a reasonable sort.
 
 * Added size computation to: <tt>extract_ways.py</tt>
-* Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_center_ways.csv)
+* Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_example_ways.csv)
 
 The largest 25 ways were plotted on D3 vector tiles and they're
 tiny. It doesn't make sense to try to scale them as lat/lon ways, so
