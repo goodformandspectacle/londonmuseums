@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var points = [
     { "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.0993188,51.5074955]},
@@ -72,11 +74,6 @@ jsdom.env(
                  return d.properties.name;
              });
 
-         // style labels
-         svg.selectAll(".place-label")
-             .style("font-family", "sans-serif");
-             // .style("baseline-shift", "-0.8em");
-
          // add center points
          svg.selectAll("c").data(points)
              .enter().append("path")
@@ -86,6 +83,6 @@ jsdom.env(
 
          setTimeout(function(){
              console.log(window.d3.select("body").html());
-         }, 1000);
+         }, 3000);
 
      });
