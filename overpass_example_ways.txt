@@ -1,98 +1,99 @@
-0.000118 http://www.openstreetmap.org/way/197206542 Churchill Museum and Cabinet War Rooms
-0.000140 http://www.openstreetmap.org/way/43706245 Dr. Johnson's House
-0.000155 http://www.openstreetmap.org/way/268533441 Altazimuth Pavilion
-0.000159 http://www.openstreetmap.org/way/268533446 Meridian Building
-0.000172 http://www.openstreetmap.org/way/176312585 The Sherlock Holmes Museum
-0.000174 http://www.openstreetmap.org/way/165902158 Battle of Britain Bunker
-0.000213 http://www.openstreetmap.org/way/286412824 Workshop
-0.000220 http://www.openstreetmap.org/way/268533517 28 Inch Telescope Dome
-0.000221 http://www.openstreetmap.org/way/232592410 The Jewish Museum
-0.000227 http://www.openstreetmap.org/way/187420538 (relation/None)
-0.000241 http://www.openstreetmap.org/way/268533454 Telescope Gallery
-0.000248 http://www.openstreetmap.org/way/149913507 Otford Heritage Centre
-0.000269 http://www.openstreetmap.org/way/203708843 HMS Belfast
-0.000269 http://www.openstreetmap.org/way/286412821 Diesel House
-0.000293 http://www.openstreetmap.org/way/185076070 Museum of Harrow Life
-0.000296 http://www.openstreetmap.org/way/165847989 Blewcoat School
-0.000297 http://www.openstreetmap.org/way/146412246 Brunel Museum
-0.000351 http://www.openstreetmap.org/way/174651219 Dairy Wing
-0.000355 http://www.openstreetmap.org/way/65272940 Keats House
-0.000365 http://www.openstreetmap.org/way/110388485 Fenton House
-0.000368 http://www.openstreetmap.org/way/61453261 Sir John Soane's Museum
-0.000382 http://www.openstreetmap.org/way/194923622 Eton Natural History Museum
-0.000390 http://www.openstreetmap.org/way/104081033 Benjamin Franklin House
-0.000394 http://www.openstreetmap.org/way/77250946 Burgh House and Hampstead Museum
-0.000410 http://www.openstreetmap.org/way/151996457 Metropolitan Police Heritage Centre and Gift Shop
-0.000419 http://www.openstreetmap.org/way/255871351 Quebec House
-0.000424 http://www.openstreetmap.org/way/4960905 Crystal Palace Museum
-0.000443 http://www.openstreetmap.org/way/82459230 Kirkaldy Testing Museum
-0.000465 http://www.openstreetmap.org/way/268533442 Astronomy Centre
-0.000468 http://www.openstreetmap.org/way/190831613 London Canal Museum
-0.000470 http://www.openstreetmap.org/way/28269975 Foundling Museum
-0.000474 http://www.openstreetmap.org/way/103107384 (relation/None)
-0.000476 http://www.openstreetmap.org/way/90404358 Old Operating Theatre Museum
-0.000477 http://www.openstreetmap.org/way/268533444 Flamsteed House
-0.000480 http://www.openstreetmap.org/way/115594423 Leighton House Museum
-0.000527 http://www.openstreetmap.org/way/148707730 Honeywood House
-0.000557 http://www.openstreetmap.org/way/201846172 (relation/2711501)
-0.000557 http://www.openstreetmap.org/way/209281563 Red House
-0.000592 http://www.openstreetmap.org/way/4993790 (relation/None)
-0.000597 http://www.openstreetmap.org/way/55458978 Museum No. 1
-0.000606 http://www.openstreetmap.org/way/107807460 Geffrye Museum
-0.000617 http://www.openstreetmap.org/way/182395637 Ragged School Museum
-0.000625 http://www.openstreetmap.org/way/82770797 The Clink
-0.000632 http://www.openstreetmap.org/way/129870347 The Musical Museum
-0.000654 http://www.openstreetmap.org/way/181770911 William Morris Gallery
-0.000654 http://www.openstreetmap.org/way/201846173 (relation/2711501)
-0.000666 http://www.openstreetmap.org/way/115554282 Markfield Beam Engine & Museum
-0.000700 http://www.openstreetmap.org/way/208429132 Weybridge Library and Elmbridge Museum
-0.000703 http://www.openstreetmap.org/way/118906077 Grahame White Watch Office
-0.000717 http://www.openstreetmap.org/way/42003475 Bruce Castle Museum
-0.000748 http://www.openstreetmap.org/way/206348902 Upminster Tithe Barn
-0.000769 http://www.openstreetmap.org/way/101154182 Fashion and Textile Museum
-0.000792 http://www.openstreetmap.org/way/23941901 Vestry House Museum
-0.000799 http://www.openstreetmap.org/way/120316250 Apsley House
-0.000802 http://www.openstreetmap.org/way/140327400 Egham Museum
-0.000833 http://www.openstreetmap.org/way/9558987 (relation/1912113)
-0.000874 http://www.openstreetmap.org/way/24541159 Design Museum
-0.000884 http://www.openstreetmap.org/way/30839266 Wandsworth Museum and De Morgan Centre
-0.000886 http://www.openstreetmap.org/way/238208209 Queen's House
-0.000892 http://www.openstreetmap.org/way/43917586 Dartford Borough Museum and Library
-0.000895 http://www.openstreetmap.org/way/156172966 Guildhall Art Gallery
-0.000900 http://www.openstreetmap.org/way/128812567 Royal Institution and Faraday Museum
-0.000926 http://www.openstreetmap.org/way/121750021 Wimbledon Museum
-0.000986 http://www.openstreetmap.org/way/80278329 The Cuming Museum
-0.001096 http://www.openstreetmap.org/way/140144139 Museum of London Docklands
-0.001127 http://www.openstreetmap.org/way/39590918 Grahame White Aircraft Factory
-0.001179 http://www.openstreetmap.org/way/25911545 Gunnersbury Park Museum
-0.001186 http://www.openstreetmap.org/way/286412825 Museum Garden
-0.001188 http://www.openstreetmap.org/way/117047225 Garden Museum
-0.001198 http://www.openstreetmap.org/way/23458099 Boston Manor
-0.001230 http://www.openstreetmap.org/way/23699363 London Museum of Water and Steam
-0.001250 http://www.openstreetmap.org/way/10807015 National Army Museum
-0.001322 http://www.openstreetmap.org/way/10790633 V&A Museum of Childhood
-0.001345 http://www.openstreetmap.org/way/118906066 Milestones of Flight
-0.001418 http://www.openstreetmap.org/way/210442848 Horniman Museum
-0.001491 http://www.openstreetmap.org/way/24436380 (relation/29795)
-0.001571 http://www.openstreetmap.org/way/82785023 Pump House Museum
-0.001618 http://www.openstreetmap.org/way/103143319 Firepower Artillery Museum
-0.001644 http://www.openstreetmap.org/way/9558984 (relation/1912113)
-0.001774 http://www.openstreetmap.org/way/8614496 Imperial War Museum
-0.001899 http://www.openstreetmap.org/way/183090506 National Maritime Museum
-0.001933 http://www.openstreetmap.org/way/118906073 Bomber Command Hall
-0.002075 http://www.openstreetmap.org/way/43634102 Transport Museum Depot
-0.002141 http://www.openstreetmap.org/way/156190525 (relation/2711501)
-0.002254 http://www.openstreetmap.org/way/4417253 Battle of Britain Hall
-0.002724 http://www.openstreetmap.org/way/118906074 Historic Hangars
-0.003037 http://www.openstreetmap.org/way/24642569 Tate Modern
-0.003141 http://www.openstreetmap.org/way/132133793 Battle of Britain Bunker - RAF Uxbridge
-0.003367 http://www.openstreetmap.org/way/24553580 Tate Britain
-0.004261 http://www.openstreetmap.org/way/40405915 British Museum
-0.004995 http://www.openstreetmap.org/way/4960173 Victoria and Albert Museum
-0.005164 http://www.openstreetmap.org/way/27765411 Science Museum
-0.006084 http://www.openstreetmap.org/way/5095245 Horniman Museum and Gardens
-0.006767 http://www.openstreetmap.org/way/24436446 Natural History Museum
-0.007378 http://www.openstreetmap.org/way/183090507 Royal Museums Greenwich
-0.007521 http://www.openstreetmap.org/way/118906069 RAF Museum
-0.009153 http://www.openstreetmap.org/way/246300057 Brooklands Museum
-0.013461 http://www.openstreetmap.org/way/95809105 Chiltern Open Air Museum
+size | center | way | label
+0.013463 None 95809105 Chiltern Open Air Museum
+0.009154 None 246300057 Brooklands Museum
+0.007522 None 118906069 RAF Museum
+0.007379 None 183090507 Royal Museums Greenwich
+0.006768 None 24436446 Natural History Museum
+0.006084 None 5095245 Horniman Museum and Gardens
+0.005164 None 27765411 Science Museum
+0.004995 None 4960173 Victoria and Albert Museum
+0.004261 None 40405915 British Museum
+0.003367 None 24553580 Tate Britain
+0.003142 None 132133793 Battle of Britain Bunker - RAF Uxbridge
+0.003037 None 24642569 Tate Modern
+0.002724 None 118906074 Historic Hangars
+0.002254 None 4417253 Battle of Britain Hall
+0.002141 None 156190525 (relation/2711501)
+0.002075 None 43634102 Transport Museum Depot
+0.001933 None 118906073 Bomber Command Hall
+0.001900 None 183090506 National Maritime Museum
+0.001774 None 8614496 Imperial War Museum
+0.001644 None 9558984 (relation/1912113)
+0.001618 None 103143319 Firepower Artillery Museum
+0.001571 None 82785023 Pump House Museum
+0.001491 None 24436380 (relation/29795)
+0.001418 None 210442848 Horniman Museum
+0.001345 None 118906066 Milestones of Flight
+0.001323 None 10790633 V&A Museum of Childhood
+0.001251 None 10807015 National Army Museum
+0.001230 None 23699363 London Museum of Water and Steam
+0.001198 None 23458099 Boston Manor
+0.001189 None 117047225 Garden Museum
+0.001187 None 286412825 Museum Garden
+0.001179 None 25911545 Gunnersbury Park Museum
+0.001127 None 39590918 Grahame White Aircraft Factory
+0.001097 None 140144139 Museum of London Docklands
+0.000986 None 80278329 The Cuming Museum
+0.000926 None 121750021 Wimbledon Museum
+0.000900 None 128812567 Royal Institution and Faraday Museum
+0.000895 None 156172966 Guildhall Art Gallery
+0.000892 None 43917586 Dartford Borough Museum and Library
+0.000886 None 238208209 Queen's House
+0.000884 None 30839266 Wandsworth Museum and De Morgan Centre
+0.000874 None 24541159 Design Museum
+0.000833 None 9558987 (relation/1912113)
+0.000802 None 140327400 Egham Museum
+0.000799 None 120316250 Apsley House
+0.000792 None 23941901 Vestry House Museum
+0.000769 None 101154182 Fashion and Textile Museum
+0.000748 None 206348902 Upminster Tithe Barn
+0.000718 None 42003475 Bruce Castle Museum
+0.000703 None 118906077 Grahame White Watch Office
+0.000701 None 208429132 Weybridge Library and Elmbridge Museum
+0.000666 None 115554282 Markfield Beam Engine & Museum
+0.000654 None 201846173 (relation/2711501)
+0.000654 None 181770911 William Morris Gallery
+0.000632 None 129870347 The Musical Museum
+0.000625 None 82770797 The Clink
+0.000617 None 182395637 Ragged School Museum
+0.000606 None 107807460 Geffrye Museum
+0.000597 None 55458978 Museum No. 1
+0.000592 None 4993790 (relation/None)
+0.000557 None 209281563 Red House
+0.000557 None 201846172 (relation/2711501)
+0.000527 None 148707730 Honeywood House
+0.000480 None 115594423 Leighton House Museum
+0.000477 None 268533444 Flamsteed House
+0.000476 None 90404358 Old Operating Theatre Museum
+0.000474 None 103107384 (relation/None)
+0.000470 None 28269975 Foundling Museum
+0.000468 None 190831613 London Canal Museum
+0.000465 None 268533442 Astronomy Centre
+0.000443 None 82459230 Kirkaldy Testing Museum
+0.000424 None 4960905 Crystal Palace Museum
+0.000419 None 255871351 Quebec House
+0.000410 None 151996457 Metropolitan Police Heritage Centre and Gift Shop
+0.000394 None 77250946 Burgh House and Hampstead Museum
+0.000390 None 104081033 Benjamin Franklin House
+0.000382 None 194923622 Eton Natural History Museum
+0.000368 None 61453261 Sir John Soane's Museum
+0.000365 None 110388485 Fenton House
+0.000355 None 65272940 Keats House
+0.000351 None 174651219 Dairy Wing
+0.000297 None 146412246 Brunel Museum
+0.000296 None 165847989 Blewcoat School
+0.000294 None 185076070 Museum of Harrow Life
+0.000269 None 286412821 Diesel House
+0.000269 None 203708843 HMS Belfast
+0.000248 None 149913507 Otford Heritage Centre
+0.000241 None 268533454 Telescope Gallery
+0.000227 None 187420538 (relation/None)
+0.000221 None 232592410 The Jewish Museum
+0.000220 None 268533517 28 Inch Telescope Dome
+0.000213 None 286412824 Workshop
+0.000174 None 165902158 Battle of Britain Bunker
+0.000172 None 176312585 The Sherlock Holmes Museum
+0.000159 None 268533446 Meridian Building
+0.000155 None 268533441 Altazimuth Pavilion
+0.000140 None 43706245 Dr. Johnson's House
+0.000119 None 197206542 Churchill Museum and Cabinet War Rooms
