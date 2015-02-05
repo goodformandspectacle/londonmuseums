@@ -1,3 +1,41 @@
+Diff Overpass Output
+====================
+
+The <tt>overpass_center</tt> result produced by the "Greater London"
+bounding box differed from the <tt>overpass_example</tt> output thus:
+
+appearing only in <tt>overpass_center_ways</tt>:
+    203708843 HMS Belfast ticket office
+    306698053 The Cinema Museum
+    37909715 (relation/177044)
+    40405915 (relation/177044)
+
+appearing only in <tt>overpass_example_ways</tt>:
+    140327400 Egham Museum
+    149913507 Otford Heritage Centre
+    187420538 (relation/None)
+    194923622 Eton Natural History Museum
+    203708843 HMS Belfast
+    208429132 Weybridge Library and Elmbridge Museum
+    246300057 Brooklands Museum
+    255871351 Quebec House
+    40405915 British Museum
+    43917586 Dartford Borough Museum and Library
+    95809105 Chiltern Open Air Museum
+
+Here's (roughly) how the difference was computed:
+
+```shell
+$ cut -d ' ' -f 2- overpass_*_ways.txt | sort | uniq -c\
+  | sort | grep '^   1' | cut -d ' ' -f 5- >overpass_ways.diff
+$ while read line;
+  do grep "$line" overpass_center_ways.txt;
+  done <overpass_ways.diff
+$ while read line;
+  do grep "$line" overpass_example_ways.txt;
+  done <overpass_ways.diff
+```
+
 Got Ways Centerpoints
 =====================
 
