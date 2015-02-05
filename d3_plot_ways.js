@@ -1,35 +1,16 @@
-// add "biggest" 25 ways
-var ways = [
-    'geojson/95809105.json',
-    'geojson/246300057.json',
-    'geojson/118906069.json',
-    'geojson/183090507.json',
-    'geojson/24436446.json',
-    'geojson/5095245.json',
-    'geojson/27765411.json',
-    'geojson/4960173.json',
-    'geojson/40405915.json',
-    'geojson/24553580.json',
-    'geojson/132133793.json',
-    'geojson/24642569.json',
-    'geojson/118906074.json',
-    'geojson/4417253.json',
-    'geojson/156190525.json',
-    'geojson/43634102.json',
-    'geojson/118906073.json',
-    'geojson/183090506.json',
-    'geojson/8614496.json',
-    'geojson/9558984.json',
-    'geojson/103143319.json',
-    'geojson/82785023.json',
-    'geojson/24436380.json',
-    'geojson/210442848.json'
-];
-var fs = require('fs');
-var waypaths = Array();
-for(var i = 0; i < ways.length; i++) {
-    waypaths[i] = JSON.parse(fs.readFileSync(ways[i], 'utf8'));
-}
+var points = [
+    { "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.0993188,51.5074955]},
+      "properties": { "name": "24642569	Tate Modern" }
+    },
+    { "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.1276205,51.4911110]},
+      "properties": { "name": "24553580 Tate Britain" }
+    },
+    { "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.1085966,51.4957826]},
+      "properties": { "name": "8614496 Imperial War Museum" }
+    }];
 
 var jsdom = require('jsdom');
 jsdom.env(
@@ -63,27 +44,48 @@ jsdom.env(
              .enter().append("g")
              .each(function(d) {
                  var g = window.d3.select(this);
-                 var url = "http://" + ["a", "b", "c"][(d[0] * 31 + d[1]) % 3] + ".tile.openstreetmap.us/vectiles-water-areas/" + d[2] + "/" + d[0] + "/" + d[1] + ".json";
+                 var url = "http://" + ["a", "b", "c"][(d[0] * 31 + d[1]) % 3]
+                     + ".tile.openstreetmap.us/vectiles-water-areas/" + d[2]
+                     + "/" + d[0] + "/" + d[1] + ".json";
                  window.d3.json(url, function(error, json) {
                      g.selectAll("path")
-                         .data(json.features.sort(function(a, b) { return a.properties.sort_key - b.properties.sort_key; }))
+                         .data(json.features.sort(function(a, b) {
+                             return a.properties.sort_key - b.properties.sort_key;}))
                          .enter().append("path")
                          .attr("class", function(d) { return d.properties.kind; })
-                         .attr("style", "fill:lightblue;stroke:lightblue;stroke-width:1;stroke-linejoin:round;stroke-linecap:round")
+                         .attr("style", "fill:lightblue;stroke:lightblue;"
+                               + "stroke-width:1;stroke-linejoin:round;"
+                               + "stroke-linecap:round")
                          .attr("d", path);
                  });
              });
 
-         for(var i = 0; i < ways.length; i++) {
-             svg.selectAll("w").data([waypaths[i]])
-                 .enter().append("path")
-                 .attr("class","waypath")
-                 .attr("style","fill:orange;stroke:darkorange;}")
-                 .attr("d",path);
-         }
+         // add labels, see http://bost.ocks.org/mike/map/
+         svg.selectAll(".place-label").data(points)
+             .enter().append("text")
+             .attr("class","place-label")
+             .attr("transform", function(d) {
+                 return "translate(" + projection(d.geometry.coordinates) + ")";
+             })
+             .attr("dy", "1em")
+             .text(function(d) {
+                 return d.properties.name;
+             });
+
+         // style labels
+         svg.selectAll(".place-label")
+             .style("font-family", "sans-serif");
+             // .style("baseline-shift", "-0.8em");
+
+         // add center points
+         svg.selectAll("c").data(points)
+             .enter().append("path")
+             .attr("class","center")
+             .attr("style","fill:orange")
+             .attr("d",path);
 
          setTimeout(function(){
              console.log(window.d3.select("body").html());
-         }, 10000);
+         }, 1000);
 
      });
