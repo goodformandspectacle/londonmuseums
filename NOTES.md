@@ -1,6 +1,9 @@
 NOTES
 =====
 
+Most recent progress up top!  :grin:
+
+
 Example vs. Center Overpass Output
 ----------------------------------
 
@@ -40,6 +43,7 @@ $ while read line;
   do grep "$line" overpass_example_ways.txt;
   done <overpass_ways.diff
 ```
+
 
 Got Ways Centerpoints
 ---------------------
