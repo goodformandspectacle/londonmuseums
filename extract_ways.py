@@ -13,7 +13,7 @@ from lxml import etree
 
 OUTPUT = {}
 OSM = 'http://www.openstreetmap.org'
-FIELDNAMES = ['size', 'label', 'relation', 'way', ]
+FIELDNAMES = ['size', 'center', 'way', 'label']
 
 
 def get_relation(root, way_id):
@@ -22,6 +22,13 @@ def get_relation(root, way_id):
     member = root.xpath(qry)
     if len(member):
         return member[0].getparent().get("id")
+
+
+def get_center_coords(way_elem):
+    """return center coords of way"""
+    coords = way_elem.xpath(".//center")
+    if len(coords):
+        return "%s/%s" % (coords[0].get("lat"), coords[0].get("lon"))
 
 
 def get_way_label(way_elem, relation):
@@ -59,6 +66,7 @@ def walk_way_items(root, way_id):
     way = root.xpath("//way[@id='%s']" % way_id)[0]
     rel_id = get_relation(root, way_id)
     label = get_way_label(way, rel_id)
+    center = get_center_coords(way)
     coords = []
     nodes = []
     path = []
@@ -75,6 +83,7 @@ def walk_way_items(root, way_id):
     size = "%f_%s" % ((path_width(path) + path_height(path)),
                       way_id)  # avoid collisions
     OUTPUT[size] = {'size': size, 'way': way_id, 'label': label,
+                    'center': center,
                     'coords': coords, 'nodes': nodes,
                     'geo': {'type': 'LineString', 'coordinates': path},
                     'wlink': get_link('way', way_id),
@@ -82,14 +91,14 @@ def walk_way_items(root, way_id):
 
 
 def write_csv(filename, output):
-    fieldnames = ['size', 'way', 'label']
     with open(filename, 'w') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=FIELDNAMES)
         writer.writeheader()
         for item in reversed(sorted(output)):
             _size = output[item]['size'].split('_')[0]
             writer.writerow({'size': _size,
-                             'way': output[item]['wlink'],
+                             'center': output[item]['center'],
+                             'way': output[item]['way'],
                              'label': output[item]['label']})
         return csvfile.tell()
 
@@ -121,11 +130,14 @@ def main(_file, args):
     if args.json_dest:
         write_geojson(args.json_dest, OUTPUT)
         return
+    if args.format == "list":
+        print " | ".join(FIELDNAMES)
     for sizekey in reversed(sorted(OUTPUT)):
         if args.format == "list":
-            print "%s %s %s" % (OUTPUT[sizekey]['size'].split('_')[0],
-                                OUTPUT[sizekey]['wlink'],
-                                OUTPUT[sizekey]['label'])
+            print "%s %s %s %s" % (OUTPUT[sizekey]['size'].split('_')[0],
+                                   OUTPUT[sizekey]['center'],
+                                   OUTPUT[sizekey]['way'],
+                                   OUTPUT[sizekey]['label'])
         if args.format == "dump":
             print OUTPUT[sizekey]
         if args.format == "geojson":
