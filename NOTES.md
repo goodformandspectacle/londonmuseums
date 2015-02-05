@@ -1,5 +1,8 @@
-Diff Overpass Output
-====================
+NOTES
+=====
+
+Example vs. Center Overpass Output
+----------------------------------
 
 The <tt>overpass_center</tt> result produced by the "Greater London"
 bounding box differed from the <tt>overpass_example</tt> output thus:
@@ -52,11 +55,38 @@ out center;
 The output format was changed to XML (<tt>out:xml</tt>) and the "raw
 data" was exported to process in the same way as the
 <tt>overpass_example.xml</tt>. The raw XML was not checked in to avoid
-bloating this repo any further. 
+bloating this repo any further.
+
+* Extracted "center" ways with <tt>extract_ways.py</tt>
+* Output to: <tt>overpass_center_ways.csv</tt>
+
+```shell
+$ ./extract_ways.py overpass_center.xml list -csv overpass_center_ways.csv
+```
+
+
+Plotted Largest (25) Ways on Big Tile
+-------------------------------------
+
+GeoJSON for each way can be extracted directly from an Overpass XML
+result using <tt>extract_ways.py list --json dest</tt>. You can also
+just adjust the query to export GeoJSON directly. The biggest 25
+ways were plotted on a large D3 tile, just to get oriented, using
+<tt>d3_tile_ways.js</tt>, see <tt>d3_tile_ways.svg</tt>.
+
+This produces an interesting image with very small footprints, but it
+shows that we can accurately place undistorted footprints on a flat
+map. 
+
+So, we'll continue down the path of getting centerpoints for each way
+so that we can generate scalable graphics for each one, and paint
+targets on a large image to place them accurately.
+
+Winning!
 
 
 Computed "size" of Ways
-=======================
+-----------------------
 
 A size was computed for each _way_ by adding together the maximum
 difference in lat and lon for each point in the path. It seems like
@@ -72,7 +102,7 @@ centerpoints.
 
 
 D3 Vector Tiles
-===============
+---------------
 
 If we express our way coordinates in GeoJSON format, we can use use D3
 map projection tiles to draw the shape as an SVG path without
@@ -92,7 +122,7 @@ we can produce similar SVGs in a Node.js script...
 
 
 Generated Way Vector Shapes
-===========================
+---------------------------
 
 * Extracted ways with <tt>extract_ways.py</tt>
 * Compact list: <tt>overpass_example_ways.txt</tt>
@@ -149,7 +179,7 @@ Some interesting shapes:
 
 
 OSM Overpass Query
-================================================================
+------------------
 
 * Overpass query: <tt>overpass_example_query.txt</tt>
 * Query output: <tt>overpass_example.xml</tt>
@@ -195,7 +225,7 @@ Found (87) different tag keys:
 
 
 Parse List of Museums in London, Wikipedia
-========================================================
+------------------------------------------
 
 * Source: <http://en.wikipedia.org/wiki/List_of_museums_in_London>
 * Parsed with <tt>parse_wp_list.py</tt>
