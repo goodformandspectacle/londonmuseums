@@ -3,6 +3,26 @@ NOTES
 
 Most recent progress up top!  :grin:
 
+Making Ways SVGs
+----------------
+
+```
+d3_make_ways.js: Returns SVG/XML of an OSM way.
+    argv[2]  GeoJSON file of OSM way
+    argv[3]  way path center coordinates
+    argv[4]  zoom level (probably 24-26)
+```
+
+For example, Tate Britain (way/24553580)
+
+```shell
+$ d3_make_way.js geojson/24553580.json [-0.1276205,51.4911110] 25 > d3_make_way.svg
+```
+
+See
+[d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg) and
+[d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_make_way.svg)
+
 Example vs. Center Overpass Output
 ----------------------------------
 
