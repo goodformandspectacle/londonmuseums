@@ -7,13 +7,14 @@ Example vs. Center Overpass Output
 The <tt>overpass_center</tt> result produced by the "Greater London"
 bounding box differed from the <tt>overpass_example</tt> output thus:
 
-appearing only in <tt>overpass_center_ways</tt>:
+```
+appearing only in overpass_CENTER_ways:
     203708843 HMS Belfast ticket office
     306698053 The Cinema Museum
     37909715 (relation/177044)
     40405915 (relation/177044)
 
-appearing only in <tt>overpass_example_ways</tt>:
+appearing only in overpass_EXAMPLE_ways:
     140327400 Egham Museum
     149913507 Otford Heritage Centre
     187420538 (relation/None)
@@ -25,6 +26,7 @@ appearing only in <tt>overpass_example_ways</tt>:
     40405915 British Museum
     43917586 Dartford Borough Museum and Library
     95809105 Chiltern Open Air Museum
+```
 
 Here's (roughly) how the difference was computed:
 
@@ -58,7 +60,7 @@ data" was exported to process in the same way as the
 bloating this repo any further.
 
 * Extracted "center" ways with <tt>extract_ways.py</tt>
-* Output to: <tt>overpass_center_ways.csv</tt>
+* Output to: [overpass_center_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_center_ways.csv)
 
 ```shell
 $ ./extract_ways.py overpass_center.xml list -csv overpass_center_ways.csv
@@ -72,7 +74,8 @@ GeoJSON for each way can be extracted directly from an Overpass XML
 result using <tt>extract_ways.py list --json dest</tt>. You can also
 just adjust the query to export GeoJSON directly. The biggest 25
 ways were plotted on a large D3 tile, just to get oriented, using
-<tt>d3_tile_ways.js</tt>, see <tt>d3_tile_ways.svg</tt>.
+<tt>d3_tile_ways.js</tt>, see
+[d3_tile_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_tile_ways.svg). 
 
 This produces an interesting image with very small footprints, but it
 shows that we can accurately place undistorted footprints on a flat
