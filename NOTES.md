@@ -46,7 +46,9 @@ favorite viewer.
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_plot_ways.png">
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_make_way.png">
 
-A first cut at footprint SVGs was added to [svg/](https://github.com/goodformandspectacle/londonmuseums/tree/master/svg)
+A first cut at footprint SVGs was added to
+[svg/](https://github.com/goodformandspectacle/londonmuseums/tree/master/svg). They
+were produced with `make_footprints.py`.
 
 
 Example vs. Center Overpass Output
