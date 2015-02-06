@@ -61,7 +61,7 @@ def get_link(typ, val):
     if val:
         return "%s/%s/%s" % (OSM, typ, val)
 
-def svg_data(path, label, center):
+def svg_data(path, label, center, size):
     """returns GeoJSON suitable for creating SVG"""
     if center:
         svg_center = [center[1], center[0]]  # *shakes fist at sky*
@@ -71,7 +71,8 @@ def svg_data(path, label, center):
             "geometry": {"type": "LineString",
                          "coordinates": path},
             "properties": {"name": label,
-                           "center": svg_center}}
+                           "center": svg_center,
+                           "size": size}}
 
 def walk_way_items(root, way_id):
     """prints details for each way path."""
@@ -96,7 +97,8 @@ def walk_way_items(root, way_id):
     OUTPUT[size] = {'size': size, 'way': way_id, 'label': label,
                     'center': "%f/%f" % (center[0], center[1]) if center else None,
                     'coords': coords, 'nodes': nodes,
-                    'svgdata': svg_data(path, label, center),
+                    'svgdata': svg_data(
+                        path, label, center, float(size.split('_')[0])),
                     'wlink': get_link('way', way_id),
                     'rlink': get_link('relation', rel_id)}
 
