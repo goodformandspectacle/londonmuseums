@@ -41,10 +41,12 @@ Hopefully, we can use the `size` from `svgdata` to dial-in a zoom level.
 
 Note: For some reason, place-labels (text) don't show up in the GitHub 
 SVG preview, so you'll want to pull from the repo and open it in your 
-favorite viewer, or point your eyeballs on these:
+favorite viewer.
 
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_plot_ways.png">
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_make_way.png">
+
+A first cut at footprint SVGs was added to [svg/](https://github.com/goodformandspectacle/londonmuseums/tree/master/svg)
 
 
 Example vs. Center Overpass Output
