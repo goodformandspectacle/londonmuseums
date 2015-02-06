@@ -6,6 +6,10 @@ Most recent progress up top!  :grin:
 Making Footprint/way SVGs
 ---------------------------
 
+A first cut at footprint SVGs was added to
+[svg/](https://github.com/goodformandspectacle/londonmuseums/tree/master/svg). They
+were produced with `make_footprints.py`.
+
 The script `extract_ways.py` can output SVG data for each
 waypath suitable for input to `d3_make_way.js` for making an
 individual museum's waypath SVG. For example, Tate Britain
@@ -45,10 +49,6 @@ favorite viewer.
 
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_plot_ways.png">
 <img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_make_way.png">
-
-A first cut at footprint SVGs was added to
-[svg/](https://github.com/goodformandspectacle/londonmuseums/tree/master/svg). They
-were produced with `make_footprints.py`.
 
 
 Example vs. Center Overpass Output
