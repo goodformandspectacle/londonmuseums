@@ -6,22 +6,26 @@ Most recent progress up top!  :grin:
 Making Ways SVGs
 ----------------
 
-```
-d3_make_ways.js: Returns SVG/XML of an OSM way.
-    argv[2]  GeoJSON file of OSM way
-    argv[3]  way path center coordinates
-    argv[4]  zoom level (probably 24-26)
-```
-
-For example, Tate Britain (way/24553580)
+The script <tt>extract_ways.py</tt> can output SVG data for each
+waypath suitable for input to <tt>d3_make_way.js</tt> for making an
+individual museum's waypath SVG. For example, Tate Britain
+(way/24553580):
 
 ```shell
-$ d3_make_way.js geojson/24553580.json [-0.1276205,51.4911110] 25 > d3_make_way.svg
+$ ./extract_ways.py overpass_center.xml svg -svg svgdata
+$ ./d3_make_way.js geojson/24553580.json > d3_make_way.svg
 ```
 
-See
-[d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg) and
-[d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_make_way.svg)
+We now have an example map with a few museum centerpoints plotted and
+labeled against a recognizable water feature
+([d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg))
+and an example footprint (way) SVG with a matching centerpoint
+([d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_make_way.svg)). 
+
+For some reason, place-labels (text) don't show up in the GitHub SVG
+preview, so you'll want to pull from the repo and open it in your
+favorite viewer.
+
 
 Example vs. Center Overpass Output
 ----------------------------------
