@@ -3,8 +3,8 @@ NOTES
 
 Most recent progress up top!  :grin:
 
-Making Ways SVGs
-----------------
+Making Footprint/way SVGs
+---------------------------
 
 The script <tt>extract_ways.py</tt> can output SVG data for each
 waypath suitable for input to <tt>d3_make_way.js</tt> for making an
@@ -24,7 +24,10 @@ and an example footprint (way) SVG with a matching centerpoint
 
 Note: For some reason, place-labels (text) don't show up in the GitHub 
 SVG preview, so you'll want to pull from the repo and open it in your 
-favorite viewer.
+favorite viewer, or point your eyeballs on these:
+
+<img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_plot_ways.png">
+<img width="800" src="https://raw.githubusercontent.com/goodformandspectacle/londonmuseums/master/caps/d3_make_way.png">
 
 
 Example vs. Center Overpass Output
