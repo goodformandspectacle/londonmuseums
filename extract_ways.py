@@ -28,7 +28,8 @@ def get_center_coords(way_elem):
     """return center coords of way"""
     coords = way_elem.xpath(".//center")
     if len(coords):
-        return "%s/%s" % (coords[0].get("lat"), coords[0].get("lon"))
+        return [float(coords[0].get("lat")),
+                float(coords[0].get("lon"))]
 
 
 def get_way_label(way_elem, relation):
@@ -60,6 +61,17 @@ def get_link(typ, val):
     if val:
         return "%s/%s/%s" % (OSM, typ, val)
 
+def svg_data(path, label, center):
+    """returns GeoJSON suitable for creating SVG"""
+    if center:
+        svg_center = [center[1], center[0]]  # *shakes fist at sky*
+    else:
+        svg_center = None
+    return {"type": "Feature",
+            "geometry": {"type": "LineString",
+                         "coordinates": path},
+            "properties": {"name": label,
+                           "center": svg_center}}
 
 def walk_way_items(root, way_id):
     """prints details for each way path."""
@@ -82,9 +94,9 @@ def walk_way_items(root, way_id):
     size = "%f_%s" % ((path_width(path) + path_height(path)),
                       way_id)  # avoid collisions
     OUTPUT[size] = {'size': size, 'way': way_id, 'label': label,
-                    'center': center,
+                    'center': "%f/%f" % (center[0], center[1]) if center else None,
                     'coords': coords, 'nodes': nodes,
-                    'geo': {'type': 'LineString', 'coordinates': path},
+                    'svgdata': svg_data(path, label, center),
                     'wlink': get_link('way', way_id),
                     'rlink': get_link('relation', rel_id)}
 
@@ -102,7 +114,7 @@ def write_csv(filename, output):
         return csvfile.tell()
 
 
-def write_geojson(dest, output):
+def write_svgdata(dest, output):
     if os.path.exists(dest):
         raise StandardError("destination file exists: %s" % dest)
     os.mkdir(dest)
@@ -110,7 +122,7 @@ def write_geojson(dest, output):
         name = output[szkey]['way'] + '.json'
         fname = os.path.join(os.getcwd(), dest, name)
         with open(fname, 'w') as jsfile:
-            jsfile.write(json.dumps(output[szkey]['geo']))
+            jsfile.write(json.dumps(output[szkey]['svgdata']))
             print "wrote %s bytes to %s" % (jsfile.tell(), fname)
 
 
@@ -126,8 +138,8 @@ def main(_file, args):
         nbytes = write_csv(args.csvfile, OUTPUT)
         print "wrote %s bytes to %s" % (nbytes, args.csvfile)
         return
-    if args.json_dest:
-        write_geojson(args.json_dest, OUTPUT)
+    if args.data_dest:
+        write_svgdata(args.data_dest, OUTPUT)
         return
     if args.format == "list":
         print " | ".join(FIELDNAMES)
@@ -139,19 +151,19 @@ def main(_file, args):
                                    OUTPUT[sizekey]['label'])
         if args.format == "dump":
             print OUTPUT[sizekey]
-        if args.format == "geojson":
-            print OUTPUT[sizekey]['geo']
+        if args.format == "svg":
+            print OUTPUT[sizekey]['svgdata']
 
 
 if __name__ == "__main__":
     argp = argparse.ArgumentParser(
         description="Expand OSM ways and emit by size.")
     argp.add_argument("overpass_xml", help="Overpass API XML output")
-    argp.add_argument("format", choices=['list', 'dump', 'geojson'],
+    argp.add_argument("format", choices=['list', 'dump', 'svg'],
                       help="output format")
     argp.add_argument('-csv', '--csvfile',
                       help="write CSV list to specified file.")
-    argp.add_argument('-json', '--json-dest',
-                      help="write GeoJSON files to specified directory.")
+    argp.add_argument('-svg', '--data-dest',
+                      help="write SVG data files to specified directory.")
     args = argp.parse_args()
     main(args.overpass_xml, args)
