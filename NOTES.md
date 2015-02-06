@@ -6,8 +6,8 @@ Most recent progress up top!  :grin:
 Making Footprint/way SVGs
 ---------------------------
 
-The script <tt>extract_ways.py</tt> can output SVG data for each
-waypath suitable for input to <tt>d3_make_way.js</tt> for making an
+The script `extract_ways.py` can output SVG data for each
+waypath suitable for input to `d3_make_way.js` for making an
 individual museum's waypath SVG. For example, Tate Britain
 (way/24553580):
 
@@ -22,6 +22,23 @@ labeled against a recognizable water feature
 and an example footprint (way) SVG with a matching centerpoint
 ([d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_make_way.svg)). 
 
+Hopefully, we can use the `size` from `svgdata` to dial-in a zoom level.
+
+```
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [[-0.1289126, 51.4909661], ... [-0.1289126, 51.4909661]]
+    },
+    "properties": {
+        "center": [-0.1276205, 51.491111]
+        "name": "Tate Britain",
+        "size": 0.003367,
+    }
+}
+```
+
 Note: For some reason, place-labels (text) don't show up in the GitHub 
 SVG preview, so you'll want to pull from the repo and open it in your 
 favorite viewer, or point your eyeballs on these:
@@ -33,8 +50,8 @@ favorite viewer, or point your eyeballs on these:
 Example vs. Center Overpass Output
 ----------------------------------
 
-The <tt>overpass_center</tt> result produced by the "Greater London"
-bounding box differed from the <tt>overpass_example</tt> output thus:
+The `overpass_center` result produced by the "Greater London"
+bounding box differed from the `overpass_example` output thus:
 
 ```
 appearing only in overpass_CENTER_ways:
@@ -75,21 +92,21 @@ Got Ways Centerpoints
 ---------------------
 
 The [Overpass turbo](http://overpass-turbo.eu/) Wizard was used to
-generate a query for <tt>“tourism=museum in "Greater London"”</tt>,
+generate a query for `“tourism=museum in "Greater London"”`,
 then modified it to print centerpoints (see 
-<tt>overpass_center_query.txt</tt>): 
+`overpass_center_query.txt`): 
 
 ```
 // print results
 out center;
 ```
 
-The output format was changed to XML (<tt>out:xml</tt>) and the "raw
+The output format was changed to XML (`out:xml`) and the "raw
 data" was exported to process in the same way as the
-<tt>overpass_example.xml</tt>. The raw XML was not checked in to avoid
+`overpass_example.xml`. The raw XML was not checked in to avoid
 bloating this repo any further.
 
-* Extracted "center" ways with <tt>extract_ways.py</tt>
+* Extracted "center" ways with `extract_ways.py`
 * Output to: [overpass_center_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_center_ways.csv)
 
 ```shell
@@ -101,10 +118,10 @@ Plotted Largest (25) Ways
 -------------------------
 
 GeoJSON for each way can be extracted directly from an Overpass XML
-result using <tt>extract_ways.py list --json dest</tt>. You can also
+result using `extract_ways.py list --json dest`. You can also
 just adjust the query to export GeoJSON directly. The biggest 25
 ways were plotted on a large D3 tile, just to get oriented, using
-<tt>d3_plot_ways.js</tt>, see
+`d3_plot_ways.js`, see
 [d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg). 
 
 This produces an interesting image with very small footprints, but it
@@ -125,7 +142,7 @@ A size was computed for each _way_ by adding together the maximum
 difference in lat and lon for each point in the path. It seems like
 a reasonable sort.
 
-* Added size computation to: <tt>extract_ways.py</tt>
+* Added size computation to: `extract_ways.py`
 * Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_example_ways.csv)
 
 The largest 25 ways were plotted on D3 vector tiles and they're
@@ -141,24 +158,24 @@ If we express our way coordinates in GeoJSON format, we can use use D3
 map projection tiles to draw the shape as an SVG path without
 distortion. 
 
-* Added "--geojson" arg to <tt>extract_ways.py</tt>
-* Altered D3 Vector Tiles example: <tt>d3vectiles.html</tt>
-* Example GeoJSON: <tt>d3vectiles.js</tt>, <tt>d3vectiles.css</tt>
-* SVG capture from example: <tt>d3vectiles.png</tt> looks like
+* Added "--geojson" arg to `extract_ways.py`
+* Altered D3 Vector Tiles example: `d3vectiles.html`
+* Example GeoJSON: `d3vectiles.js`, `d3vectiles.css`
+* SVG capture from example: `d3vectiles.png` looks like
   [relation 2711501](http://www.openstreetmap.org/relation/2711501)
 
 If we can query OSM for the "center" coordinate of each shape, I think
 we can produce similar SVGs in a Node.js script...
 
-* Example node script: <tt>d3node.js</tt>
-* Output: <tt>d3node.svg</tt>
+* Example node script: `d3node.js`
+* Output: `d3node.svg`
 
 
 Generated Way Vector Shapes
 ---------------------------
 
-* Extracted ways with <tt>extract_ways.py</tt>
-* Compact list: <tt>overpass_example_ways.txt</tt>
+* Extracted ways with `extract_ways.py`
+* Compact list: `overpass_example_ways.txt`
 
 Here's a complex example. There are only three of these (relations),
 the rest are "simple" ways or closed polygons. 
@@ -214,10 +231,10 @@ Some interesting shapes:
 OSM Overpass Query
 ------------------
 
-* Overpass query: <tt>overpass_example_query.txt</tt>
-* Query output: <tt>overpass_example.xml</tt>
-* Parsed with: <tt>parse_overpass_xml.py</tt>
-* Collected output: <tt>parse_overpass_xml.json</tt>
+* Overpass query: `overpass_example_query.txt`
+* Query output: `overpass_example.xml`
+* Parsed with: `parse_overpass_xml.py`
+* Collected output: `parse_overpass_xml.json`
 
 Overpass query for relations, ways, and nodes found:
 
@@ -261,8 +278,8 @@ Parse List of Museums in London, Wikipedia
 ------------------------------------------
 
 * Source: <http://en.wikipedia.org/wiki/List_of_museums_in_London>
-* Parsed with <tt>parse_wp_list.py</tt>
-* Output: <tt>parse_wp_list.json</tt>
+* Parsed with `parse_wp_list.py`
+* Output: `parse_wp_list.json`
 
 Found (223) entries (as of 4 Aug 2014) with:
 
