@@ -1,12 +1,8 @@
 #!/usr/bin/env node
 
-// Returns SVG/XML of an OSM way.
-// Arguments:
-//     argv[2]  GeoJSON file of OSM way
-//     argv[3]  way path center coordinates
-//     argv[4]  zoom level (probably 24-26)
-//
 // siznax 2015
+
+var add_label = false;
 
 if (process.argv.length < 3) {
     var usage = "Usage: d3_make_way.js svgdata_file\n"
@@ -17,7 +13,13 @@ if (process.argv.length < 3) {
 
 var fs = require('fs');
 var waypath = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
-var zoom = 26;
+var zoom = 25;
+
+if (waypath.properties.size <= 0.004995) { zoom = 26; } // Victoria and Albert Museum
+if (waypath.properties.size <= 0.002254) { zoom = 27; } // Battle of Britain Hall
+if (waypath.properties.size <= 0.001187) { zoom = 28; } // Museum Garden
+if (waypath.properties.size <= 0.000557) { zoom = 29; } // Red House
+if (waypath.properties.size <= 0.000174) { zoom = 30; } // Battle of Britain Bunker
 
 // console.log(waypath.properties.name);
 // console.log(waypath.properties.center);
@@ -28,7 +30,7 @@ jsdom.env(
     "<html><head></head><body></body></html>",
     ["http://d3js.org/d3.v3.min.js",
      "http://d3js.org/d3.geo.tile.v0.min.js"], function (err, window) {
-         var width=960, height=500;
+         var width=800, height=800;
          var svg = window.d3.select("body")
              .append("svg")
              .attr("xmlns","http://www.w3.org/2000/svg")
@@ -91,17 +93,19 @@ jsdom.env(
              .attr("d",path);
 
          // add label
-         svg.selectAll(".place-label").data([{
-             "type": "Point",
-             "coordinates": waypath.properties.center,
-             "name": waypath.properties.name}])
-             .enter().append("text")
-             .attr("class","place-label")
-             .attr("transform", function(d) {
-                 return "translate(" + projection(d.coordinates) + ")";
-             })
-             .attr("dy", "1.2em")
-             .text(function(d) { return d.name; });
+         if (add_label) {
+             svg.selectAll(".place-label").data([{
+                 "type": "Point",
+                 "coordinates": waypath.properties.center,
+                 "name": waypath.properties.name}])
+                 .enter().append("text")
+                 .attr("class","place-label")
+                 .attr("transform", function(d) {
+                     return "translate(" + projection(d.coordinates) + ")";
+                 })
+                 .attr("dy", "1.2em")
+                 .text(function(d) { return d.name; });
+         }
 
          setTimeout(function(){
              // emit SVG
