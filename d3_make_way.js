@@ -8,17 +8,20 @@
 //
 // siznax 2015
 
-if (process.argv.length < 5) {
-    var usage = "Usage: d3_make_way.js geojson_file center_coords zoom\n"
-        + "Example: d3_make_way.js geojson/118906069.json [-0.2390706,51.5979854] 24";
+if (process.argv.length < 3) {
+    var usage = "Usage: d3_make_way.js svgdata_file\n"
+        + "Example: d3_make_way.js svgdata/24553580.json";
     console.log(usage);
     process.exit();
 }
 
 var fs = require('fs');
 var waypath = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
-var center = JSON.parse(process.argv[3]);
-var zoom = process.argv[4];
+var zoom = 26;
+
+// console.log(waypath.properties.name);
+// console.log(waypath.properties.center);
+// process.exit();
 
 var jsdom = require('jsdom');
 jsdom.env(
@@ -36,7 +39,7 @@ jsdom.env(
              .size([width, height]);
 
          var projection = window.d3.geo.mercator()
-             .center(center)
+             .center(waypath.properties.center)
              .scale((1 << zoom) / 2 / Math.PI)
              .translate([width / 2, height / 2]);
 
@@ -50,13 +53,21 @@ jsdom.env(
              .enter().append("g")
              .each(function(d) {
                  var g = window.d3.select(this);
-                 var url = "http://" + ["a", "b", "c"][(d[0] * 31 + d[1]) % 3] + ".tile.openstreetmap.us/vectiles-highroad/" + d[2] + "/" + d[0] + "/" + d[1] + ".json";
+                 var url = "http://" + ["a", "b", "c"][(d[0] * 31 + d[1]) % 3]
+                     + ".tile.openstreetmap.us/vectiles-highroad/" + d[2]
+                     + "/" + d[0] + "/" + d[1] + ".json";
                  window.d3.json(url, function(error, json) {
                      g.selectAll("path")
-                         .data(json.features.sort(function(a, b) { return a.properties.sort_key - b.properties.sort_key; }))
+                         .data(json.features.sort(function(a, b) {
+                             return a.properties.sort_key
+                                 - b.properties.sort_key; }))
                          .enter().append("path")
-                         .attr("class", function(d) { return d.properties.kind; })
-                         .attr("style","fill:none; stroke:#ccc; stroke-linejoin:round; stroke-linecap:round;")
+                         .attr("class", function(d) {
+                             return d.properties.kind; })
+                         .attr("style","fill:none;"
+                               + "stroke:#ccc;"
+                               + "stroke-linejoin:round;"
+                               + "stroke-linecap:round;")
                          .attr("d", path);
                  });
              });
@@ -65,17 +76,36 @@ jsdom.env(
          svg.selectAll(".waypath").data([waypath])
              .enter().append("path")
              .attr("class","waypath")
-             .attr("style","fill:none; stroke:orange; stroke-width:5; stroke-linejoin:round; stroke-linecap:round}")
+             .attr("style","fill:none;"
+                   + "stroke:orange; stroke-width:5;"
+                   + "stroke-linejoin:round; stroke-linecap:round}")
              .attr("d",path);
 
+         // add centerpoint
+         svg.selectAll(".center").data([{
+             "type": "Point", "coordinates": waypath.properties.center}])
+             .enter().append("path")
+             .attr("class","center")
+             .attr("style","fill:none; stroke:red; stroke-width:1;"
+                   + "stroke-linejoin:round; stroke-linecap:round}")
+             .attr("d",path);
+
+         // add label
+         svg.selectAll(".place-label").data([{
+             "type": "Point",
+             "coordinates": waypath.properties.center,
+             "name": waypath.properties.name}])
+             .enter().append("text")
+             .attr("class","place-label")
+             .attr("transform", function(d) {
+                 return "translate(" + projection(d.coordinates) + ")";
+             })
+             .attr("dy", "1.2em")
+             .text(function(d) { return d.name; });
+
          setTimeout(function(){
-             // add centerpoint
-             svg.selectAll(".center").data([{"type": "Point", "coordinates": center}])
-                 .enter().append("path")
-                 .attr("class","center")
-                 .attr("style","fill:none; stroke:red; stroke-width:1; stroke-linejoin:round; stroke-linecap:round}")
-                 .attr("d",path);
+             // emit SVG
              console.log(window.d3.select("body").html());
-         }, 10000);
+         }, 5000);
 
      });
