@@ -3,6 +3,12 @@ NOTES
 
 Most recent progress up top!  :grin:
 
+Stashed Prep Work
+------------------
+
+Created `prep/` and moved `parse_*`, and `d3*` into it.
+
+
 Making Footprint/way SVGs
 ---------------------------
 
@@ -22,9 +28,9 @@ $ ./d3_make_way.js svgdata/24553580.json > d3_make_way.svg
 
 We now have an example map with a few museum centerpoints plotted and
 labeled against a recognizable water feature
-([d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg))
+([d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/prep/d3_plot_ways.svg))
 and an example footprint (way) SVG with a matching centerpoint
-([d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_make_way.svg)). 
+([d3_make_way.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/prep/d3_make_way.svg)). 
 
 Hopefully, we can use the `size` from `svgdata` to dial-in a zoom level.
 
@@ -111,7 +117,7 @@ data" was exported to process in the same way as the
 bloating this repo any further.
 
 * Extracted "center" ways with `extract_ways.py`
-* Output to: [overpass_center_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_center_ways.csv)
+* Output to: [overpass_center_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/prep/overpass_center_ways.csv)
 
 ```shell
 $ ./extract_ways.py overpass_center.xml list -csv overpass_center_ways.csv
@@ -126,7 +132,7 @@ result using `extract_ways.py list --json dest`. You can also
 just adjust the query to export GeoJSON directly. The biggest 25
 ways were plotted on a large D3 tile, just to get oriented, using
 `d3_plot_ways.js`, see
-[d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/d3_plot_ways.svg). 
+[d3_plot_ways.svg](https://github.com/goodformandspectacle/londonmuseums/blob/master/prep/d3_plot_ways.svg). 
 
 This produces an interesting image with very small footprints, but it
 shows that we can accurately place undistorted footprints on a flat
@@ -147,7 +153,7 @@ difference in lat and lon for each point in the path. It seems like
 a reasonable sort.
 
 * Added size computation to: `extract_ways.py`
-* Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/overpass_example_ways.csv)
+* Sorted by size into: [overpass_example_ways.csv](https://github.com/goodformandspectacle/londonmuseums/blob/master/prep/overpass_example_ways.csv)
 
 The largest 25 ways were plotted on D3 vector tiles and they're
 tiny. It doesn't make sense to try to scale them as lat/lon ways, so
