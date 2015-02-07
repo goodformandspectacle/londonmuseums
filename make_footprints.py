@@ -1,11 +1,23 @@
 #!/usr/bin/env python
+"""
+Generate footprint SVGs from Overpass CSV and JSON data.
+
+Dependencies:
+    extract_ways.py
+        => overpass.csv    [ way | center | label ]
+        => svgdata/*.json  { "center", "geometry", "size" }
+    make_way.js
+"""
 
 __author__ = "siznax"
 __date__ = "Feb 2015"
 
+import argparse
 import csv
 import os
 import subprocess
+
+MAKEWAYCMD = "make_way.js"
 
 
 def write(output, outfile):
@@ -14,12 +26,12 @@ def write(output, outfile):
         print "wrote %d bytes to %s" % (_outfile.tell(), outfile)
 
 
-def process(row):
+def process(row, svgdata, svgdest):
     pwd = os.getcwd()
     label = "".join([c for c in row['label'] if c.isalnum()])
-    infile = "svgdata/%s.json" % row['way']
-    outfile = "svg/%s-%s.svg" % (row['way'], label)
-    cmdfile = "d3_make_way.js"
+    infile = "%s/%s.json" % (svgdata, row['way'])
+    outfile = "%s/%s-%s.svg" % (svgdest, row['way'], label)
+    cmdfile = MAKEWAYCMD
     cmd = os.path.join(pwd, cmdfile)
 
     if os.path.exists(outfile):
@@ -31,12 +43,28 @@ def process(row):
     write(output, outfile)
 
 
-def main(csvfile):
+def main(csvfile, svgdata, svgdest):
+    if not os.path.exists(svgdata):
+        raise StandardError("data dir does not exist: %s" % svgdata)
+    if os.path.exists(svgdest):
+        raise StandardError("dest dir exists: %s" % svgdest)
+    else:
+        os.mkdir(svgdest)
     with open(csvfile, 'rb') as _file:
         for row in csv.DictReader(_file):
             if row['center']:
-                process(row)
+                process(row, svgdata, svgdest)
 
 
 if __name__ == "__main__":
-    main("overpass_center_ways.csv")
+    desc = "Write ann SVG file foreach svgdata input found"
+    argp = argparse.ArgumentParser(description=desc)
+    argp.add_argument("csv",
+                      help="Overpass CSV (from extract_ways)")
+    argp.add_argument("data",
+                      help="SVG input data directory (from extract_ways)")
+    argp.add_argument("dest",
+                      help="SVG destination directory")
+    args = argp.parse_args()
+
+    main(args.csv, args.data, args.dest)
