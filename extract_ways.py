@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Walk overpass XML (result) and expand ways."""
+"""Walk OSM XML and expand ways."""
 
 __author__ = "siznax"
 __date__ = "Jan 2015"
@@ -159,7 +159,7 @@ def main(_file, args):
 
 if __name__ == "__main__":
     argp = argparse.ArgumentParser(
-        description="Expand OSM ways and emit by size.")
+        description="Extract ways from OSM XML and emit by size.")
     argp.add_argument("overpass_xml", help="Overpass API XML output")
     argp.add_argument("format", choices=['list', 'dump', 'svg'],
                       help="output format")
