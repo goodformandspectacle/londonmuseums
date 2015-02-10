@@ -28,6 +28,16 @@ if (waypath.properties.size <= 0.001187) { zoom = 28; } // Museum Garden
 if (waypath.properties.size <= 0.000557) { zoom = 29; } // Red House
 if (waypath.properties.size <= 0.000174) { zoom = 30; } // Battle of Britain Bunker
 
+// computed size not contained by corresponding zoom level
+var outliers = {
+    '107807460': 27,
+    '183090506': 26
+};
+
+if (waypath.properties.way in outliers) {
+    zoom = outliers[waypath.properties.way];
+}
+
 // console.log(waypath.properties.name);
 // console.log(waypath.properties.center);
 // process.exit();
