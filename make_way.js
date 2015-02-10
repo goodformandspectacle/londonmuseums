@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Emit "footprint" SVG from OSM XML svgdata
-// Expects: 
+// Expects:
 //     svgdata/{way}.json  (from extract_ways.py)
 //         => {"center", "geometry", "size"}
 // Usage:
@@ -28,7 +28,7 @@ if (waypath.properties.size <= 0.001187) { zoom = 28; } // Museum Garden
 if (waypath.properties.size <= 0.000557) { zoom = 29; } // Red House
 if (waypath.properties.size <= 0.000174) { zoom = 30; } // Battle of Britain Bunker
 
-// computed size not contained by corresponding zoom level
+// footprints that do not fit in zoom level corresponding to size
 var outliers = {
     '107807460': 27,
     '183090506': 26
