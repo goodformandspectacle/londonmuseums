@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">93.5156,85.1114,0</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"geojson_io","description":"","fields":{"@id":"String","addr:postcode":"String","alt_name":"String","amenity":"String","building":"String","name":"String","name:es":"String","name:pl":"String","name:ru":"String","name:uk":"String","source:addr:postcode":"String","source:building":"String","tourism":"String","type":"String","website":"String","wikidata":"String","wikipedia":"String","addr:street":"String","highlight":"String","media:commons":"String","name:de":"String","name:el":"String","name:et":"String","name:fr":"String","name:he":"String","name:it":"String","name:la":"String","name:pt":"String","name:ro":"String","phone":"String","postal_code":"String","wheelchair":"String","addr:housename":"String","building:levels":"String","roof:levels":"String","source":"String","addr:city":"String","addr:country":"String","addr:housenumber":"String","fee":"String","layer":"String","operator":"String","@relations":"String","leisure":"String","note":"String","old_name":"String","historic":"String","name:ca":"String","alt_name:es":"String","name:ar":"String","name:en":"String","artwork_type":"String","building:facade:material":"String","source:addr":"String","building:name":"String","created_by":"String","fixme":"String","opening_hours":"String","source:name":"String","roof:height":"String","roof:shape":"String","int_name":"String","building:material":"String","roof:colour":"String","flickr":"String","building:color":"String","website:mobile":"String","access":"String","opening_hours:url":"String","fhrs:confidence_management":"String","fhrs:hygiene":"String","fhrs:id":"String","fhrs:local_authority_id":"String","fhrs:rating":"String","fhrs:rating_date":"String","fhrs:structural":"String","source:postcode":"String","description":"String","comment":"String","contact:phone":"String","level":"String","entrance":"String","@geometry":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+</Parameters>
+
+
+<Layer name="geojson_io"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/felix/Sites/londonmuseums/terraformer/data/geojson.io.geojson]]></Parameter>
+       <Parameter name="layer"><![CDATA[OGRGeoJSON]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
