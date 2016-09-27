@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title></title>
+		<title>Good, Form &amp; Spectacle Museum Visits</title>
 		<script>
 			document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
 		</script>
@@ -14,22 +14,27 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<h1>Hello world!</h1>
+		<div class="container">
+			<h1>Good, Form &amp; Spectacle Museum Visits</h1>
 
-		<input id="js-museums-table-filter" type="text"></input>
-		<div id="js-museums-table"></div>
+			<p>Filter list: <input id="js-museums-table-filter" type="text"></p>
+
+			<div id="js-museums-table" class="table-responsive"></div>
+		</div>
 
 		<script id="js-museums-table_template" type="text/html">
 			<table>
 				<thead>
 					<tr>
 						<th class="tHeader">Name</th>
+						<th class="tHeader">Date visited</th>
 					</tr>
 				</thead>
 				<tbody>
 				{{#rows}}
 					<tr>
 						<td>{{name}}</td>
+						<td class="td-date">{{datevisited}}</td>
 					</tr>
 				{{/rows}}
 				</tbody>
@@ -47,7 +52,12 @@
 				visits.init({
 					// ID of the Google spreadsheet that's been
 					// 'Published to the web' (in File menu):
-					'spreadsheet': '1CdjUEEeZR4Rc9B39_LQnUhWZzfnyQaxdgfQTwW3P18w'
+
+					// Full list of museums:
+					// 'spreadsheet': '1CdjUEEeZR4Rc9B39_LQnUhWZzfnyQaxdgfQTwW3P18w'
+
+					// GFS Visits:
+					'spreadsheet': '1DmS5tLWa6Gv3dfowFxye6MyvPQxjrKXjxlBjqpG7pJk'
 				
 				});
 			});

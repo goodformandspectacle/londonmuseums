@@ -2,14 +2,14 @@
  * Calling visits.init() should initialise all other modules.
  */
 ;(function() {
-	'use strict';
-	window.visits = window.visits || {};
-	var $ = window.jQuery;
+  'use strict';
+  window.visits = window.visits || {};
+  var $ = window.jQuery;
 
-	/**
-	 * This should init all of the modules that we want to initialise.
-	 */
-	visits = {
+  /**
+   * This should init all of the modules that we want to initialise.
+   */
+  visits = {
 
     tableContainerId: 'js-museums-table',
     tableFilterId:    'js-museums-table-filter',
@@ -23,7 +23,7 @@
     init: function(config) {
 
       this.initTabletop(config.spreadsheet);
-    
+
     },
 
     initTabletop: function(spreadsheet) {
@@ -39,7 +39,12 @@
         } );
     },
 
+    /**
+     * Display the table.
+     * data is the array of data from the spreadsheet.
+     */
     callback: function(data, tabletop) {
+
       console.log(data);
 
       var tableOptions = {
@@ -48,12 +53,11 @@
         tableDiv:   '#' + this.tableContainerId,
         filterDiv:  '#' + this.tableFilterId
       };
-      console.log(tableOptions);
 
       Sheetsee.makeTable(tableOptions);
       Sheetsee.initiateTableFilter(tableOptions)
     }
-	};
+  }
 
 }());
 
