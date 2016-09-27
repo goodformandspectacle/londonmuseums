@@ -80,6 +80,9 @@ video {
    VISIT DETAIL
    ========================================================================== */
 
+.visit-map {
+	height: 250px;
+}
 .visit-detail {
 	margin-bottom: 2em;
 }

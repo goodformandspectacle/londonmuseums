@@ -13,7 +13,8 @@
 
     tableContainerId: 'js-visits-table',
     tableFilterId:    'js-visits-table-filter',
-    visitDetailId:      'js-visit-detail',
+    visitDetailId:    'js-visit-detail',
+    visitMapId:       'js-visit-map',
 
     /**
      * Will be a list of all the processed data from the spreadsheet.
@@ -21,12 +22,30 @@
     visitsData: [],
 
     /**
+     * Will be a Leaflet map object.
+     */
+    map: false,
+
+    /**
+     * Will be the one marker on our map.
+     */
+    mapMarker: false,
+
+    /**
+     * Will be the Mapbox API Access Token.
+     */
+    mapboxToken: false,
+
+    /**
      * Call visits.init() to start everything.
      *
      * config contains:
      *  * spreadsheet - The URL of the Google spreadsheet.
+     *  * mapboxToken - API Access Token for Mapbox.
      */
     init: function(config) {
+
+      this.mapboxToken = config['mapboxToken'];
 
       this.initTabletop(config.spreadsheet);
 
@@ -173,7 +192,40 @@
       var html = Sheetsee.ich[this.visitDetailId+'_template'](visit);
 
       $('#' + this.visitDetailId).html(html);
+
+      this.displayVisitMap(visit);
+    },
+
+    displayVisitMap: function(visit) {
+      console.log(visit);
+      if (visit.lat == '' || visit.lon == '') {
+        $('#'+this.visitMapId).hide();
+        return;
+      };
+
+      $('#'+this.visitMapId).show();
+
+      if (! this.map) {
+        this.map =  L.map(this.visitMapId);
+
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+          maxZoom: 18,
+          id: 'mapbox.streets',
+          accessToken: this.mapboxToken
+        }).addTo(this.map);
+      };
+
+      // We only want one marker on the map at a time.
+      if (this.mapMarker) {
+        this.map.removeLayer(this.mapMarker);
+      };
+
+      this.map.setView([visit.lat, visit.lon], 13);
+
+      this.mapMarker = L.marker([visit.lat, visit.lon]).addTo(this.map);
     }
+
 
   }
 
