@@ -38,7 +38,7 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 				<p>You can view the data in <a href="https://docs.google.com/spreadsheets/d/<?php echo $SPREADSHEET_KEY; ?>/pubhtml">this Google spreadsheet</a>, although that will probably require JavaScript too.</p>
 			</noscript>
 
-			<div id="js-visit-info"></div>
+			<div id="js-visit-detail" class="visit-detail"></div>
 
 			<p class="table-filter">
 				<label>
@@ -77,7 +77,7 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 			</table>
 		</script>
 
-		<script id="js-visit-info_template" type="text/html">
+		<script id="js-visit-detail_template" type="text/html">
 			<h2>{{name}}</h2>
 			<dl class="dl-horizontal">
 				{{#datevisited}}
@@ -130,22 +130,24 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 					<dt>Number of objects</dt>
 					<dd>{{ objects }}</dd>
 				{{/objects}}
-			</dl>
 
-			{{#hasurl}}
-				<h3>Elsewhere</h3>
-				<ul>
-					{{#url}}
-						<li><a href="{{ url }}">Museum’s own site</a></li>
-					{{/url}}
-					{{#wikipediaurl}}
-						<li><a href="{{ wikipediaurl }}">Wikipedia</a></li>
-					{{/wikipediaurl}}
-					{{#gfsblogpost}}
-						<li><a href="{{ gfsblogpost }}">GF&amp;S blog post</a></li>
-					{{/gfsblogpost}}
-				</ul>
-			{{/hasurl}}
+				{{#hasurl}}
+					<dt>Elsewhere</dt>
+					<dd>
+						<ul>
+							{{#url}}
+								<li><a href="{{ url }}">Museum’s own site</a></li>
+							{{/url}}
+							{{#wikipediaurl}}
+								<li><a href="{{ wikipediaurl }}">Wikipedia</a></li>
+							{{/wikipediaurl}}
+							{{#gfsblogpost}}
+								<li><a href="{{ gfsblogpost }}">GF&amp;S blog post</a></li>
+							{{/gfsblogpost}}
+						</ul>
+					</dd>
+				{{/hasurl}}
+			</dl>
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

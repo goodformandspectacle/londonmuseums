@@ -13,7 +13,7 @@
 
     tableContainerId: 'js-visits-table',
     tableFilterId:    'js-visits-table-filter',
-    visitInfoId:      'js-visit-info',
+    visitDetailId:      'js-visit-detail',
 
     /**
      * Will be a list of all the processed data from the spreadsheet.
@@ -162,9 +162,9 @@
      */
     displayVisit: function(visit) {
 
-      var html = Sheetsee.ich[this.visitInfoId+'_template'](visit);
+      var html = Sheetsee.ich[this.visitDetailId+'_template'](visit);
 
-      $('#' + this.visitInfoId).html(html);
+      $('#' + this.visitDetailId).html(html);
     }
 
   }

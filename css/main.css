@@ -80,6 +80,15 @@ video {
    VISIT DETAIL
    ========================================================================== */
 
+.visit-detail {
+	margin-bottom: 2em;
+}
+.visit-detail dd ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
 dt {
 	font-weight: bold;
 }
