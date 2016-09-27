@@ -56,8 +56,12 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 			<table>
 				<thead>
 					<tr>
-						<th class="tHeader">Name</th>
-						<th class="tHeader">Date visited</th>
+						<th class="tHeader" title="Click to reorder">
+							Name
+						</th>
+						<th class="tHeader td-date" title="Click to reorder">
+							Date visited
+						</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -85,18 +89,20 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 					<dd>{{ immediatenotes }}</dd>
 				{{/immediatenotes}}
 
-				<dt>Address</dt>
-				<dd>
-					{{#address}}
-						{{ address }}<br>
-					{{/address}}
-					{{#city}}
-						{{ city }}
-					{{/city}}
-					{{#postcode }}
-						{{ postcode }}
-					{{/postcode }}
-				</dd>
+				{{#hasaddress}}
+					<dt>Address</dt>
+					<dd>
+						{{#address}}
+							{{ address }}<br>
+						{{/address}}
+						{{#city}}
+							{{ city }}
+						{{/city}}
+						{{#postcode }}
+							{{ postcode }}
+						{{/postcode }}
+					</dd>
+				{{/hasaddress}}
 
 				{{#admissioncost}}
 					<dt>Admission cost</dt>
@@ -124,21 +130,22 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 					<dt>Number of objects</dt>
 					<dd>{{ objects }}</dd>
 				{{/objects}}
-
 			</dl>
 
-			<h3>Elsewhere</h3>
-			<ul>
-				{{#url}}
-					<li><a href="{{ url }}">Museum’s own site</a></li>
-				{{/url}}
-				{{#wikipediaurl}}
-					<li><a href="{{ wikipediaurl }}">Wikipedia</a></li>
-				{{/wikipediaurl}}
-				{{#gfsblogpost}}
-					<li><a href="{{ gfsblogpost }}">GF&amp;S blog post</a></li>
-				{{/gfsblogpost}}
-			</ul>
+			{{#hasurl}}
+				<h3>Elsewhere</h3>
+				<ul>
+					{{#url}}
+						<li><a href="{{ url }}">Museum’s own site</a></li>
+					{{/url}}
+					{{#wikipediaurl}}
+						<li><a href="{{ wikipediaurl }}">Wikipedia</a></li>
+					{{/wikipediaurl}}
+					{{#gfsblogpost}}
+						<li><a href="{{ gfsblogpost }}">GF&amp;S blog post</a></li>
+					{{/gfsblogpost}}
+				</ul>
+			{{/hasurl}}
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

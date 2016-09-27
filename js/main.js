@@ -103,8 +103,12 @@
 
       $.each(data, function(idx, visit) {
 
+        if ('datevisited' in visit && visit['datevisited'] != '') {
+          data[idx]['datevisited'] = visit['datevisited'].replace(/-/g, ' ');
+        };
+
         // Make a numeric visitid from the 'gfs:visit=37' data.
-        if ('id' in visit) {
+        if ('id' in visit && visit['id'] != '') {
           var parts = visit['id'].split('=');
           if (parts.length == 2) {
             data[idx]['visitid'] = parts[1];
@@ -133,6 +137,27 @@
           } else if (visit['directorgender'] == 'M+F') {
             data[idx]['directorgender'] = 'Male and female';
           };
+        };
+
+        // Create some booleans so we can decide whether to show certain
+        // blocks in the page.
+        if (
+            ('url' in visit && visit['url'] != '')
+            ||
+            ('wikipediaurl' in visit && visit['wikipediaurl'] != '')
+            ||
+            ('gfsblogpost' in visit && visit['gfsblogpost'] != '')
+        ) {
+            data[idx]['hasurl'] = true;
+        };
+        if (
+            ('address' in visit && visit['address'] != '')
+            ||
+            ('city' in visit && visit['city'] != '')
+            ||
+            ('postcode' in visit && visit['postcode'] != '')
+        ) {
+            data[idx]['hasaddress'] = true;
         };
 
       });
