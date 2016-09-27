@@ -55,7 +55,6 @@
 
     initTabletop: function(spreadsheet) {
       var that = this;
-        console.log('loaded');
         var gData;
         var URL = spreadsheet;
         Tabletop.init( {
@@ -71,9 +70,7 @@
      * data is the array of data from the spreadsheet.
      */
     callback: function(data, tabletop) {
-
       this.visitsData = this.processData(data);
-      console.log(this.visitsData);
 
       $('.js-loading').hide();
 
@@ -86,6 +83,8 @@
 
       Sheetsee.makeTable(tableOptions);
       Sheetsee.initiateTableFilter(tableOptions)
+
+      this.displayInitialVisit();
     },
 
     /**
@@ -104,7 +103,7 @@
         if ('id' in visit && visit['id'] != '') {
           var parts = visit['id'].split('=');
           if (parts.length == 2) {
-            data[idx]['visitid'] = parts[1];
+            data[idx]['visitid'] = parseInt(parts[1], 10);
           };
         };
 
@@ -154,6 +153,15 @@
       });
 
       return data;
+    },
+
+    /**
+     * Display a visit detail when the page loads.
+     */
+    displayInitialVisit: function() {
+      // Get most recent visit, assuming visit IDs work like that:
+      var visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
+      this.displayVisit(visit);
     },
 
     /**
