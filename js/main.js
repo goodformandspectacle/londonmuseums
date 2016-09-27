@@ -21,11 +21,6 @@
     visitsData: [],
 
     /**
-     * Will map a visit ID to a row index in visitsData.
-     */
-    visitsLookup: {},
-
-    /**
      * Call visits.init() to start everything.
      *
      * config contains:
@@ -46,15 +41,13 @@
       $('#' + this.tableContainerId).on('click', '.js-museum-link', function(ev){
         ev.preventDefault();
 
-        // eg, 'v23':
-        var hash = $(this).prop('href').split('#')[1];
+        var hash = $(this).prop('href').split('#')[1]; // eg 'v23'
 
-        // eg, '23':
-        var visitID = hash.substring(1);
+        var visitID = hash.substring(1); // eg '23'.
 
-        if (visitID) {
-          that.displayVisit(visitID);
-        };
+        var visit = Sheetsee.getMatches(that.visitsData, visitID, "visitid")[0];
+
+        that.displayVisit(visit);
 
         return false;
       });
@@ -112,8 +105,6 @@
           var parts = visit['id'].split('=');
           if (parts.length == 2) {
             data[idx]['visitid'] = parts[1];
-
-            that.visitsLookup[parts[1]] = idx;
           };
         };
 
@@ -167,13 +158,9 @@
 
     /**
      * Display the details for a single visit.
+     * visit is an object, one row from the spreadsheet.
      */
-    displayVisit: function(visitID) {
-      if (!(visitID in this.visitsLookup)) {
-        return;
-      };
-
-      var visit = this.visitsData[ this.visitsLookup[visitID] ];
+    displayVisit: function(visit) {
 
       var html = Sheetsee.ich[this.visitInfoId+'_template'](visit);
 
