@@ -64,9 +64,9 @@ video {
 	width: 100%;
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
 	.container {
-		width: 750px;
+		width: 738px; /* 768 - body's L and R margins */
 		margin: 0 auto;
 	}
 }
@@ -76,6 +76,41 @@ video {
 	display: none;
 }
 
+/* ==========================================================================
+   VISIT DETAIL
+   ========================================================================== */
+
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: .5rem;
+	margin-left: 0;
+}
+@media (min-width: 768px) {
+	.dd:before,
+	.dd:after {
+		content: " ";
+		display: table;
+	}
+	.dd:after {
+		clear: both;
+	}
+
+	
+	.dl-horizontal dt {
+		float: left;
+		width: 160px;
+		clear: left;
+		text-align: right;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.dl-horizontal dd {
+		margin-left: 180px;
+	}
+}
 
 /* ==========================================================================
    TABLE
@@ -136,8 +171,8 @@ tbody tr:nth-of-type(odd) {
 .table-pagination {
 	text-align: center;
 }
-.pagination-pre-js-museums-table,
-.pagination-next-js-museums-table {
+.pagination-pre-js-visits-table,
+.pagination-next-js-visits-table {
 	color: #00f;
 	cursor: pointer;
 	text-decoration: underline;

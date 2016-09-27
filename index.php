@@ -38,19 +38,21 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 				<p>You can view the data in <a href="https://docs.google.com/spreadsheets/d/<?php echo $SPREADSHEET_KEY; ?>/pubhtml">this Google spreadsheet</a>, although that will probably require JavaScript too.</p>
 			</noscript>
 
+			<div id="js-visit-info"></div>
+
 			<p class="table-filter">
 				<label>
 					Filter list:
-					<input id="js-museums-table-filter" type="text">
+					<input id="js-visits-table-filter" type="text">
 				</label>
 			</p>
 
 			<p class="js-loading loading">Loading data…</p>
 
-			<div id="js-museums-table" class="table-responsive"></div>
+			<div id="js-visits-table" class="table-responsive"></div>
 		</div>
 
-		<script id="js-museums-table_template" type="text/html">
+		<script id="js-visits-table_template" type="text/html">
 			<table>
 				<thead>
 					<tr>
@@ -61,12 +63,82 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 				<tbody>
 				{{#rows}}
 					<tr>
-						<td>{{name}}</td>
+						<td>
+							<a class="js-museum-link" href="#v{{ visitid }}">{{name}}</a>
+						</td>
 						<td class="td-date">{{datevisited}}</td>
 					</tr>
 				{{/rows}}
 				</tbody>
 			</table>
+		</script>
+
+		<script id="js-visit-info_template" type="text/html">
+			<h2>{{name}}</h2>
+			<dl class="dl-horizontal">
+				{{#datevisited}}
+					<dt>Date visited</dt>
+					<dd>{{ datevisited }}</dd>
+				{{/datevisited}}
+				{{#immediatenotes}}
+					<dt>Notes</dt>
+					<dd>{{ immediatenotes }}</dd>
+				{{/immediatenotes}}
+
+				<dt>Address</dt>
+				<dd>
+					{{#address}}
+						{{ address }}<br>
+					{{/address}}
+					{{#city}}
+						{{ city }}
+					{{/city}}
+					{{#postcode }}
+						{{ postcode }}
+					{{/postcode }}
+				</dd>
+
+				{{#admissioncost}}
+					<dt>Admission cost</dt>
+					<dd>{{ admissioncost }}</dd>
+				{{/admissioncost}}
+
+				{{#yearfounded}}
+					<dt>Founded</dt>
+					<dd>{{ yearfounded }}</dd>
+				{{/yearfounded}}
+				{{#yearbuilt}}
+					<dt>Built</dt>
+					<dd>{{ yearbuilt }}</dd>
+				{{/yearbuilt}}
+				{{#yearopened}}
+					<dt>Opened</dt>
+					<dd>{{ yearopened }}</dd>
+				{{/yearopened}}
+
+				{{#directorgender}}
+					<dt>Director gender</dt>
+					<dd>{{ directorgender}}</dd>
+				{{/directorgender}}
+				{{#objects}}
+					<dt>Number of objects</dt>
+					<dd>{{ objects }}</dd>
+				{{/objects}}
+
+			</dl>
+
+			<h3>Elsewhere</h3>
+			<ul>
+				{{#url}}
+					<li><a href="{{ url }}">Museum’s own site</a></li>
+				{{/url}}
+				{{#wikipediaurl}}
+					<li><a href="{{ wikipediaurl }}">Wikipedia</a></li>
+				{{/wikipediaurl}}
+				{{#gfsblogpost}}
+					<li><a href="{{ gfsblogpost }}">GF&amp;S blog post</a></li>
+				{{/gfsblogpost}}
+			</ul>
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
