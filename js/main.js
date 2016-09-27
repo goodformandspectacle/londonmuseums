@@ -47,6 +47,8 @@
 
       console.log(data);
 
+      $('.js-loading').hide();
+
       var tableOptions = {
         data:       data,
         pagination: 30,
