@@ -47,10 +47,9 @@
 
       this.mapboxToken = config['mapboxToken'];
 
-      this.initTabletop(config.spreadsheet);
+      this.initData(config.spreadsheet);
 
       this.initListeners();
-
     },
 
     initListeners: function() {
@@ -72,14 +71,18 @@
       });
     },
 
-    initTabletop: function(spreadsheet) {
+    /**
+     * Get the data from the Google Spreadsheet.
+     * Once fetched, it's passed off to the callback to do stuff with it.
+     */
+    initData: function(spreadsheet) {
       var that = this;
         var gData;
         var URL = spreadsheet;
         Tabletop.init( {
           key: URL,
           // Keep 'this' in context in the callback:
-          callback: (that.callback).bind(that),
+          callback: (that.tabletopCallback).bind(that),
           simpleSheet: true
         } );
     },
@@ -88,7 +91,7 @@
      * Display the table.
      * data is the array of data from the spreadsheet.
      */
-    callback: function(data, tabletop) {
+    tabletopCallback: function(data, tabletop) {
       this.visitsData = this.processData(data);
 
       $('.js-loading').hide();
@@ -184,7 +187,7 @@
     },
 
     /**
-     * Display the details for a single visit.
+     * Display the details, including map, for a single visit.
      * visit is an object, one row from the spreadsheet.
      */
     displayVisit: function(visit) {
@@ -196,8 +199,12 @@
       this.displayVisitMap(visit);
     },
 
+    /**
+     * Display the map of the visit location.
+     * But if the visit has no lat/lon, then hide the map.
+     * visit is an object, one row from the spreadsheet.
+     */
     displayVisitMap: function(visit) {
-      console.log(visit);
       if (visit.lat == '' || visit.lon == '') {
         $('#'+this.visitMapId).hide();
         return;
