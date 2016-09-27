@@ -57,17 +57,15 @@
 
       // Click a link in the table to display the visit's details.
       $('#' + this.tableContainerId).on('click', '.js-museum-link', function(ev){
-        ev.preventDefault();
-
         var hash = $(this).prop('href').split('#')[1]; // eg 'v23'
 
         var visitID = hash.substring(1); // eg '23'.
 
-        var visit = Sheetsee.getMatches(that.visitsData, visitID, "visitid")[0];
+        var visit = Sheetsee.getMatches(that.visitsData, visitID, 'visitid')[0];
 
         that.displayVisit(visit);
 
-        return false;
+        window.location.hash = '#' + hash;
       });
     },
 
@@ -181,8 +179,25 @@
      * Display a visit detail when the page loads.
      */
     displayInitialVisit: function() {
-      // Get most recent visit, assuming visit IDs work like that:
-      var visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
+      // See if there's the ID of a visit in the URL hash:
+      var hash = window.location.hash; // eg '#v23'
+      var visitID = hash.substring(2); // eg '23'.
+
+      var visits = [],
+          visit;
+
+      if (visitID) {
+        visits = Sheetsee.getMatches(this.visitsData, visitID, 'visitid');
+      };
+
+      if (visits.length > 0) {
+        // Yes, the visit ID matches one in the data, so use that.
+        visit = visits[0];
+      } else {
+        // Get most recent visit, assuming visit IDs work like that:
+        visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
+      };
+
       this.displayVisit(visit);
     },
 
