@@ -192,12 +192,10 @@
 
       $.each(data, function(idx, visit) {
 
-        // Will be like '2016-08-31', so we can sort on it:
-        data[idx]['datevisitedreverse'] = '';
-
         if ('datevisited' in visit && visit['datevisited'] != '') {
-          data[idx]['datevisitedreverse'] = reverseDate(visit['datevisited']);
-          data[idx]['datevisited'] = visit['datevisited'].replace(/-/g, ' ');
+          // Take a date like '31-Aug-2016' and make it '2016-08-31'.
+          // So we can sort by this in the table.
+          data[idx]['datevisited'] = reverseDate(visit['datevisited']);
         };
 
         // Make a numeric visitid from the 'gfs:visit=37' data.
@@ -253,16 +251,16 @@
 
       });
 
-      function sort_by_datevisitedreverse(a,b) {
-        if (a.datevisitedreverse < b.datevisitedreverse)
+      function sort_by_datevisited(a,b) {
+        if (a.datevisited< b.datevisited)
           return -1;
-        if (a.datevisitedreverse > b.datevisitedreverse)
+        if (a.datevisited> b.datevisited)
           return 1;
         return 0;
       };
 
       // We want to have the most-recent item at the top of the table.
-      data = data.sort(sort_by_datevisitedreverse);
+      data = data.sort(sort_by_datevisited);
       data.reverse();
 
       return data;

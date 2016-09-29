@@ -77,7 +77,7 @@ $URL_ROOT = '/';
 						<td>
 							<a class="js-museum-link" href="visit/{{ visitid }}">{{name}}</a>
 						</td>
-						<td class="td-date">{{datevisited}}</td>
+						<td class="td-date">{{ datevisited }}</td>
 					</tr>
 				{{/rows}}
 				</tbody>
