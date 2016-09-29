@@ -79,15 +79,19 @@
         // eg '23':
         var visitId = urlParts[urlParts.length - 1];
 
-        var visit = Sheetsee.getMatches(that.visitsData, visitId, 'visitid')[0];
-
-        that.displayVisit(visit);
+        var visit = that.getVisitFromId(visitId);
 
         that.setLocation({'visit': visitId}, visit.name);
 
         $('html, body').animate({
           scrollTop: $("#" + that.visitDetailId).offset().top
         }, 300);
+      });
+
+      // When back/forward button is pressed.
+      $(window).on('statechange', function() {
+        var state = History.getState();
+        that.setContent(state.data);
       });
     },
 
@@ -108,7 +112,15 @@
     },
 
     /**
-     * Sets the URL.
+     * Returns the row of data for the visitId.
+     */
+    getVisitFromId: function(visitId) {
+      return Sheetsee.getMatches(
+                            this.visitsData, visitId.toString(), 'visitid')[0];
+    },
+
+    /**
+     * Sets the URL and the page content.
      * stateObj - An object passed to pushState.
      *            eg, {'visit': 23}
      * title - The Title of the page.
@@ -120,15 +132,30 @@
         url = this.urlRoot + 'visit/' + stateObj['visit'];
       };
 
-      title = this.makePageTitle(title);
-      History.pushState(stateObj, title, url);
+      History.pushState(stateObj, this.makePageTitle(title), url);
+
+      this.setContent(stateObj);
+    },
+
+    /**
+     * Set the content of the page based on stateObj.
+     */
+    setContent: function(stateObj) {
+      // eg {'visit': 23}:
+      if ('visit' in stateObj) {
+        this.displayVisit(stateObj['visit']);
+      };
     },
 
     /**
      * Given a page title, make the complete page title and return it.
      */
     makePageTitle: function(title) {
-      return title + ' (' + this.siteTitle + ')';
+      if (title) {
+        return title + ' (' + this.siteTitle + ')';
+      } else {
+        return this.siteTitle;
+      }
     },
 
     /**
@@ -287,20 +314,23 @@
       if (visits.length > 0) {
         // Yes, the visit ID matches one in the data, so use that.
         visit = visits[0];
-        this.setPageTitle(visit.name);
+        History.pushState({'visit': visit.visitid}, this.makePageTitle(visit.name), window.location.href);
       } else {
         // Get most recent visit, assuming visit IDs work like that:
         visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
+        History.pushState(
+                {'visit': visit.visitid}, this.makePageTitle(), this.urlRoot);
       };
 
-      this.displayVisit(visit);
+      this.displayVisit(visit.visitid);
     },
 
     /**
      * Display the details, including map, for a single visit.
-     * visit is an object, one row from the spreadsheet.
      */
-    displayVisit: function(visit) {
+    displayVisit: function(visitId) {
+      var visit = Sheetsee.getMatches(
+                            this.visitsData, visitId.toString(), 'visitid')[0];
 
       var html = Sheetsee.ich[this.visitDetailId+'_template'](visit);
 
