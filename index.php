@@ -9,7 +9,7 @@
 // GF&S Visits:
 $SPREADSHEET_KEY = '1DmS5tLWa6Gv3dfowFxye6MyvPQxjrKXjxlBjqpG7pJk';
 
-$MAPBOX_TOKEN = 'pk.eyJ1IjoicGhpbGd5Zm9yZCIsImEiOiJjaXRscHczbzYwMDFnMnlvYjhkMmpsbGp3In0.bYcz5vDBYiCwzHxFfF2YJQ';
+$MAPBOX_TOKEN = 'pk.eyJ1IjoiZ29vZGZvcm1hbmQiLCJhIjoiY2l0bzRxenA3MDAwMDJ0bGJwNHQzc2xyZiJ9.xU7FeiKjxxF33_0ppsG-Mg';
 
 $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 
