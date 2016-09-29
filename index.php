@@ -35,7 +35,7 @@ $URL_ROOT = '/';
 		<div class="container">
 			<h1 class="title"><a href="http://gfns.uk" title="to the main G,F&S site"><img class="title-logo" src="<?php echo $URL_ROOT; ?>img/logo-june172014.gif" width="598" height="79" alt="<?php echo $PAGE_TITLE; ?>"></a></h1>
 
-			<p style="text-align:center;"><a href="http://gfns.uk">gfns.uk</a> | This is a log of all the museums we've visited. It's alive!</p>
+			<p><a href="http://gfns.uk">gfns.uk</a> | This is a log of all the museums we've visited. It's alive!</p>
 
 			<noscript>
 				<p>This page requires JavaScript to work properly.</p>
