@@ -266,7 +266,7 @@
           visitToDisplay = Sheetsee.getMax(tableVisits, 'visitid')[0]
         };
 
-        tableDescriptionHtml = "<strong>"+message+'</strong> <a href="' + this.urlRoot + '">Show all</a>';
+        tableDescriptionHtml = "<strong>"+message+'</strong> | <a href="' + this.urlRoot + '">Clear</a>';
 
       } else {
         // /  (Default front page).
