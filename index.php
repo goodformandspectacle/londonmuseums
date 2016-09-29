@@ -47,10 +47,14 @@ $URL_ROOT = '/';
 
 			<div id="js-visit-map" class="visit-map"></div>
 
-			<p class="table-filter">
+			<hr>
+
+			<p id="js-visits-table-description"></p>
+
+			<p id="js-visits-table-filter" class="table-filter">
 				<label>
 					Filter list:
-					<input id="js-visits-table-filter" type="text">
+					<input id="js-visits-table-filter-input" type="text">
 				</label>
 			</p>
 
@@ -59,32 +63,8 @@ $URL_ROOT = '/';
 			<div id="js-visits-table" class="table-responsive"></div>
 		</div>
 
-		<script id="js-visits-table_template" type="text/html">
-			<table>
-				<thead>
-					<tr>
-						<th class="tHeader" title="Click to reorder">
-							Name
-						</th>
-						<th class="tHeader td-date" title="Click to reorder">
-							Date visited
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-				{{#rows}}
-					<tr class="js-visit-{{ visitid }}">
-						<td>
-							<a class="js-museum-link" href="visit/{{ visitid }}">{{name}}</a>
-						</td>
-						<td class="td-date">{{ datevisited }}</td>
-					</tr>
-				{{/rows}}
-				</tbody>
-			</table>
-		</script>
-
 		<script id="js-visit-detail_template" type="text/html">
+			<hr>
 			<h2>{{name}}</h2>
 			<dl class="dl-horizontal">
 				{{#datevisited}}
@@ -118,16 +98,20 @@ $URL_ROOT = '/';
 
 				{{#yearfounded}}
 					<dt>Founded</dt>
-					<dd>{{ yearfounded }}</dd>
+					<dd><a href="<?php echo $URL_ROOT; ?>year/{{ yearfounded }}">{{ yearfounded }}</a></dd>
 				{{/yearfounded}}
 				{{#yearbuilt}}
 					<dt>Built</dt>
-					<dd>{{ yearbuilt }}</dd>
+					<dd><a href="<?php echo $URL_ROOT; ?>year/{{ yearbuilt }}">{{ yearbuilt }}</a></dd>
 				{{/yearbuilt}}
 				{{#yearopened}}
 					<dt>Opened</dt>
-					<dd>{{ yearopened }}</dd>
+					<dd><a href="<?php echo $URL_ROOT; ?>year/{{ yearopened }}">{{ yearopened }}</a></dd>
 				{{/yearopened}}
+				{{#yearreopened}}
+					<dt>Reopened</dt>
+					<dd><a href="<?php echo $URL_ROOT; ?>year/{{ yearreopened }}">{{ yearreopened }}</a></dd>
+				{{/yearreopened}}
 
 				{{#directorgender}}
 					<dt>Director gender</dt>
@@ -155,6 +139,31 @@ $URL_ROOT = '/';
 					</dd>
 				{{/hasurl}}
 			</dl>
+		</script>
+
+		<script id="js-visits-table_template" type="text/html">
+			<table>
+				<thead>
+					<tr>
+						<th class="tHeader" title="Click to reorder">
+							Name
+						</th>
+						<th class="tHeader td-date" title="Click to reorder">
+							Date visited
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+				{{#rows}}
+					<tr class="js-visit-{{ visitid }}">
+						<td>
+						<a class="js-museum-link" href="<?php echo $URL_ROOT; ?>visit/{{ visitid }}">{{name}}</a>
+						</td>
+						<td class="td-date">{{ datevisited }}</td>
+					</tr>
+				{{/rows}}
+				</tbody>
+			</table>
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

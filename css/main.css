@@ -95,6 +95,7 @@ video {
 
 .visit-map {
 	height: 250px;
+	display: none;
 }
 .visit-detail {
 	margin-bottom: 2em;

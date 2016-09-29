@@ -12,3 +12,6 @@ RewriteRule ^(.*)/$ /$1 [L,R=301]
 # /visit/23
 RewriteRule ^visit/\d+/?$ index.php [L]
 
+# /year/1941
+RewriteRule ^year/\d\d\d\d?/?$ index.php [L]
+

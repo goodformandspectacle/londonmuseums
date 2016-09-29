@@ -11,15 +11,23 @@
    */
   visits = {
 
-    tableContainerId: 'js-visits-table',
-    tableFilterId:    'js-visits-table-filter',
-    visitDetailId:    'js-visit-detail',
-    visitMapId:       'js-visit-map',
+    tableContainerId:   'js-visits-table',
+    tableFilterId:      'js-visits-table-filter',
+    tableFilterInputId: 'js-visits-table-filter-input',
+    tableDescriptionId: 'js-visits-table-description',
+    visitDetailId:      'js-visit-detail',
+    visitMapId:         'js-visit-map',
 
     /**
-     * Will be a list of all the processed data from the spreadsheet.
+     * Will be a list of ALL the processed data from the spreadsheet.
      */
     visitsData: [],
+
+    /**
+     * Will be the subset of visitsData currently used in the table.
+     * eg, might be filtered by yearopened.
+     */
+    tableData: [],
 
     /**
      * Will be a Leaflet map object.
@@ -182,17 +190,134 @@
 
       $('.js-loading').hide();
 
-      var tableOptions = {
-        data:       this.visitsData,
-        pagination: 30,
-        tableDiv:   '#' + this.tableContainerId,
-        filterDiv:  '#' + this.tableFilterId
+      this.doRouting();
+    },
+
+    /**
+     * From the URL (on first load) decide what to show.
+     */
+    doRouting: function() {
+      var urlParts = window.location.href.split('/');
+      // eg, 'visits' or 'opened':
+      var urlPart1 = urlParts[urlParts.length - 2];
+      // eg '23' or '1991':
+      var urlPart2 = urlParts[urlParts.length - 1];
+
+      // We will use these to set the page content at the end.
+      var tableVisits = [];
+      var visitToDisplay = false;
+      var pageTitle = '';
+      var pageUrl = window.location.href;
+      var tableDescriptionHtml = '';
+
+
+      if (urlPart1 == 'visit') {
+        // /visits/23
+
+        var visitId = urlPart2;
+        visits = Sheetsee.getMatches(this.visitsData, visitId, 'visitid');
+
+        if (visits.length > 0) {
+          // Yes, the visit ID matches one in the data, so use that.
+          visitToDisplay = visits[0];
+          pageTitle = visitToDisplay.name;
+        } else {
+          visitToDisplay = false;
+        };
+
+        // All of them.
+        tableVisits = this.visitsData;
+
+      } else if (urlPart1 == 'year') {
+        // /year/1941
+
+        var year = urlPart2;
+
+        // First put all the visits matching any criteria in this array:
+        // This may well included duplicate visits.
+        var visits = [];
+        visits = visits.concat(Sheetsee.getMatches(
+                                        this.visitsData, year, 'yearbuilt'));
+        visits = visits.concat(Sheetsee.getMatches(
+                                        this.visitsData, year, 'yearfounded'));
+        visits = visits.concat(Sheetsee.getMatches(
+                                        this.visitsData, year, 'yearopened'));
+        visits = visits.concat(Sheetsee.getMatches(
+                                      this.visitsData, year, 'yearreopened'));
+
+        // Will store the list of visitIds we've added to tableVisits so far:
+        var addedVisits = [];
+        // Go through visits and add each one to tableVisits only once:
+        for(var i=0; i<visits.length; ++i) {
+          if (addedVisits.indexOf(visits[i].visitid) == -1) {
+            addedVisits.push(visits[i].visitid);
+            tableVisits.push(visits[i]);
+          };
+        };
+
+        pageTitle = year;
+
+        var message = '';
+        if (tableVisits.length == 0) {
+          message = "There are no places built, founded or opened in " + year + '.';
+        } else {
+          message = "Places built, founded, or opened in " + year + '.';
+          // Display most recent visit from this subset:
+          visitToDisplay = Sheetsee.getMax(tableVisits, 'visitid')[0]
+        };
+
+        tableDescriptionHtml = "<strong>"+message+'</strong> <a href="' + this.urlRoot + '">Show all</a>';
+
+      } else {
+        // /  (Default front page).
+
+        tableVisits = this.visitsData;
+        // Display most recent visit.
+        visitToDisplay = Sheetsee.getMax(tableVisits, 'visitid')[0]
+        pageUrl = this.urlRoot;
       };
 
-      Sheetsee.makeTable(tableOptions);
-      Sheetsee.initiateTableFilter(tableOptions)
+      this.makeTable(tableVisits);
 
-      this.displayInitialVisit();
+      if (tableDescriptionHtml) {
+        $('#'+this.tableDescriptionId).show().html(tableDescriptionHtml);
+      } else {
+        $('#'+this.tableDescriptionId).hide();
+      };
+
+      var stateObj = {};
+
+      if (visitToDisplay) {
+        this.displayVisit(visitToDisplay.visitid);
+        stateObj = {'visit': visitToDisplay.visitid};
+      };
+
+      History.pushState(
+        stateObj,
+        this.makePageTitle(pageTitle),
+        pageUrl
+      );
+    },
+
+    /**
+     * Create the table from the supplied data.
+     */
+    makeTable: function(tableData) {
+      if (tableData.length == 0) {
+        $('#'+this.tableFilterId).hide();
+
+      } else {
+        $('#'+this.tableFilterId).show();
+        var tableOptions = {
+          data:       tableData,
+          pagination: 30,
+          tableDiv:   '#' + this.tableContainerId,
+          filterDiv:  '#' + this.tableFilterInputId
+        };
+
+        Sheetsee.makeTable(tableOptions);
+        Sheetsee.initiateTableFilter(tableOptions)
+      };
     },
 
     /**
@@ -232,6 +357,12 @@
             data[idx]['visitid'] = parseInt(parts[1], 10);
           };
         };
+
+        // Defaults:
+        data[idx]['yearopened'] = '';
+        data[idx]['yearreopened'] = '';
+        data[idx]['yearfounded'] = '';
+        data[idx]['yearbuilt'] = '';
 
         // Get the various dates into their own fields.
         // Could be like "founded:1683, opened:1845".
@@ -291,38 +422,6 @@
       data.reverse();
 
       return data;
-    },
-
-    /**
-     * Display a visit detail when the page loads.
-     */
-    displayInitialVisit: function() {
-      var visits = [],
-          visit,
-          visitId;
-
-      // See if the URL ends like '/visit/23':
-      var urlParts = window.location.href.split('/');
-      if (urlParts[urlParts.length - 2] == 'visit') {
-        visitId = urlParts[urlParts.length - 1];
-      };
-
-      if (visitId) {
-        visits = Sheetsee.getMatches(this.visitsData, visitId, 'visitid');
-      };
-
-      if (visits.length > 0) {
-        // Yes, the visit ID matches one in the data, so use that.
-        visit = visits[0];
-        History.pushState({'visit': visit.visitid}, this.makePageTitle(visit.name), window.location.href);
-      } else {
-        // Get most recent visit, assuming visit IDs work like that:
-        visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
-        History.pushState(
-                {'visit': visit.visitid}, this.makePageTitle(), this.urlRoot);
-      };
-
-      this.displayVisit(visit.visitid);
     },
 
     /**
