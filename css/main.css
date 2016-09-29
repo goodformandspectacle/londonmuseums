@@ -162,6 +162,12 @@ tbody tr:nth-of-type(odd) {
 	background-color: #f6f6f6;
 }
 
+.is-active td a {
+	color: #000;
+	text-decoration: none;
+	cursor: default;
+}
+
 
 /* Make the table horizontally-scrollable at narrow widths. */
 .table-responsive {

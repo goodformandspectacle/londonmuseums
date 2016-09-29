@@ -59,13 +59,17 @@
       $('#' + this.tableContainerId).on('click', '.js-museum-link', function(ev){
         var hash = $(this).prop('href').split('#')[1]; // eg 'v23'
 
-        var visitID = hash.substring(1); // eg '23'.
+        var visitId = hash.substring(1); // eg '23'.
 
-        var visit = Sheetsee.getMatches(that.visitsData, visitID, 'visitid')[0];
+        var visit = Sheetsee.getMatches(that.visitsData, visitId, 'visitid')[0];
 
         that.displayVisit(visit);
 
         window.location.hash = '#' + hash;
+
+        $('html, body').animate({
+          scrollTop: $("#" + that.visitDetailId).offset().top
+        }, 300);
       });
     },
 
@@ -212,6 +216,9 @@
       $('#' + this.visitDetailId).html(html);
 
       this.displayVisitMap(visit);
+
+      $('#'+this.tableContainerId+' .is-active').removeClass('is-active');
+      $('.js-visit-'+visit.visitid).addClass('is-active');
     },
 
     /**

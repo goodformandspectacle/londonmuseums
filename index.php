@@ -71,7 +71,7 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 				</thead>
 				<tbody>
 				{{#rows}}
-					<tr id="row-{{rowNumber}}">
+					<tr class="js-visit-{{ visitid }}">
 						<td>
 							<a class="js-museum-link" href="#v{{ visitid }}">{{name}}</a>
 						</td>
