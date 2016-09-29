@@ -11,7 +11,9 @@ $SPREADSHEET_KEY = '1DmS5tLWa6Gv3dfowFxye6MyvPQxjrKXjxlBjqpG7pJk';
 
 $MAPBOX_TOKEN = 'pk.eyJ1IjoiZ29vZGZvcm1hbmQiLCJhIjoiY2l0bzRxenA3MDAwMDJ0bGJwNHQzc2xyZiJ9.xU7FeiKjxxF33_0ppsG-Mg';
 
-$PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
+$PAGE_TITLE = 'Good, Form & Spectacle Museum Visits';
+
+$URL_ROOT = '/';
 
 ?><!doctype html>
 <html class="no-js" lang="en-gb">
@@ -26,8 +28,8 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="<?php echo $URL_ROOT; ?>css/normalize.css">
+		<link rel="stylesheet" href="<?php echo $URL_ROOT; ?>css/main.css">
 	</head>
 	<body>
 		<div class="container">
@@ -73,7 +75,7 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 				{{#rows}}
 					<tr class="js-visit-{{ visitid }}">
 						<td>
-							<a class="js-museum-link" href="#v{{ visitid }}">{{name}}</a>
+							<a class="js-museum-link" href="visit/{{ visitid }}">{{name}}</a>
 						</td>
 						<td class="td-date">{{datevisited}}</td>
 					</tr>
@@ -156,17 +158,20 @@ $PAGE_TITLE = 'Good, Form &amp; Spectacle Museum Visits';
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="<?php echo $URL_ROOT; ?>js/vendor/jquery.min.js"><\/script>')</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.3.4/tabletop.min.js"></script>
 		<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
-		<script src="js/vendor/sheetsee.js"></script>
-		<script src="js/main.js"></script>
+		<script src="<?php echo $URL_ROOT; ?>js/vendor/sheetsee.js"></script>
+		<script src="<?php echo $URL_ROOT; ?>js/vendor/jquery.history.js"></script>
+		<script src="<?php echo $URL_ROOT; ?>js/main.js"></script>
 
 		<script>
 			$(document).ready(function() {
 				visits.init({
 					'spreadsheet': '<?php echo $SPREADSHEET_KEY; ?>',
-					'mapboxToken': '<?php echo $MAPBOX_TOKEN; ?>'
+					'mapboxToken': '<?php echo $MAPBOX_TOKEN; ?>',
+					'urlRoot': '<?php echo $URL_ROOT; ?>',
+					'siteTitle': '<?php echo $PAGE_TITLE; ?>'
 				});
 			});
 		</script>

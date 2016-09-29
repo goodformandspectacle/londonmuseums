@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+# Remove trailing slashes:
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Ignore these URLs which are just read by JavaScript:
+
+# /visit/23
+RewriteRule ^visit/\d+/?$ index.php [L]
+

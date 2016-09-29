@@ -33,8 +33,21 @@
 
     /**
      * Will be the Mapbox API Access Token.
+     * Set in init().
      */
     mapboxToken: false,
+
+    /**
+     * eg '/'. Set in init().
+     */
+    urlRoot: '',
+
+
+    /**
+     * Appended to changed page titles.
+     * Set in init().
+     */
+    siteTitle: '',
 
     /**
      * Call visits.init() to start everything.
@@ -42,10 +55,13 @@
      * config contains:
      *  * spreadsheet - The URL of the Google spreadsheet.
      *  * mapboxToken - API Access Token for Mapbox.
+     *  * urlRoot - eg, '/'.
      */
     init: function(config) {
 
-      this.mapboxToken = config['mapboxToken'];
+      this.mapboxToken = config['mapboxToken'] || '';
+      this.urlRoot = config['urlRoot'] || '/';
+      this.siteTitle = config['siteTitle'] || '/';
 
       this.initData(config.spreadsheet);
 
@@ -57,15 +73,17 @@
 
       // Click a link in the table to display the visit's details.
       $('#' + this.tableContainerId).on('click', '.js-museum-link', function(ev){
-        var hash = $(this).prop('href').split('#')[1]; // eg 'v23'
+        ev.preventDefault();
 
-        var visitId = hash.substring(1); // eg '23'.
+        var urlParts = $(this).prop('href').split('/');
+        // eg '23':
+        var visitId = urlParts[urlParts.length - 1];
 
         var visit = Sheetsee.getMatches(that.visitsData, visitId, 'visitid')[0];
 
         that.displayVisit(visit);
 
-        window.location.hash = '#' + hash;
+        that.setLocation({'visit': visitId}, visit.name);
 
         $('html, body').animate({
           scrollTop: $("#" + that.visitDetailId).offset().top
@@ -87,6 +105,45 @@
           callback: (that.tabletopCallback).bind(that),
           simpleSheet: true
         } );
+    },
+
+    /**
+     * Sets the URL.
+     * stateObj - An object passed to pushState.
+     *            eg, {'visit': 23}
+     * title - The Title of the page.
+     */
+    setLocation: function(stateObj, title) {
+      var url = '';
+
+      if ('visit' in stateObj) {
+        url = this.urlRoot + 'visit/' + stateObj['visit'];
+      };
+
+      title = this.makePageTitle(title);
+      History.pushState(stateObj, title, url);
+    },
+
+    /**
+     * Given a page title, make the complete page title and return it.
+     */
+    makePageTitle: function(title) {
+      return title + ' (' + this.siteTitle + ')';
+    },
+
+    /**
+     * Set the page title, used when we want to change the title on first load.
+     * Otherwise, History.pushState() does it for us.
+     * via http://stackoverflow.com/a/27692636/250962
+     */
+    setPageTitle: function(title) {
+      title = this.makePageTitle(title);
+
+      try {
+          document.getElementsByTagName('title')[0].innerHTML = title.replace('<','&lt;').replace('>','&gt;').replace(' & ',' &amp; ');
+      }
+      catch ( Exception ) { }
+      document.title = title;
     },
 
     /**
@@ -183,20 +240,24 @@
      * Display a visit detail when the page loads.
      */
     displayInitialVisit: function() {
-      // See if there's the ID of a visit in the URL hash:
-      var hash = window.location.hash; // eg '#v23'
-      var visitID = hash.substring(2); // eg '23'.
-
       var visits = [],
-          visit;
+          visit,
+          visitId;
 
-      if (visitID) {
-        visits = Sheetsee.getMatches(this.visitsData, visitID, 'visitid');
+      // See if the URL ends like '/visit/23':
+      var urlParts = window.location.href.split('/');
+      if (urlParts[urlParts.length - 2] == 'visit') {
+        visitId = urlParts[urlParts.length - 1];
+      };
+
+      if (visitId) {
+        visits = Sheetsee.getMatches(this.visitsData, visitId, 'visitid');
       };
 
       if (visits.length > 0) {
         // Yes, the visit ID matches one in the data, so use that.
         visit = visits[0];
+        this.setPageTitle(visit.name);
       } else {
         // Get most recent visit, assuming visit IDs work like that:
         visit = Sheetsee.getMax(this.visitsData, 'visitid')[0];
