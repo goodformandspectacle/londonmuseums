@@ -174,9 +174,29 @@
     processData: function(data) {
       var that = this;
 
+      // Take a date like '31-Aug-2016' and return '2016-08-31'.
+      function reverseDate(d) {
+        var months = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04',
+        'May':'05', 'Jun':'06', 'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10',
+        'Nov':'11', 'Dec':'12'};
+
+        var parts = d.split('-');
+
+        var day = parts[0];
+        if (day.length < 2) { day = '0'+day; };
+        var month = months[parts[1]];
+        var year = parts[2];
+
+        return year + '-' + month + '-' + day;
+      };
+
       $.each(data, function(idx, visit) {
 
+        // Will be like '2016-08-31', so we can sort on it:
+        data[idx]['datevisitedreverse'] = '';
+
         if ('datevisited' in visit && visit['datevisited'] != '') {
+          data[idx]['datevisitedreverse'] = reverseDate(visit['datevisited']);
           data[idx]['datevisited'] = visit['datevisited'].replace(/-/g, ' ');
         };
 
@@ -232,6 +252,18 @@
         };
 
       });
+
+      function sort_by_datevisitedreverse(a,b) {
+        if (a.datevisitedreverse < b.datevisitedreverse)
+          return -1;
+        if (a.datevisitedreverse > b.datevisitedreverse)
+          return 1;
+        return 0;
+      };
+
+      // We want to have the most-recent item at the top of the table.
+      data = data.sort(sort_by_datevisitedreverse);
+      data.reverse();
 
       return data;
     },
