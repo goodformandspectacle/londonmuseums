@@ -259,9 +259,9 @@
 
         var message = '';
         if (tableVisits.length == 0) {
-          message = "There are no places built, founded or opened in " + year + '.';
+          message = "There are no places built, founded or opened in " + year;
         } else {
-          message = "Places built, founded, or opened in " + year + '.';
+          message = "Places built, founded, or opened in " + year;
           // Display most recent visit from this subset:
           visitToDisplay = Sheetsee.getMax(tableVisits, 'visitid')[0]
         };
